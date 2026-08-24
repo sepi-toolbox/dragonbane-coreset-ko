@@ -1,0 +1,22 @@
+import fs from "fs";
+const J = { "9. Oracle Cave": {} };
+const P = J["9. Oracle Cave"];
+const RE = d => `<li><p><strong>무작위 사건</strong>: 플레이어 캐릭터들이 ${d}에서 온전히 1스트레치를 보낼 때마다 @UUID[.v6DKm42bqVragpSz#random-events]{무작위 사건} 표에 [[/roll D10]]을 굴리세요.</p></li>`;
+
+P["Oracle Cave"] = `<p>아우트스커트에서 아이 하나가 납치되었고, 자취는 쇠숲 아래 굽이진 동굴 지대인 신탁의 동굴로 이어집니다. 그 깊은 곳에 태고의 공포가 산다는 소문 탓에 그곳에 발을 들이는 이는 거의 없습니다. 인류가 안개 골짜기에 오기 전부터 있었던 아주 오래된 생물이며, 감춰진 지식을 지녔다고들 합니다. 사람들은 그곳을 신탁의 동굴이라 부릅니다. </p>`;
+
+P["The Situation"] = `<img src="modules/dragonbane-coreset/assets/artwork/adventure/oracle-cave-en.webp" /><p>플레이어 캐릭터들은 아우트스커트의 @UUID[JournalEntry.EobTKNtJU1ScMlAa]{소문}으로 어린 로릭의 실종과 신탁의 동굴 이야기를 들을 수 있습니다. 이곳은 @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.R2aO3v0kURd5DGk2#the-dragon-statuette]{용 조각상} 네 조각 가운데 하나가 있을 만한 곳이며, 그렇게 정했다면 @UUID[.cj5i1Nc15CQvPqJG]{암거미 소굴}에서 찾을 수 있습니다.</p><p>로릭은 아우트스커트에서 납치된 여섯 살 사내아이입니다. 집 앞에서 놀다가 산적들에게 끌려가 쇠숲으로 옮겨졌습니다. 그곳에서 산적들은 거대 거미들에게 매복 공격을 당했고, 거미들은 산적과 아이를 붙잡아 늙은 암거미 사크샬에게 데려갔습니다. 안개 골짜기 사람들이 신탁이라 부르는 존재입니다.</p><p>플레이어 캐릭터들이 신탁의 동굴에 닿을 때까지는 거대 거미가 얽혀 있다는 것을 눈치채지 못해야 합니다. 되도록 동굴 아래에서 거미줄을 발견한 뒤에야 분명해지는 편이 좋습니다. 이곳은 깊은 동굴 지대이므로, 완전한 어둠 속을 더듬어 가고 싶지 않다면 플레이어 캐릭터들에게 방마다 광원이 필요합니다.</p><p></p><blockquote class="info"><h3>동굴을 떠난다면?</h3><p>플레이어 캐릭터들이 긴 휴식을 취하러 동굴을 떠난다면, 시프트마다 @Table[RollTable.BU27Xp8XL0b1g4Yh]{모험 장소를 떠나며}에 D6을 굴리세요.</p></blockquote><p></p><h3>무작위 사건</h3><p>플레이어 캐릭터들이 특정 방에서 무언가를 찾거나 스트레치 휴식을 취하며 온전히 1스트레치를 보낼 때마다 아래 표를 굴리거나 알맞은 사건을 고를 수 있습니다. 무작위 사건이 일어날 수 있는 곳은 방 설명에 표시되어 있습니다.</p><p>@DisplayTable[RollTable.lZPW4LtJHPtvMrr8]{무작위 사건}</p><p></p>`;
+
+P["Entrance"] = `<blockquote class="info"><p><em>여러 사람이 나란히 걸을 만큼 넓은 어두운 구멍이 땅 아래로 곧장 입을 벌리고 있다. 그 입구에서 지하의 냉기가 흘러나온다.</em></p></blockquote><ul><li><p><strong>소박한 제단</strong>: 입구 바로 안쪽 바위 위에 과일과 말린 고기 조각을 담은 작은 나무 그릇이 줄지어 놓여 있습니다. 신탁을 달래려는 이 고장 사람들의 조촐한 제물입니다. 이따금 암거미 사크샬이 소굴에서 나와 그 답례로 물음에 답해 줍니다.</p></li><li><p><em><strong>핏자국</strong>: 플레이어 캐릭터들이 바닥을 살피거나 동굴에서 숨은 것 찾기를 굴리면, 굴길에서 여러 갈래의 핏자국을 발견합니다. 짐승의 것도 인간형 존재의 것도 있습니다.</em></p></li><li><p><strong>북쪽</strong>: 암벽의 자연 구멍이 @UUID[.DcW5Ylk5rp2LvYpN]{동굴 굴길}로 이어집니다.</p></li></ul><p></p>`;
+
+P["Cave Tunnel"] = `<blockquote class="info"><p><em>굴길이 바위 깊숙이 뻗으며 가파르게 아래로 기운다. 춥고 축축하며 칠흑같이 어둡다. 동굴 벽에서는 물기가 뚝뚝 떨어지고 조류의 퀴퀴한 냄새가 난다.</em></p></blockquote><ul>${RE("굴길")}<li><p><strong>북쪽, 남쪽</strong>: @UUID[.nahMbBerZvxAkZoI]{좁은 통로}로 이어지는 비좁은 구멍.</p></li></ul><p></p>`;
+
+P["The Fork"] = `<blockquote class="info"><p><em>굴길이 더 넓은 공간으로 트이고 앞으로 두 갈래 길이 나 있다. 바닥에는 어두운 형체 하나가 누워 있다.</em></p></blockquote><ul><li><p><strong>죽은 오크</strong>: 그 형체는 사크샬의 새끼들에게 잡아먹힌, 처참하게 죽은 오크의 시신입니다. 팔다리가 뜯겨 나갔고 군데군데 뼈가 말끔히 발려 있습니다.</p></li><li style="color:red"><p style="color:black"><em><strong style="color:red">말라둑의 표식:</strong> 플레이어 캐릭터들이 시신을 뒤지거나 숨은 것 찾기를 굴리면 [[/treasure]]에 해당하는 값진 것과, @UUID[JournalEntry.PAMgObFsFBOGo4qb.JournalEntryPage.R2aO3v0kURd5DGk2#the-orcs]{말라둑의 표식}이 낙인처럼 새겨진 갑옷 조각을 찾아냅니다.</em></p></li>${RE("이곳")}<li><p><strong>북쪽, 동쪽</strong>: @UUID[.J8wiePOE7efec631]{지하 강}으로 가는 굴길. 세찬 물소리가 들립니다.</p></li><li><p><strong>서쪽</strong>: @UUID[.DcW5Ylk5rp2LvYpN]{동굴 굴길}로 통하는 입구.</p></li></ul><p></p>`;
+
+P["Underground River"] = `<blockquote class="info"><p><em>굴길을 가로질러 검은 물이 세차게 흐르며 동쪽 어둠 속으로 사라진다. 통로는 폭 4미터쯤 되는 이 강 건너편으로 이어진다.</em></p></blockquote><ul><li><p><strong>위태로운 도하</strong>: 강의 물살이 세고 물은 얼어붙을 듯 차갑습니다(추위에 저항하는 야외 생활 굴림). 헤엄쳐 건너려면 불리점을 받고 수영을 굴려야 합니다. 실패한 사람은 @UUID[.Uh1PR9WKr7MrssiL]{지하 호수}까지 떠내려가며, 익사하지 않으려면 수영을 다시 굴려야 합니다. 플레이어 캐릭터들은 강을 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.KrSXg7HKmfo7xRcI#movement]{뛰어넘거나}, 마법을 쓰거나, 다른 방법으로 건너려 할 수 있습니다. 기지를 발휘한 플레이어에게는 꼭 보상해 주세요.</p></li></ul><p></p>`;
+
+P["Underground Lake"] = `<blockquote class="info"><p><em>지하 호수가 차갑고 검은 거울처럼 펼쳐져 있다. 어둠 탓에 동굴이 끝나고 호수가 시작되는 곳을 가늠하기 어렵다.</em></p></blockquote><ul><li style="color:red"><p style="color:black"><em><strong style="color:red">뱀장어 괴물:</strong> 수면 아래에 무언가 도사리고 있습니다. @UUID[Actor.u2Dx9taJztD3Ax8f]{굶주린 바다뱀}이 이 호수에 살며 물에 들어오는 자는 누구든 덮칩니다. 한동안 호수를 지켜보는 플레이어 캐릭터는 감지를 굴려 물속에서 무언가 움직이는 것을 알아챌 수 있습니다.</em></p></li><li><p><strong>미끄러운 바위</strong>: 호숫가는 어둡고 미끄럽습니다. 물에 빠지지 않고 호수를 지나려는 플레이어 캐릭터는 곡예를 굴려야 합니다(행동이 아닙니다). 물에서 빠져나오려는 캐릭터도 마찬가지입니다. 라운드마다 한 번씩 시도할 수 있습니다.</p></li></ul><p>@DisplayMonsterDescriptionCard[Actor.u2Dx9taJztD3Ax8f named]{뱀장어 괴물}</p>`;
+
+fs.writeFileSync("jn_29.json", JSON.stringify(J, null, 1));
+let n = 0; for (const p of Object.values(J)) n += Object.keys(p).length;
+console.log("jn_29:", Object.keys(J).length, "저널,", n, "페이지");

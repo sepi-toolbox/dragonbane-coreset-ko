@@ -102,12 +102,14 @@ for (const advName of Object.keys(ADV)) {
   for (const j of r.journal || []) {
     const jt = JD[j.name]; if (!jt) { missAll.journals.add(advName + " / " + j.name); continue; }
     const pages = {};
+    const pgCount = {};
+    for (const p of j.pages || []) pgCount[p.name] = (pgCount[p.name] || 0) + 1;
     for (const p of j.pages || []) {
       if (!jt.pages[p.name]) { missAll.pages.add(j.name + " / " + p.name); continue; }
       const e = { name: jt.pages[p.name] };
-      const t = JTEXT[j.name]?.[p.name];
+      const t = JTEXT[j.name]?.[p._id] ?? JTEXT[j.name]?.[p.name];   // 중복 페이지명은 _id 우선
       if (t) e.text = t;
-      pages[p.name] = e;
+      pages[pgCount[p.name] > 1 ? p._id : p.name] = e;               // 중복이면 _id 키로 분리
     }
     journals[j.name] = { name: jt.name, pages };
   }
@@ -136,7 +138,7 @@ console.log("굴림표 결과:", rOK, "/", rT);
 let tOK = 0, tT = 0;
 for (const [an, r] of Object.entries(ADV)) for (const j of r.journal || []) for (const p of j.pages || []) {
   if (!String(p.text?.content || "").trim()) continue;
-  tT++; if (entries[an].journals[j.name]?.pages?.[p.name]?.text) tOK++;
+  tT++; const pg = entries[an].journals[j.name]?.pages; if (pg?.[p._id]?.text || pg?.[p.name]?.text) tOK++;
 }
 console.log("저널 본문:", tOK, "/", tT);
 console.log("\n미번역:");
