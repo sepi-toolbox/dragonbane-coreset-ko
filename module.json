@@ -2,7 +2,7 @@
     "id": "dragonbane-coreset-ko",
     "title": "Dragonbane - Core Set Korean translation",
     "description": "Dragonbane - Core Set 모듈 한국어 번역. 규칙·몬스터 도감·장비·주문·능력·11편 캠페인·솔로 어드벤처 컴펜디움을 한국어화합니다. Babele 모듈이 필요하며, 원본 Dragonbane - Core Set 모듈을 별도로 소유해야 합니다.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "license": "MIT",
     "compatibility": {
         "minimum": "13",

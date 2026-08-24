@@ -1,0 +1,62 @@
+{
+ "results": {
+  "Monster Attacks - Gnome (1)": {
+   "l3yBQMSGjTWjA5d0": "<b>돌주먹.</b> 근접 전투에서 자동으로 명중하며(회피하거나 막을 수는 있습니다) [[/damage D6 bludgeoning]]을 입힙니다."
+  },
+  "Monster Attacks - Gnome (2)": {
+   "l3yBQMSGjTWjA5d0": "<b>돌주먹.</b> 근접 전투에서 자동으로 명중하며(회피하거나 막을 수는 있습니다) [[/damage 2D6 bludgeoning]]을 입힙니다."
+  },
+  "Monster Attacks - Gnome (3)": {
+   "l3yBQMSGjTWjA5d0": "<b>돌주먹.</b> 근접 전투에서 자동으로 명중하며(회피하거나 막을 수는 있습니다) [[/damage 3D6 bludgeoning]]을 입힙니다."
+  },
+  "Monster Attacks - Salamander(1)": {
+   "Oxv1S2xM1caOhnqf": "<b>불타는 손아귀.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Salamander(2)": {
+   "Oxv1S2xM1caOhnqf": "<b>불타는 손아귀.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage 2D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Salamander(3)": {
+   "Oxv1S2xM1caOhnqf": "<b>불타는 손아귀.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage 3D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Sylph(1)": {
+   "0ocP6A3ELHin3n5o": "<b>울부짖는 바람.</b> 근접 전투에서 자동으로 명중합니다(회피할 수는 있습니다). 이 공격은 [[/damage D4 bludgeoning]]을 입히고 대상을 같은 수만큼의 미터를 날려 보냅니다."
+  },
+  "Monster Attacks - Sylph(2)": {
+   "0ocP6A3ELHin3n5o": "<b>울부짖는 바람.</b> 근접 전투에서 자동으로 명중합니다(회피할 수는 있습니다). 이 공격은 [[/damage 2D4 bludgeoning]]을 입히고 대상을 같은 수만큼의 미터를 날려 보냅니다."
+  },
+  "Monster Attacks - Sylph(3)": {
+   "0ocP6A3ELHin3n5o": "<b>울부짖는 바람.</b> 근접 전투에서 자동으로 명중합니다(회피할 수는 있습니다). 이 공격은 [[/damage 3D4 bludgeoning]]을 입히고 대상을 같은 수만큼의 미터를 날려 보냅니다."
+  },
+  "Monster Attacks - Undine(1)": {
+   "cRSPhNYIacHn34aU": "<b>축축한 포옹.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Undine(2)": {
+   "cRSPhNYIacHn34aU": "<b>축축한 포옹.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage 2D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Undine(3)": {
+   "cRSPhNYIacHn34aU": "<b>축축한 포옹.</b> 근접 전투에서 자동으로 명중하며(회피할 수는 있습니다) [[/damage 3D6]]을 입힙니다. 갑옷은 효과가 없습니다."
+  },
+  "Monster Attacks - Troll": {
+   "XSFs6Tdd7USXJ0F4": "<b>트롤의 토사물!</b> 트롤이 우레 같은 소리로 목을 가다듬고 폐 깊숙한 곳에서 기침하더니, 쓸개즙과 악취 나는 늪물을 왈칵 게워 냅니다. 6미터 안의 모든 모험가가 원하는 상태를 하나 받습니다.",
+   "8Q1yOUivOsmriaTK": "<b>찢어발기기!</b> 트롤이 더러운 녹흑색 발톱으로 플레이어 캐릭터의 몸을 찢습니다. 이 공격은 [[/damage D10 slashing]]을 입히지만 막을 수 있습니다. 피해를 받은 대상은 독성 10의 질병에도 걸립니다.",
+   "KUpJ78l7Vt9nE7Sv": "<b>역겨운 물기!</b> 트롤이 악취 나는 아가리를 벌려 송곳니와 자갈과 오래된 뼛조각으로 이루어진 이빨로 플레이어 캐릭터를 뭅니다. 이 공격은 [[/damage 2D8 piercing]]을 입힙니다. 그 플레이어 캐릭터는 트롤의 아가리에 물린 채 갇히며, 빠져나오려면 라운드마다 힘 굴림을 해야 합니다(행동으로 칩니다). 실패하면 대상은 [[/damage 2D8 piercing]]을 추가로 받습니다.",
+   "C5d8u7pJNfSOPsOE": "<b>트롤 던지기!</b> 트롤이 캐릭터를 머리 위로 들어 올려 헝겊 인형처럼 내던지며 [[/damage 2D6 bludgeoning]]을 입힙니다. 대상은 같은 수만큼의 미터 떨어진 무작위 방향에 넘어진 채 떨어집니다.",
+   "sAPmzBzZOAbfFVhE": "<b>휩쓰는 일격!</b> 트롤이 길고 울퉁불퉁한 팔을 크게 휘둘러 2미터 안의 모든 캐릭터를 맞힙니다. 이 공격은 각 대상에게 [[/damage 2D6 bludgeoning]]을 입힙니다.",
+   "Q2ddmOKZM3z3Mtq4": "<b>짓뭉개는 강타!</b> 트롤이 가장 가까운 플레이어 캐릭터를 붙잡아 무기처럼 휘둘러 다른 캐릭터에게 내리칩니다. 둘 다 [[/damage 2D8 bludgeoning]]을 받고 쓰러집니다."
+  },
+  "Monster Attacks - Vampiric Bats": {
+   "LaSJypK2cB6kFeLE": "<b>소용돌이치는 공포!</b> 박쥐 떼가 미친 듯한 속도로 대상들 주위를 맴돕니다. 10미터 안의 모두가 공포 공격을 받아 의지를 굴려 @Table[RollTable.wHTr9HuHkpVv7ccX]{공포}에 저항해야 합니다.",
+   "TD45MskPsbIfn9cd": "<b>집단 공격!</b> 박쥐 떼가 건강이 가장 높은 플레이어 캐릭터에게 한꺼번에 달려듭니다. 이 공격은 [[/damage 2D6 slashing]]을 입힙니다. 박쥐 떼는 대상의 피를 빨아 같은 값만큼 HP를 회복합니다. 대상은 공포 공격을 받아 의지를 굴려 @Table[RollTable.wHTr9HuHkpVv7ccX]{공포}에 저항해야 합니다.",
+   "jm4UZkxMPaVoTRQK": "<b>일제 공격!</b> 박쥐 떼가 흩어져 10미터 안의 모든 캐릭터를 공격합니다. 각 대상은 [[/damage D8 slashing]]을 받고, 박쥐 떼는 대상들의 피를 빨아 같은 값만큼 HP를 회복합니다."
+  },
+  "Monster Attacks - The Robber Knight": {
+   "3UJ8WcxVg6FhfwYy": "<b>불경한 포효!</b> 와이트의 썩어 문드러진 해골이 일그러지며, 녹슨 칼날처럼 캐릭터들의 영혼을 베는 소름 끼치는 비명을 내지릅니다. 10미터 안의 모두가 공포 공격을 받아 의지를 굴려 @Table[RollTable.wHTr9HuHkpVv7ccX]{공포}에 저항해야 합니다.",
+   "SJ9INGSKyhlmwT7p": "<b>소름 끼치는 위협!</b> 와이트가 10미터 안의 불운한 플레이어 캐릭터를 향해 목구멍으로 소름 끼치는 위협을 속삭입니다. 그 대상은 공포 상태가 되고 공포 공격을 받으며, @Table[RollTable.wHTr9HuHkpVv7ccX]{공포}에 저항하는 의지 굴림에 불리점을 받습니다.",
+   "a9nklMYgjLkrc78x": "<b>죽은 자의 손!</b> 와이트가 손을 들어 10미터 안의 플레이어 캐릭터를 가리키면, 그 캐릭터는 [[/damage 2D4]]를 받고 같은 수만큼의 미터를 날아가 넘어진 채 떨어집니다. 이 공격은 회피할 수 없습니다.",
+   "KbIeTwe9HVFnlH6y": "<b>휩쓰는 공격!</b> 와이트가 놀라운 속도로 무기를 휘둘러 치명적인 공격을 가합니다. 2미터 안의 모든 플레이어 캐릭터가 [[/damage 2D8 bludgeoning]]을 받습니다. 이 공격은 막을 수 있습니다.",
+   "NRrZY1Lnu0N1sy5Z": "<b>온몸을 마비시키는 냉기!</b> 와이트가 불운한 플레이어 캐릭터를 붙잡으면, 그 캐릭터는 죽음의 한기가 온몸에 번지는 것을 느낍니다. 대상은 [[/damage D6]]을 받고(갑옷은 효과가 없습니다), 다음 차례에 무엇이든 행동하려면 회피를 굴려야 합니다(행동이 아닙니다). 실패하면 그다음 차례에 다시 시도할 수 있습니다. 대상은 또한 추위 상태가 되어 몸을 덥히기 전까지 HP도 WP도 회복할 수 없습니다.",
+   "HDXHndKVtU8Gnbtj": "<b>강타!</b> 와이트가 삐걱대는 관절로 무기를 휘둘러 캐릭터에게 강력한 공격을 퍼붓습니다. 대상은 [[/damage 4D8 bludgeoning]]을 받고 바닥에 쓰러집니다. 이 공격은 막을 수 있습니다."
+  }
+ },
+ "descriptions": {}
+}

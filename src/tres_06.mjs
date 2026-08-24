@@ -1,0 +1,23 @@
+import fs from "fs";
+const T = {}; const TD = {};
+
+T["Name - Elf"] = { "G8YPvpACB5XZb3Cy":`아라신`, "we8wRWTdijNyQpfB":`일리리아나`, "wtZAFR1aasinsmqD":`갈반데르`, "9vOaS2IXxe9QibfJ":`티린델리아`, "fky80OaAWIzb9W25":`에르윌노르`, "26eLHtRA81nBikW7":`안드레모네` };
+T["Name - Mallard"] = { "OIJsoUZWflR1YbAs":`콱썸`, "l9vRS1xry1c9hbGi":`스플랫츠`, "TxtPnUEU48FxdLFo":`모기`, "tqROciHP68a06glF":`그로디`, "LOUkE0PQuKO3UrB4":`블리산디나`, "iSqTvElKinJmQRTO":`해클스웰` };
+T["Name - Dwarf"] = { "ux7906R3tTFyHOc9":`틴더록`, "ZKRVeIleqjcP5kyr":`할윌드`, "l4Y6CUZ9Nvl7HA7Q":`티몰라나`, "Mu4yb3lZVBscnxSX":`트라우트`, "fBA20KbecwfyNj5p":`우르드`, "eoVg0HboFIcbD8lS":`페르메르` };
+T["Name - Halfling"] = { "EU6WvDODi7kzcWSA":`스내피`, "z6bEtjTXx0pkJL8R":`브라인`, "Y6x2dSNfd1TdeTPT":`코타`, "gFyoWPznyUNYW0Dh":`범블`, "1JOnta6t8rmddXGy":`페리윅`, "UzdG0kbCKgpIGJ1i":`테올리네` };
+T["Name - Human"] = { "eaIZy2ashfTvRHgh":`요루나`, "CJYZxll7YbTkAivD":`팀`, "xaRi7FOU5X3ghR7p":`할벨다`, "zvWkubXNf3YQBRwz":`가르만데르`, "RpS4YGFKBEh8Iki7":`베롤룬`, "FHlwMaocgKhWdsoL":`로타르` };
+T["Name - Wolfkin"] = { "oa3DmuNYsL2MM2J0":`와일드`, "JfcKFYYwTLV0YhFL":`울프섀도`, "qvySNC31bybz99Nb":`루나리엠`, "lVq045o4B8O0XrWi":`옵두리안`, "7cSYdf0Lz1pnQFR8":`프로스트바이트`, "AW5wiwadg3RMw61U":`울덴할` };
+
+T["Nickname - Bard"] = { "Fa5wLEG1DUXOTkcg":`송시장이`, "YYpVmD2XD0Q7xoOh":`이야기꾼`, "YVlCY1H1DITLmD36":`은빛 목소리`, "mZKKgZdJUmoqNHsJ":`황금 음자리`, "1OWUPpftDYCOaPnx":`꿀 같은 혀`, "w1XOY0T0zR3BXul0":`운율 대장장이` };
+T["Nickname - Artisan"] = { "V2W64bPOowDMUTZS":`돌망치`, "PwgGMrGGVKG0tYyJ":`나무 쪼개는 이`, "7s9640d6ljrckqLm":`억센 주먹`, "OPqctU0HpX7Z9m4s":`통 만드는 이`, "uf8nuE4DhB5qcoMu":`다리 놓는 이`, "XRoDeAPtmDvc7CiK":`쇠의 명인` };
+T["Nickname - Hunter"] = { "2fJpMrXqicOAOngD":`숲여우`, "WrQAuK4ln1dsmkOj":`늑대의 재앙`, "kWA8AkIajgL5iPPy":`길잡이`, "fk8QB6rvEufrCiqL":`풍파에 시달린 자`, "aWMz4Too6suGx7Nk":`피에 굶주린 자`, "omwjX8RgnHQxIfih":`그림자 화살` };
+T["Nickname - Fighter"] = { "VuLp3szt1p3ZmJKl":`무덤 만드는 이`, "bJ6YU7hh6bHt9jak":`험상궂은 턱`, "dOUWIgRgINqOL9cZ":`바람 녹이는 자`, "tMHKoVrcYACVx5yR":`차디찬 강철`, "FoFm18xTrSwQPJYL":`두려움 없는 자`, "eyNHLNnTbLXEgzrR":`도살자` };
+T["Nickname - Scholar"] = { "Wo2ODGglzRde6QOE":`맑은 정신`, "NAfcd4h4evjhyZFx":`먼지 폐`, "xSKjJBZjx5vmUf1F":`먼눈`, "dN136SiUpD7x1Q1E":`글 아는 자`, "wKgLUdguI3afWG7e":`모든 것을 아는 자`, "nqbRspFaxjlH7o4v":`통통하고 박식한 자` };
+T["Nickname - Mage"] = { "YykRGiSTIcpYmblO":`뿌리 심장`, "Gu8w3J1ttyoXLr5I":`굽은 등`, "895IDP3XT62RqpG7":`잿빛 망토`, "XcFiJ8iNa4z75Klv":`폭풍의 손`, "PaWokMWQltuoklga":`지팡이 절뚝이`, "plH2vTuq7TLYUdNU":`그림자를 부르는 자` };
+T["Nickname - Merchant"] = { "iX9papCcTO82rhQn":`은빛 미소`, "tLD0mKofxsHb2GpQ":`금니`, "kRp1cEVDLXXLJfHJ":`비단 혀`, "7rfsZCwvMNGOz75T":`혀 짧고 정직한 자`, "oD9uQkoTEAcERAJI":`기름배`, "1KrOrKvplYH2WDGA":`구두쇠` };
+T["Nickname - Knight"] = { "0Cq7RP7wvNv8YYaI":`용의 심장`, "nikUNA1kZ2cAI953":`황금 랜스`, "IMdAAq8s0bYRBTJg":`그리핀 발톱`, "7dpdAPnU76ZW1tOB":`고결한 자`, "AxWifb1VbVr0XTho":`번쩍이는 투구`, "Z0va0UFgYZHeH7dF":`상복 망토` };
+T["Nickname - Mariner"] = { "sss9iQcijGMlsASz":`흰 물살`, "13ltqXrs0LvOM5fI":`파도 타는 자`, "waNQqBFgML5gFU6v":`거품에서 난 자`, "9ngBGd663KLl3wLE":`소금 물보라`, "CgGKzBnee4JDNUQ6":`늙은 뱃사람`, "RIYIxMA5gUw4ba8E":`폭풍 헤치는 자` };
+T["Nickname - Thief"] = { "wn3wkT4nQgf887yx":`반 토막 손가락`, "kKaeAj5I8a4346P7":`검은 쥐`, "ETnsy1XxHOUlkYTZ":`붉은 눈`, "GcGxODbVcdJqRBha":`날랜 발`, "rgDH1kmDRnxEHNia":`두 갈래 혀`, "DNwXfOQ9hGhhZE7K":`밤의 자객` };
+
+fs.writeFileSync("tres_06.json", JSON.stringify({ results: T, descriptions: TD }, null, 1));
+console.log("tres_06:", Object.keys(T).length, "표,", Object.values(T).reduce((s,o)=>s+Object.keys(o).length,0), "결과");

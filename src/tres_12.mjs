@@ -1,0 +1,51 @@
+import fs from "fs";
+const T = {}; const TD = {};
+const R = (id,label) => `@UUID[JournalEntry.EobTKNtJU1ScMlAa.JournalEntryPage.${id}]{${label}}`;
+
+T["The Price of Digging"] = {
+"2h8DCj29qQW2HmCT":`<b>아무 일도 일어나지 않습니다.</b>`,
+"2ci5xlWmNTem2X0a":`<b>탐욕스러운 고블린</b>, 플레이어 캐릭터 수의 두 배(능력치는 @UUID[Actor.1etayg5XJhNzCjdC]{고블린 - 정찰병}과 같음)`,
+"R9VSzHJpfOwNqsAj":`<b>성난 오크</b>, 플레이어 캐릭터와 같은 수(능력치는 @UUID[Actor.fQqAOZoHW7oi39cS]{오크 - 전사}와 같음).`,
+"RSMcT4RU4B0szetn":`<b>굶주린 트롤 익스</b>(능력치는 @UUID[Actor.9hXYTV2fbOckrKRy]{트롤}과 같음).` };
+
+T["Leaving the Mound"] = {
+"blw0hMJotoAAhEbp":`아무 일도 일어나지 않습니다.`,
+"AM6u4wUF7lcuSTVK":`캐릭터 수의 두 배인 고블린 순찰대가 나타나 즉시 덤빕니다. 능력치는 @UUID[Actor.gwFbDqFlJJrjeM3a]{그럽}과 같습니다.`,
+"7UBWr0QIwNK5u2UQ":`@UUID[Actor.u0wT8X6QMWzu9wkX]{와이트}가 캐릭터들의 야영지에 나타나 덤비지만, 피해를 받는 즉시 사라집니다.` };
+
+T["Rumors"] = {
+"gqbp2HBHqELfnnmS":R("nJraLaSyK3gIfCbB","리더마운드"),
+"2WoW37r9dgoaVZRr":R("DlbeplqK7Kh7L8Hv","오크 부족"),
+"AhFCyD7NitxzhCrp":R("Jcw8iiZxlyMgAsjE","보틸드 광맥"),
+"KYAmgTwIsCnkF3AH":R("svxeFX4Vjqxqygfr","자줏빛 불꽃의 신전"),
+"IY1JMD2wsIN9MFdx":R("PpwuNMaJbnVP4QXC","탄식의 탑"),
+"1tOQ5UNvpCD04NHj":R("1q9DhBMFW6E5EQLY","신탁의 동굴"),
+"W9XmeF3hyAoAuRCn":R("DDmEmil98HyBLJVm","트롤의 첨탑"),
+"aybNU8dtjQTUowLv":R("yvfNpqosksswaHP9","죽은 눈 동굴"),
+"Rhp0PdufILJluAsJ":R("z3XTOOWAJdF06jv6","길끝 여관"),
+"QBZK8jizos8b7EQG":R("b5kyx0PAwosAaDTZ","어제의 마을"),
+"6CpLzrWwY4UhCjtF":R("rIyl2zTaLeWpAxYp","말루스 요새"),
+"RTa0hx4Dy6xmy3If":R("P8eI9IxikkiVgB0h","안개의 섬") };
+
+const DA = {
+"OBhmUZQ0vahhxdZT":`아무 일도 일어나지 않습니다.`,
+"j0kzCtfLQyWVyofH":`플레이어 캐릭터의 눈이 온통 검게 물듭니다. 영구히 의지 +1(최대 18)을 얻지만 매력 기반 모든 기술에 −1(최소 3)을 받습니다.`,
+"McIuJw1MLEanZgT2":`플레이어 캐릭터의 몸이 자라나 부자연스럽게 길쭉해집니다. 영구히 힘 +1(최대 18)을 얻지만 매력 기반 모든 기술에 −1(최소 3)을 받습니다.`,
+"VpWFgzRO876gZrGu":`플레이어 캐릭터가 자신의 갑옷이나 옷과 하나로 융합됩니다. 그 갑옷과 같은 방어도(최소 2)의 천연 보호를 얻고 최대 HP도 같은 값만큼 늘어나지만, 매력 기반 모든 기술에 −2(최소 3)를 받습니다.` };
+T["Demonic Alterations (D10)"] = DA;
+T["Demonic Alterations (D6)"] = { "OBhmUZQ0vahhxdZT":DA["OBhmUZQ0vahhxdZT"], "j0kzCtfLQyWVyofH":DA["j0kzCtfLQyWVyofH"] };
+
+T["Demonic Omens"] = {
+"yoMJOpJdtuRsvnLK":`<b>먹구름.</b> 골짜기를 덮은 안개가 짙은 검은 안개층으로 두꺼워집니다. 겨우 스며드는 빛마저 붉게 물들어, 1시프트 동안 골짜기 전체가 핏빛으로 물듭니다.`,
+"6miQcoi9SEUQLIex":`<b>피의 비.</b> 따뜻한 피가 플레이어 캐릭터들 위로 쏟아집니다. 모두가 의지를 굴려 공포에 저항해야 합니다.`,
+"9e2fL3wci6EsExFP":`<b>미친 예언자.</b> 누더기를 걸친 미치광이가 <i>"종말이 가까이 왔다"</i>, <i>"어둠의 군주가 다가온다"</i>라고 읊조립니다. 아무도 그에게서 말이 되는 이야기를 들을 수 없습니다.`,
+"iikUBBVSiCNlWND6":`<b>유성.</b> 별의 돌이 불타는 소나기처럼 골짜기 위로 무시무시하게 쏟아집니다. 플레이어 캐릭터들은 의지를 굴려 공포에 저항해야 합니다.`,
+"ITxIFFZCRYyxTDwK":`<b>검은 기사.</b> 멀리 언덕 꼭대기에서 플레이어 캐릭터들은 거대한 흑마에 올라탄 검은 기사를, 밤하늘을 등진 어두운 실루엣처럼 봅니다. 기사는 말을 곧추세우더니 사라집니다. 사트모그의 전령이지만, 플레이어 캐릭터들은 지금 그를 막을 수 없습니다.`,
+"rY8efZcyGIU0iCGN":`<b>개구리 비.</b> 무언가가 플레이어 캐릭터들 옆에 철퍼덕 떨어집니다. 그것이 개구리임을 알아채는 순간 하늘이 열리며 개구리가 억수같이 쏟아집니다. 몸을 피하지 못한 사람은 [[/damage D6]]을 받습니다.`,
+"D5WGsB1NYKfL31nZ":`<b>지진.</b> 갑자기 땅이 격렬하게 흔들립니다. 플레이어 캐릭터들은 바닥에 나동그라지며 의지를 굴려 공포에 저항해야 합니다.`,
+"DWI65LH63seShDkv":`<b>메뚜기 떼.</b> 윙윙대는 구름이 다가오고, 플레이어 캐릭터들은 그것이 지나는 길의 모든 초목을 먹어 치우는 메뚜기 떼임을 알아챕니다. 각 플레이어 캐릭터는 원하는 상태를 하나 받습니다.`,
+"1FtHm2dVKw1kTvu0":`<b>일식.</b> 한낮인데도 해가 빛을 잃고, 1스트레치 동안 으스스한 어둠이 골짜기를 뒤덮습니다. 플레이어 캐릭터들은 의지를 굴려 공포에 저항해야 합니다.`,
+"kxsfNeMXG3KcotFE":`<b>화산.</b> 용송곳니 봉우리에서 우레 같은 굉음이 울리고, 플레이어 캐릭터들은 멀리 거대한 산꼭대기에서 불길과 연기 기둥이 하늘로 솟아오르는 것을 봅니다.` };
+
+fs.writeFileSync("tres_12.json", JSON.stringify({ results: T, descriptions: TD }, null, 1));
+console.log("tres_12:", Object.keys(T).length, "표,", Object.values(T).reduce((s,o)=>s+Object.keys(o).length,0), "결과");

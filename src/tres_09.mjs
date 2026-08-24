@@ -1,0 +1,62 @@
+import fs from "fs";
+const T = {}; const TD = {};
+const BOOK = `@UUID[Item.csHy2MVcDDH6yuKa]{책}`;
+const FEAR = `@Table[RollTable.wHTr9HuHkpVv7ccX]{공포}`;
+
+T["Treasure"] = {
+"wVvBZnCUdKUHx3XA":`[[d6]] 동화`, "no6YRTLaP1ZtyufZ":`[[2d6]] 동화`, "DTO4QU5gqYj3TSOs":`[[4d6]] 동화`,
+"zFrxvnUsSE564vcn":`[[2d6*10]] 동화`, "CnNgtCJoE4tSxxRK":`[[4d6*10]] 동화`,
+"XTGzvBc8HHiQeNpr":`[[d6]] 은화`, "q1sDRjpsxrJIscD3":`[[3d6]] 은화`, "2lSft81KS71W0Ki6":`[[d6*5]] 은화`,
+"jz2uhWmATwADIFdc":`[[d6*10]] 은화`, "dNtdEeUlUCJy2TiO":`[[2d6*10]] 은화`, "ZoFsIM4K5Y9h2oep":`[[3d6*10]] 은화`,
+"i5vUkn1Fw6MKym5I":`[[d6]] 금화`, "WLSI0oYn2jXwSs5M":`[[2d6]] 금화`, "q9Bvyr1SKYmM2mRr":`[[4d6]] 금화`,
+"Cv1ethBPh7KUpj9O":`[[d6*10]] 금화`, "CCOOaWwb0gdi0J8E":`[[2d6*10]] 금화`,
+"JrfXbWpvG8FUHnLQ":`@UUID[Item.2PlS8RZ11HbJxOhf]{독 바른 대거}. 회피를 굴리세요. 실패하면 몸을 베어 효력 12의 독에 중독됩니다. [[/roll D3]]을 굴려 종류를 정합니다. 1: 치명적인 독, 2: 마비독, 3: 수면독.`,
+"T8H2IVFKMDAXhbmO":`<b>녹슨 못.</b> 회피를 굴리세요. 실패하면 [[/damage D6]]을 받습니다. 갑옷은 효과가 없습니다.`,
+"FZz4maDFyAZowDSq":`@UUID[Item.brwS719az0E1uM4V]{마법서} [[/roll D4]]를 굴려 학파를 정합니다. 1: 정령술, 2: 원소술, 3: 정신술, 4: 일반 마법. [[/roll D4−1]]로 주문 등급(0은 마법 재주), [[/roll D4]]로 개수를 정합니다. 구체적인 주문은 GM이 고르거나 무작위로 정합니다.`,
+"I22o7HFZT2stwGEx":`@UUID[Item.4euiW6ItX0zTca9i]{병} 치료를 굴리면 내용물을 알아냅니다. 실패하면 GM이 몰래 굴립니다. [[/roll D6]]을 굴리세요. 1: 치명적인 독(효력 12), 2: 수면독(효력 14), 3: 술, 4: 약초 조합액, 5: 치유 물약(2D6 HP), 6: 치유 물약(3D6 HP).`,
+"55biLFnYzMYpnJed":`<b>쥐.</b> 회피를 굴리세요. 실패하면 [[/damage D4]]를 받습니다. 갑옷은 효과가 없습니다.`
+};
+
+T["Treasure - Book"] = {
+"zHYcJHa2SFrNA4rg":`${BOOK} <i>먹느냐 먹히느냐 — 숲의 식물</i>`,
+"XDhbqfIIdgqVk0oB":`${BOOK} <i>용언 문법</i>`,
+"Dxm5cRbixo6SLFCE":`${BOOK} <i>옛 영웅과 악당들</i>`,
+"r8jphfIZF8lO6xOh":`${BOOK} <i>목수 명인의 안내서</i>`,
+"qsPdBCAsw1ZrXZd1":`${BOOK} <i>동굴의 짐승들 — 백과사전</i>`,
+"XcoEiS5AxFIzjCFN":`${BOOK} <i>피와 가래와 담즙 — 체액을 다스리는 법</i>`
+};
+
+const IW = (id, label) => `@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.${id}]{${label}}`;
+T["Improvised Weapons - Cave"] = {
+"U0y1SzNSuPo8RUhV":IW("VmiQSdcaEWSputDp","종유석"), "aqfAV8gdizEQcXqH":IW("0N0p3iiR0Tk1nWvp","횃불"),
+"fXrB2zhHrmsbynfN":IW("d4WOAmIIekOtaD7S","석순"), "1P36PNQQ6DWEE2vA":IW("f5TM9uQXswYTNx3x","웅덩이"),
+"ErNAT1bdgfhCGSli":IW("WgJ4bZafzzFSpPum","갈라진 틈"), "aPih7wY1n53YDe7x":IW("z8MsME6LKUJ8MhrD","박쥐 떼") };
+T["Improvised Weapons - Forest"] = {
+"OQpWzXy4lnWq7JTi":IW("k3kUQhPLtcfAxXGM","낮은 나뭇가지"), "6HoRlQb62rPTB4gR":IW("iJuIT5r2qTJTpbr5","말벌 집"),
+"2aRvU3mceV9bataz":IW("Jo1mCjIB16qmpmPy","뒤엉킨 뿌리"), "VRffzxm2ga1Mmgek":IW("YYzepkv92wUay1xO","바위"),
+"aTn2Gi9bNW9eEuD1":IW("76q7GmaujNag2Bxr","독사"), "g5nTWjdWSboHMbvB":IW("PoTq63Kx7NHNPDdA","흙바닥") };
+T["Improvised Weapons - Inn"] = {
+"cgWQt5AX4TvnQPdX":IW("3M2i0ZRmAmHh9Mm4","펄펄 끓는 솥"), "nuiCWAea76q81gaT":IW("iBS8gQRrQudthmTa","비눗물 양동이"),
+"xruualspU6KWD1Ir":IW("GISaGxqnfmp4kWnW","타오르는 장작"), "A4jKrC1KVSIRmYVT":IW("CV5hdwW1B8Sttnjb","먹이를 뒤지는 돼지"),
+"B2cpdNK1miuFKA3e":IW("b9dL2iSWi92U6FPg","포도주병"), "6iHaP9l0UyazPRRM":IW("rFi65szeM4puAHUY","샹들리에") };
+
+T["Hunting"] = {
+"oC7l4Ph84p9jj2Mp":`<b>동물:</b> 다람쥐<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> 1`,
+"LuDuJ9Ge86zUKlZ5":`<b>동물:</b> 까마귀<br /><b>필요:</b> 무기<br /><b>식량: </b> 1`,
+"bWpqRimfeDgtQbMU":`<b>동물:</b> 토끼<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> [[/roll D3]]`,
+"VzuQrKUg235syHfs":`<b>동물:</b> 여우<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> [[/roll D4]]`,
+"SvhUIyfdeGVdZSnx":`<b>동물:</b> 멧돼지<br /><b>필요:</b> 무기<br /><b>식량: </b> [[/roll 2D6]]<br />사냥 굴림에 실패하면 멧돼지가 덤빕니다.`,
+"Feh6anqpjG19Yw0f":`<b>동물:</b> 사슴<br /><b>필요:</b> 무기<br /><b>식량: </b> [[/roll 2D8]]`
+};
+
+T["Random Events - The Castle of the Robber Knight"] = {
+"lJMszuCH0arhfOy9":`<b>고블린.</b> @UUID[Actor.2KCyP8JCLYVAcMig]{고블린} 둘이 불쑥 나타납니다. 잠시 어리둥절하던 그들은 숏소드를 뽑아 들고 비명을 지르며 덤빕니다.`,
+"iCwg6zRCmQ026wu8":`<b>땅을 헤집는 돼지.</b> 돼지 메를레가 구석에서 흡족하게 꿀꿀거립니다. 플레이어 캐릭터를 알아채면 놀라 꽥 소리를 내며 굳었다가 가장 가까운 출구로 달아납니다. 메를레를 다치게 하면 오크 @UUID[Actor.O2DMIklgs5hkbv57]{그룬타}(@UUID[JournalEntry.jqQB7UWf8t4ktuxs.JournalEntryPage.u0UKdabOkp3vUdhk]{지하실} 참조)와 평생 원수가 됩니다.`,
+"LvEuYPIlahbSGRNH":`<b>악령.</b> 갑자기 공기가 진동하며 차가운 회오리바람이 플레이어 캐릭터들 주위를 휘감습니다. 울부짖는 바람 속에 사슬 갑옷을 입은 채 오래전에 죽은 전사 셋의 윤곽이 떠올라, 플레이어 캐릭터들을 죽음의 나라로 끌고 가려는 듯 손을 뻗습니다. 망령들이 사라지기 전에 모두가 의지를 굴려 ${FEAR}에 저항해야 합니다.`,
+"m8WQOX24rMQmNZI3":`<b>폭풍.</b> 먹구름이 성 위로 몰려듭니다. 갑자기 하늘이 열려 비가 억수같이 쏟아지고 천둥이 골짜기를 울립니다. 이 어드벤처가 끝날 때까지 야외에서 하는 모든 원거리 공격은 불리점을 받고 굴립니다.`,
+"htSfJfWYGJktZr2O":`<b>큰까마귀.</b> 갈라진 틈에서 큰까마귀 떼가 불쑥 튀어나와 플레이어 캐릭터들에게 곧장 날아듭니다. 모두가 회피를 굴려야 하며, 실패한 사람은 부리와 발톱에 [[/damage D3 piercing]]을 받습니다. 그런 뒤 까악거리는 무리는 탑 꼭대기 쪽으로 날아갑니다.`,
+"PBLqat8z0FWgURTu":`<b>함정!</b> 고블린들이 워해머를 매달아 둔 교묘한 함정을 설치해 두었는데, 플레이어 캐릭터(민첩이 가장 낮은 사람) 하나가 헐거운 돌이나 마룻장을 잘못 밟으면 작동합니다. 함정을 작동시킨 플레이어 캐릭터는 회피 굴림에 성공하지 못하면 [[/damage 2D6 bludgeoning]]을 받습니다.`
+};
+
+fs.writeFileSync("tres_09.json", JSON.stringify({ results: T, descriptions: TD }, null, 1));
+console.log("tres_09:", Object.keys(T).length, "표,", Object.values(T).reduce((s,o)=>s+Object.keys(o).length,0), "결과");

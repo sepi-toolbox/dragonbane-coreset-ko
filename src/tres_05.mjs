@@ -1,0 +1,61 @@
+import fs from "fs";
+const T = {}; const TD = {};
+
+T["Weakness"] = {
+"PyGd9rpfURJQcDL4": `잘 속음. 나는 남이 하는 말을 모두 믿는다.`,
+"1J37OaI8XE0Gdg2p": `탐욕. 나는 모든 보물에서 더 큰 몫을 원한다.`,
+"Q9nYWnmCEw6PslgC": `속이 좁음. 나는 도발을 절대 참지 못한다.`,
+"75zY8mgpMFpyL34U": `무모함. 나는 언제나 위험에 앞장선다.`,
+"Zrfx3VwhDihgBhS2": `겁이 많음. 나는 언제나 일행의 맨 뒤에 선다.`,
+"17E90d6RH7Y0eERE": `몬스터 학살자. 몬스터는 모두 악하므로 죽여야 한다.`,
+"HjwyGK6EkZ4B39IF": `편협함. 오크와 고블린 같은 밤의 종족은 악하므로 맞서 싸워야 한다.`,
+"JWQhsQf8V1YzsKlT": `게으름. 나는 틈만 나면 쉰다.`,
+"tDsZEM1tHDWE5lGE": `식탐. 나는 맛있는 것을 먹을 기회를 결코 놓치지 않는다.`,
+"1tXdFvsWeVLxEjVm": `도벽. 나는 값나가는 물건을 보면 훔치지 않고는 못 배긴다.`,
+"xGvE5BlrloUr4ckr": `허영. 나는 나를 칭찬하거나 치켜세우는 사람이라면 누구든 돕는다.`,
+"63gO28FoIatrn5Qf": `저돌적임. 나는 뒷일을 생각하지 않고 늘 큰 위험을 감수한다.`,
+"3aMHGQKGHp7zmbhk": `마법을 두려워함. 마법은 사악한 힘이며 시전자는 믿을 수 없다.`,
+"UE9PCpIMKSvitnyZ": `지식에 목마름. 지식을 좇는 일이 동료보다 중요하다.`,
+"36SflrstBoND2nLX": `야생의 아이. 나는 결코 실내에서 자지 않는다.`,
+"KGJShUtxXdZhaGCv": `허풍쟁이. 나는 늘 내 공적을 부풀린다.`,
+"F6Pc4iPJxXiG4tlP": `폭력적임. 나는 어떤 걸림돌이든 폭력으로 넘어선다.`,
+"bOaAnU6UsrzoaWJP": `고압적임. 나는 늘 남에게 이래라저래라 한다.`,
+"3NnE5rwegseRODJK": `비관주의. 나는 늘 일이 최악으로 흘러갈 거라 여긴다.`,
+"dHLL3AqbkXrzPryb": `오만함. 나는 만나는 모두를 깔본다.`
+};
+
+T["Appearance"] = {
+"hWuUytk4HpyQVl01": `뺨을 가로지르는 흉한 흉터`,
+"fzQRE5MrdzcdUVNf": `기묘한 머리쓰개`,
+"jHK9kviV2zYYXJAp": `유난히 창백하고 핏기 없는 낯빛`,
+"NQX63HeryFKdgrF5": `입가에서 떠나지 않는 미소`,
+"hjIRBWzl1HLkAIpD": `얼음장 같고 꿰뚫어 보는 눈길`,
+"UdjYBXv7oSyx5CVS": `허리께에 붙은 약간의 살`,
+"lYfF6tOKmn7U6MeH": `마르고 다부진 몸`,
+"NTm0FcCCJin0YBaw": `유난히 많은 털 (종족에 따라 다름)`,
+"y7pquhxvdgwHjmXE": `벗어지는 머리 (종족에 따라 다름)`,
+"xd66H36FSf6mGvz4": `눈에 띄는 문신`,
+"qHe9Lc9HLrXMMDaR": `고약한 몸 냄새`,
+"5UiQoHF5Q3ylnxPW": `근사한 머리 모양`,
+"JxRjpmcJn5BkLjIW": `절뚝거리는 걸음`,
+"czYdIuhhSy3ZeJhd": `꾀죄죄함`,
+"vEuUPCLNyvhc5w4q": `정직해 보이는 푸른 눈`,
+"nn46V58fbe1tFvBw": `은니`,
+"iwEiLJ3H4iXaf54E": `짙은 향수 냄새`,
+"zrGk3veC4pn46wcs": `짝짝이 눈동자 색`,
+"ubk6ztaCw8XU6Yd6": `쉭쉭거리는 목소리`,
+"6JjXW08zEq3wUMTu": `풍파에 시달린 얼굴`
+};
+
+T["Profession"] = {
+"9RhPzpRU7ZVUhW4u": `마법사. @UUID[Item.xsMWmMEDLOtF4pDg]{정령술사}, @UUID[Item.5qFrwNTam2KA98jh]{원소술사}, @UUID[Item.fLYDNkiglRRrOcdx]{정신술사} 중에서 고르세요.`
+};
+
+T["Age"] = {
+"iw7qKXiw4rrMzSlw": `젊음`,
+"IoNmne2VFS1bel80": `성인`,
+"I9r6k5LDAISSlUj2": `노년`
+};
+
+fs.writeFileSync("tres_05.json", JSON.stringify({ results: T, descriptions: TD }, null, 1));
+console.log("tres_05:", Object.keys(T).length, "표,", Object.values(T).reduce((s,o)=>s+Object.keys(o).length,0), "결과");
