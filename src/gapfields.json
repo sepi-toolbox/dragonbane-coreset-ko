@@ -1,0 +1,1286 @@
+{
+ "cost": {
+  "100 guld": [
+   "Item:Bothild’s Broadaxe"
+  ],
+  "1 gold": [
+   "Item:Strange Ornate Dagger",
+   "Item:Curved Goblin Dagger",
+   "Adventurer 2>Long Spear",
+   "Isadelia>Sleeping Fur",
+   "Niklion>Sleeping Fur",
+   "Ossiar>Sleeping Fur",
+   "Canutus Boetii>Sleeping Fur",
+   "The Worg Rider>Long Spear",
+   "Baryton>Dagger",
+   "Leanara / Annabella>Dagger",
+   "Master Ulvar>Long Spear",
+   "Tylos>Sleeping Fur",
+   "Maladûk>Long Spear",
+   "Item:Fur",
+   "Item:Bottle",
+   "Item:Oil Lamp",
+   "Item:Herbal Concoction (dose)",
+   "Item:Hammer",
+   "Item:Chess Set",
+   "Item:Lockpicks (Simple)",
+   "Item:Marbles",
+   "Item:Rope (Hemp, 10 meters)",
+   "Item:Sleeping Fur",
+   "Item:Dagger",
+   "Item:Long Spear",
+   "Item:Poison Dagger",
+   "Goblin - Warrior>Long Spear",
+   "Skeleton - Archer>Dagger",
+   "Bastonn Bloodjaw>Long Spear",
+   "Krisanna the Bold>Lockpicks (Simple)",
+   "Krisanna the Bold>Dagger",
+   "Krisanna the Bold>Rope (Hemp, 10 meters)",
+   "Orla Moonsilver>Rope (Hemp, 10 meters)",
+   "Cultist>Dagger"
+  ],
+  "1 silver": [
+   "Harga>Ladle",
+   "Ossiar>Field Ration",
+   "Quasimund's Scum>Sling",
+   "Semolina>Small Wooden Club",
+   "Demon Cultists (Temple of the Purple Flame)>Sling",
+   "Item:Lodging at Inn, Dormitory",
+   "Item:Parchment (sheet)",
+   "Item:Dice",
+   "Item:Field Ration",
+   "Item:Small Wooden Club",
+   "Item:Sling",
+   "Grunta>Small Wooden Club"
+  ],
+  "25 gold": [
+   "Undead Guardians>Longsword",
+   "Gunhill>Short Bow",
+   "Adventurer 4>Short Bow",
+   "Isadelia>Longsword",
+   "Canutus Boetii>Books",
+   "Scout>Short Bow",
+   "Jory>Short Bow",
+   "Tylos>Longsword",
+   "Grub>Short Bow",
+   "The Goblins>Short Bow",
+   "Feder>Short Bow",
+   "Rilke>Short Bow",
+   "Ursic's Bandits>Short Bow",
+   "Item:Book",
+   "Item:Hourglass",
+   "Item:Longsword",
+   "Item:Two-Handed Axe",
+   "Item:Short Bow",
+   "Goblin - Scout>Short Bow",
+   "Minotaur>Two-Handed Axe",
+   "Skeleton - Champion>Longsword",
+   "Knight Champion (Boss)>Longsword",
+   "Scholar>Book",
+   "Goblin>Short Bow",
+   "Boss>Longsword"
+  ],
+  "12 gold": [
+   "Undead Guardians>Large Shield",
+   "Adventurer 1>Broadsword",
+   "Isadelia>Large Shield",
+   "Undead Guards>Broadsword",
+   "Hardy>Broadsword",
+   "Hardy>Large Shield",
+   "Hardy>Open Helmet",
+   "Jory>Broadsword",
+   "Tylos>Large Shield",
+   "Ursic One-Ear>Broadsword",
+   "Item:Donkey",
+   "Item:Open Helmet",
+   "Item:Broadsword",
+   "Item:Lance",
+   "Item:Large Shield",
+   "Skeleton - Champion>Large Shield",
+   "Adventurer>Broadsword",
+   "Bandit Chief (Boss)>Open Helmet",
+   "Guard>Broadsword",
+   "Knight Champion (Boss)>Large Shield",
+   "Jaldo>Open Helmet",
+   "Minion>Broadsword"
+  ],
+  "50 gold": [
+   "Undead Guardians>Chainmail",
+   "Adventurer 2>Longbow",
+   "Ukka>Chainmail",
+   "Undead Guards>Chainmail",
+   "Aldonil>Longbow",
+   "Orifin>Longbow",
+   "Undead Guard Patrol>Chainmail",
+   "Maladûk>Chainmail",
+   "Agra>Chainmail",
+   "Item:Chainmail",
+   "Item:Healing Potion (dose)",
+   "Item:Grimoire",
+   "Item:Spyglass",
+   "Item:Greatsword",
+   "Item:Longbow",
+   "Orc - Chieftain>Chainmail",
+   "Skeleton - Champion>Chainmail",
+   "Wight>Chainmail",
+   "Archmaster Aodhan>Grimoire",
+   "Orla Moonsilver>Longbow",
+   "Archmage (Boss)>Grimoire",
+   "Bandit>Short Bow",
+   "Bandit Chief (Boss)>Chainmail",
+   "Hunter>Longbow",
+   "Boss>Chainmail"
+  ],
+  "10 gold": [
+   "Demon Cultists (Dead Eyes Cave)>Scimitar",
+   "Adventurer 1>Studded Leather",
+   "Adventurer 2>Studded Leather",
+   "Adventurer 3>Studded Leather",
+   "Adventurer 4>Studded Leather",
+   "Adventurer 4>Battleaxe",
+   "Ukka>Scimitar",
+   "The Worg Rider>Scimitar",
+   "Badinor>Battleaxe",
+   "Hardy>Studded Leather",
+   "Quasimund>Scimitar",
+   "Vagnhild>Light Warhammer",
+   "Skeletons>Studded Leather",
+   "Twisted Cultists>Battleaxe",
+   "Agra>Scimitar",
+   "Orc Warriors>Scimitar",
+   "Orc Warriors>Studded Leather",
+   "Officers>Scimitar",
+   "Officers>Studded Leather",
+   "Item:Cow",
+   "Item:Studded Leather",
+   "Item:Fine Garments",
+   "Item:Lantern",
+   "Item:Quill & Ink",
+   "Item:Wand",
+   "Item:Padlock",
+   "Item:Rope (Silk, 10 meters)",
+   "Item:Saddle",
+   "Item:Scimitar",
+   "Item:Light Warhammer",
+   "Item:Battleaxe",
+   "Item:Mastercrafted Dagger",
+   "Goblin - Warrior>Studded Leather",
+   "Orc - Chieftain>Scimitar",
+   "Orc - Chieftain>Scimitar",
+   "Orc - Warrior>Scimitar",
+   "Orc - Warrior>Studded Leather",
+   "Skeleton - Warrior>Studded Leather",
+   "Bastonn Bloodjaw>Studded Leather",
+   "Makander of Halfbay>Battleaxe",
+   "Adventurer>Studded Leather",
+   "Guard>Studded Leather",
+   "Jaldo>Scimitar",
+   "Jaldo>Studded Leather"
+  ],
+  "8 gold": [
+   "Gunhill>Short Sword",
+   "Ossiar>Short Sword",
+   "Scout>Short Sword",
+   "Quasimund's Scum>Short Sword",
+   "Grub>Short Sword",
+   "The Goblins>Short Sword",
+   "Feder>Short Sword",
+   "Rilke>Short Sword",
+   "Ursic's Bandits>Short Sword",
+   "Item:Harp",
+   "Item:Carpentry Tools",
+   "Item:Short Sword",
+   "Item:Mace",
+   "Goblin - Scout>Short Sword",
+   "Skeleton - Warrior>Short Sword",
+   "Makander of Halfbay>Short Sword",
+   "Bandit>Short Sword",
+   "Goblin>Short Sword"
+  ],
+  "2 gold": [
+   "Gunhill>Leather",
+   "Adventurer 3>Handaxe",
+   "Scout>Leather",
+   "Armed Villagers>Leather",
+   "Badinor>Leather",
+   "Jory>Leather",
+   "Okald>Handaxe",
+   "Okald>Leather",
+   "Quasimund>Leather",
+   "Semolina>Leather",
+   "Vagnhild>Leather",
+   "Aldonil>Leather",
+   "Orifin>Leather",
+   "Grub>Leather",
+   "The Goblins>Leather",
+   "Demon Cultists (Temple of the Purple Flame)>Handaxe",
+   "Feder>Leather",
+   "Rilke>Leather",
+   "Ursic One-Ear>Leather",
+   "Ursic's Bandits>Leather",
+   "Item:Homing Pigeon in Cage",
+   "Item:Pig",
+   "Item:Leather",
+   "Item:Boots",
+   "Item:Barrel",
+   "Item:Fishing Net",
+   "Item:Flute",
+   "Item:Feast",
+   "Item:Lodging at Inn, Luxury Suite",
+   "Item:Crowbar",
+   "Item:Shovel",
+   "Item:Abacus",
+   "Item:Quiver of Arrows (Iron Head)",
+   "Item:Small Tent",
+   "Item:Handaxe",
+   "Item:Parrying Dagger",
+   "Goblin - Scout>Leather",
+   "Skeleton - Archer>Leather",
+   "Krisanna the Bold>Leather",
+   "Orla Moonsilver>Quiver of Arrows (Iron Head)",
+   "Orla Moonsilver>Leather",
+   "Hunter>Leather",
+   "Goblin>Leather"
+  ],
+  "–": [
+   "Viper>Bite",
+   "Antelia>Light Blunt Object",
+   "Helemi>Light Blunt Object",
+   "Stig Stonehilt>Light Blunt Object",
+   "Item:Unarmed",
+   "Item:Light Blunt Object",
+   "Item:Heavy Blunt Object",
+   "Bear>Bite",
+   "Cat>Bite",
+   "Deer>Horns",
+   "Dog>Bite",
+   "Donkey>Kick",
+   "Fox>Bite",
+   "Goat>Horns",
+   "Horse>Kick",
+   "Moose>Horns",
+   "Wild Boar>Tusks",
+   "Wolf>Bite",
+   "Villager>Light Blunt Object"
+  ],
+  "200 gold": [
+   "Adventurer 1>Heavy Crossbow",
+   "Hardy>Heavy Crossbow",
+   "Item:Heavy Crossbow",
+   "Item:Mastercrafted Heavy Warhammer"
+  ],
+  "75 gold": [
+   "Adventurer 3>Light Crossbow",
+   "Badinor>Light Crossbow",
+   "Quasimund>Light Crossbow",
+   "Ursic One-Ear>Light Crossbow",
+   "Item:Light Crossbow",
+   "Skeleton - Archer>Light Crossbow"
+  ],
+  "500 gold": [
+   "Isadelia>Plate Armor",
+   "Niklion>Plate Armor",
+   "Alfilia Shadowleaf>Plate Armor",
+   "Tylos>Plate Armor",
+   "The Wight>Plate Armor",
+   "Item:Plate Armor",
+   "Makander of Halfbay>Plate Armor",
+   "Knight Champion (Boss)>Plate Armor"
+  ],
+  "20 gold": [
+   "Niklion>Heavy Warhammer",
+   "Item:Lyre",
+   "Item:Blacksmithing Tools",
+   "Item:Lockpicks (Advanced)",
+   "Item:Halberd",
+   "Item:Heavy Warhammer",
+   "Bandit Chief (Boss)>Heavy Warhammer"
+  ],
+  "5 silver": [
+   "Canutus Boetii>Knife",
+   "Armed Villagers>Short Spear",
+   "Undead Guard Patrol>Short Spear",
+   "Item:Simple Clothes",
+   "Item:Clay Jug",
+   "Item:Flint & Tinder",
+   "Item:Bandages (10)",
+   "Item:Clothes Repair",
+   "Item:Lodging at Inn, Separate Room",
+   "Item:Blanket",
+   "Item:Playing Cards",
+   "Item:Quiver of Arrows (Wooden Head)",
+   "Item:Whistle",
+   "Item:Knife",
+   "Item:Short Spear",
+   "Archmaster Aodhan>Flint & Tinder",
+   "Bastonn Bloodjaw>Flint & Tinder",
+   "Bastonn Bloodjaw>Short Spear",
+   "Krisanna the Bold>Flint & Tinder",
+   "Krisanna the Bold>Knife",
+   "Krisanna the Bold>Knife",
+   "Makander of Halfbay>Flint & Tinder",
+   "Orla Moonsilver>Flint & Tinder",
+   "Orla Moonsilver>Knife",
+   "Thief>Knife"
+  ],
+  "3 gold": [
+   "Canutus Boetii>Backpack",
+   "Item:Sheep",
+   "Item:Backpack",
+   "Item:Bear Trap",
+   "Item:Amulet",
+   "Item:Pickaxe",
+   "Item:Sledgehammer",
+   "Item:Grappling Hook"
+  ],
+  "4 gold": [
+   "Canutus Boetii>Field Kitchen",
+   "Alfilia Shadowleaf>Small Shield",
+   "Item:Drum",
+   "Item:Field Kitchen",
+   "Item:Large Tent",
+   "Item:Small Shield",
+   "Makander of Halfbay>Small Shield"
+  ],
+  "2 silver": [
+   "Thorendil>Staff",
+   "Dranath>Staff",
+   "Hafarmal>Staff",
+   "Item:Goblet of Wine",
+   "Item:Haircut",
+   "Item:Paper (sheet)",
+   "Item:Large Wooden Club",
+   "Item:Staff",
+   "Orc - Shaman>Staff",
+   "Archmaster Aodhan>Staff",
+   "Archmage (Boss)>Staff"
+  ],
+  "14 gold": [
+   "Alfilia Shadowleaf>Morningstar",
+   "The Wight>Morningstar",
+   "The Wight>Power Attack!",
+   "Item:Morningstar",
+   "Wight>Morningstar",
+   "Wight>Power Attack!",
+   "The Robber Knight>Morningstar"
+  ],
+  "400 gold": [
+   "Tylos>Combat Trained Horse",
+   "Item:Combat Trained Horse"
+  ],
+  "100 gold": [
+   "The Wight>Great Helm",
+   "Item:Great Helm",
+   "Item:Mastercrafted Battleaxe",
+   "Knight Champion (Boss)>Great Helm"
+  ],
+  "4 silver": [
+   "Item:Chicken",
+   "Item:Basket"
+  ],
+  "15 gold": [
+   "Item:Guard Dog",
+   "Item:Cart",
+   "Item:Rowing Boat",
+   "Item:Surgical Instruments"
+  ],
+  "60 gold": [
+   "Item:Riding Horse"
+  ],
+  "8 silver": [
+   "Item:Cloak",
+   "Item:Fishing Rod"
+  ],
+  "5 copper": [
+   "Item:Rags",
+   "Item:Bucket",
+   "Item:Snare",
+   "Item:Torch",
+   "Item:Bowl of Stew",
+   "Archmaster Aodhan>Torch",
+   "Bastonn Bloodjaw>Torch",
+   "Krisanna the Bold>Torch",
+   "Makander of Halfbay>Torch",
+   "Orla Moonsilver>Torch"
+  ],
+  "5 gold": [
+   "Item:Chest",
+   "Item:Healing",
+   "Item:Brooch",
+   "Item:Notebook",
+   "Item:Reliquary",
+   "Item:Saw",
+   "Item:Tanning Tools",
+   "Item:Map",
+   "Item:Perfume (10 doses)",
+   "Item:Trident"
+  ],
+  "6 gold": [
+   "Item:Saddle Bag",
+   "Item:Canoe",
+   "Item:Horn"
+  ],
+  "3 silver": [
+   "Item:Lamp Oil",
+   "Item:Meal at an Inn",
+   "Item:Needle & Thread"
+  ],
+  "1 copper": [
+   "Item:Tallow Candle",
+   "Item:Chalk"
+  ],
+  "40 gold": [
+   "Item:Sailing Boat"
+  ],
+  "30 gold": [
+   "Item:Wagon",
+   "Item:Bagpipe",
+   "Item:Magnifying Glass"
+  ],
+  "2 gold x potency": [
+   "Item:Lethal Poison (dose)"
+  ],
+  "12 silver x potency": [
+   "Item:Paralyzing Poison (dose)"
+  ],
+  "6 silver x potency": [
+   "Item:Sleeping Poison (dose)"
+  ],
+  "6 copper": [
+   "Item:Bath at an Inn"
+  ],
+  "2 gold / day": [
+   "Item:Bodyguard"
+  ],
+  "1 silver per kilometer": [
+   "Item:Courier"
+  ],
+  "2 copper": [
+   "Item:Road Toll"
+  ],
+  "3 copper per kilometer": [
+   "Item:Stagecoach"
+  ],
+  "4 copper": [
+   "Item:Tankard of Mead"
+  ],
+  "5 gold / shift or more": [
+   "Item:Teacher"
+  ],
+  "18 gold": [
+   "Item:Orbuculum"
+  ],
+  "16 gold": [
+   "Item:Flail"
+  ],
+  "90 gold": [
+   "Item:Hand Crossbow"
+  ],
+  "2D6 x 5 gold": [
+   "Item:Chalice",
+   "Item:Gold Amulet"
+  ],
+  "Varies": [
+   "Item:Gemstone"
+  ],
+  "2D6 x 10 gold": [
+   "Item:Gold Bracelet"
+  ],
+  "2D6 gold": [
+   "Item:Gold Necklace"
+  ],
+  "4D6 gold": [
+   "Item:Gold Ring"
+  ],
+  "120 gold": [
+   "Item:Mastercrafted Broadsword"
+  ],
+  "250 gold": [
+   "Item:Mastercrafted Longsword"
+  ],
+  "80 gold": [
+   "Item:Mastercrafted Short Sword"
+  ],
+  "2D6 x 10 silver": [
+   "Item:Silver Bracelet"
+  ],
+  "2D6 x 5 silver": [
+   "Item:Silver Brooch",
+   "Item:Silver Necklace"
+  ],
+  "2D6 silver": [
+   "Item:Silver Ring"
+  ]
+ },
+ "banes": {
+  "Sneaking": [
+   "Item:Gilded Chainmail",
+   "Adventurer 1>Studded Leather",
+   "Adventurer 2>Studded Leather",
+   "Adventurer 3>Studded Leather",
+   "Adventurer 4>Studded Leather",
+   "Hardy>Studded Leather",
+   "Skeletons>Studded Leather",
+   "Orc Warriors>Studded Leather",
+   "Officers>Studded Leather",
+   "Item:Studded Leather",
+   "Goblin - Warrior>Studded Leather",
+   "Orc - Warrior>Studded Leather",
+   "Skeleton - Warrior>Studded Leather",
+   "Bastonn Bloodjaw>Studded Leather",
+   "Adventurer>Studded Leather",
+   "Guard>Studded Leather",
+   "Jaldo>Studded Leather"
+  ],
+  "Evade, Sneaking": [
+   "Undead Guardians>Chainmail",
+   "Ukka>Chainmail",
+   "Undead Guards>Chainmail",
+   "Undead Guard Patrol>Chainmail",
+   "Maladûk>Chainmail",
+   "Agra>Chainmail",
+   "Item:Chainmail",
+   "Orc - Chieftain>Chainmail",
+   "Skeleton - Champion>Chainmail",
+   "Wight>Chainmail",
+   "Bandit Chief (Boss)>Chainmail",
+   "Boss>Chainmail"
+  ],
+  "Acrobatics, Evade, Sneaking": [
+   "Isadelia>Plate Armor",
+   "Niklion>Plate Armor",
+   "Alfilia Shadowleaf>Plate Armor",
+   "Tylos>Plate Armor",
+   "The Wight>Plate Armor",
+   "Item:Plate Armor",
+   "Makander of Halfbay>Plate Armor",
+   "Knight Champion (Boss)>Plate Armor"
+  ],
+  "STR, AGL": [
+   "Emrys>Deep wounds",
+   "Item:Broken ribs",
+   "Item:Deep wounds"
+  ],
+  "Awareness": [
+   "Hardy>Open Helmet",
+   "Item:Open Helmet",
+   "Item:Broken nose",
+   "Bandit Chief (Boss)>Open Helmet",
+   "Jaldo>Open Helmet"
+  ],
+  "Awareness, Bows, Crossbows, Slings": [
+   "The Wight>Great Helm",
+   "Item:Great Helm",
+   "Knight Champion (Boss)>Great Helm"
+  ],
+  "Bartering, Bluffing, Performance, Persuasion": [
+   "Item:Rags"
+  ],
+  "INT": [
+   "Item:Concussion"
+  ],
+  "Performance, Persuasion": [
+   "Item:Scarred face"
+  ]
+ },
+ "requirement": {
+  "Gesture": [
+   "Harga>Fetch",
+   "Harga>Light",
+   "Harga>Open/Close",
+   "Harga>Lock/Unlock",
+   "Harga>Scrying",
+   "Harga>Sense Magic",
+   "Thorendil>Fetch",
+   "Thorendil>Ignite",
+   "Dranath>Magic Shield",
+   "Dranath>Lightning Bolt",
+   "Dranath>Lightning Flash",
+   "Dranath>Sense Magic",
+   "Hafarmal>Flick",
+   "Hafarmal>Birdsong",
+   "Hafarmal>Slow Fall",
+   "Hafarmal>Sense Magic",
+   "Item:Birdsong",
+   "Item:Clean",
+   "Item:Cook Food",
+   "Item:Floral Trail",
+   "Item:Hairstyle",
+   "Item:Lightning Bolt",
+   "Item:Lightning Flash",
+   "Item:Thunderbolt",
+   "Item:Heat/Chill",
+   "Item:Ignite",
+   "Item:Puff of Smoke",
+   "Item:Fetch",
+   "Item:Flick",
+   "Item:Light",
+   "Item:Magic Shield",
+   "Item:Open/Close",
+   "Item:Repair Clothes",
+   "Item:Sense Magic",
+   "Item:Transfer",
+   "Item:Lock/Unlock",
+   "Item:Magic Stool",
+   "Item:Scrying",
+   "Item:Slow Fall",
+   "Orc - Shaman>Lightning Flash",
+   "Archmaster Aodhan>Heat/Chill",
+   "Archmaster Aodhan>Puff of Smoke",
+   "Archmaster Aodhan>Ignite"
+  ],
+  "Word, gesture": [
+   "Harga>Dispel",
+   "Harga>Power Fist",
+   "Harga>Mental Strike",
+   "Harga>Telepathy",
+   "Harga>Dominate",
+   "Thorendil>Dispel",
+   "Thorendil>Fireball",
+   "Thorendil>Gust of Wind",
+   "Dranath>Dispel",
+   "Hafarmal>Dispel",
+   "Hafarmal>Farsight",
+   "Hafarmal>Power Fist",
+   "Hafarmal>Levitate",
+   "Hafarmal>Telepathy",
+   "Item:Fire Blast",
+   "Item:Fireball",
+   "Item:Firebird",
+   "Item:Firestorm",
+   "Item:Frost",
+   "Item:Gust of Wind",
+   "Item:Pillar",
+   "Item:Stonewall",
+   "Item:Sylph",
+   "Item:Whirlwind",
+   "Item:Charge",
+   "Item:Dispel",
+   "Item:Magic Seal",
+   "Item:Permanence",
+   "Item:Divination",
+   "Item:Dominate",
+   "Item:Enchant Weapon",
+   "Item:Farsight",
+   "Item:Flight",
+   "Item:Levitate",
+   "Item:Longstrider",
+   "Item:Mental Strike",
+   "Item:Power Fist",
+   "Item:Telepathy",
+   "Item:Teleport",
+   "Gnome (power level 1)>Pillar",
+   "Gnome (power level 2)>Pillar",
+   "Gnome (power level 3)>Pillar",
+   "Salamander (power level 1)>Fire Blast",
+   "Salamander (power level 2)>Fire Blast",
+   "Salamander (power level 3)>Fire Blast",
+   "Sylph (power level 1)>Gust of Wind",
+   "Sylph (power level 2)>Gust of Wind",
+   "Sylph (power level 3)>Gust of Wind",
+   "Archmaster Aodhan>Fireball",
+   "Archmaster Aodhan>Pillar",
+   "Archmaster Aodhan>Gust of Wind"
+  ],
+  "Gesture, ingredient (branches or roots nearby)": [
+   "Harga>Ensnaring Roots",
+   "Dranath>Ensnaring Roots",
+   "Item:Engulfing Forest",
+   "Item:Ensnaring Roots",
+   "Orc - Shaman>Ensnaring Roots"
+  ],
+  "Word, gesture, ingredient (stone)": [
+   "Harga>Stone Skin",
+   "Item:Stone Skin"
+  ],
+  "Any melee weapon skill 12": [
+   "Undead Guardians>Defensive",
+   "Isadelia>Defensive",
+   "Alfilia Shadowleaf>Defensive",
+   "Hardy>Defensive",
+   "Quasimund>Defensive",
+   "Tylos>Defensive",
+   "Maladûk>Defensive",
+   "Ursic One-Ear>Berserker",
+   "Item:Berserker",
+   "Item:Defensive",
+   "Item:Deflect Arrow",
+   "Item:Dual Wield",
+   "Item:Throwing Arm",
+   "Orc - Chieftain>Defensive",
+   "Orc - Chieftain>Dual Wield",
+   "Skeleton - Champion>Defensive",
+   "Bandit Chief (Boss)>Berserker",
+   "Knight Champion (Boss)>Defensive"
+  ],
+  "Axes or Swords 12": [
+   "Undead Guardians>Double Slash",
+   "Isadelia>Double Slash",
+   "Tylos>Double Slash",
+   "Item:Double Slash",
+   "Skeleton - Champion>Double Slash",
+   "Knight Champion (Boss)>Double Slash"
+  ],
+  "Any weapon skill 12": [
+   "Isadelia>Veteran",
+   "Niklion>Veteran",
+   "Alfilia Shadowleaf>Veteran",
+   "Hardy>Veteran",
+   "Quasimund>Veteran",
+   "Tylos>Veteran",
+   "Maladûk>Veteran",
+   "Ursic One-Ear>Veteran",
+   "Item:Dragonslayer",
+   "Item:Veteran",
+   "Orc - Chieftain>Veteran",
+   "Skeleton - Champion>Veteran",
+   "Bastonn Bloodjaw>Veteran",
+   "Bandit Chief (Boss)>Veteran",
+   "Ingolfr Stone-Gaze>Veteran"
+  ],
+  "Evade 12": [
+   "Niklion>Lightning Fast",
+   "Leanara / Annabella>Fast Footwork",
+   "Leanara / Annabella>Lightning Fast",
+   "Leanara / Annabella>Weasel",
+   "Quasimund>Weasel",
+   "Item:Contortionist",
+   "Item:Fast Footwork",
+   "Item:Lightning Fast",
+   "Item:Weasel"
+  ],
+  "Ord, Gest": [
+   "Thorendil>Frost"
+  ],
+  "Word": [
+   "Thorendil>Shatter",
+   "Dranath>Heal Wound",
+   "Dranath>Treat Wound",
+   "Hafarmal>Animal Whisperer",
+   "Hafarmal>Treat Wound",
+   "Item:Animal Whisperer",
+   "Item:Heal Wound",
+   "Item:Restoration",
+   "Item:Sleep",
+   "Item:Treat Wound",
+   "Item:Shatter",
+   "Orc - Shaman>Treat Wound"
+  ],
+  "Crafting 12": [
+   "Badinor>Master Blacksmith",
+   "Item:Master Blacksmith",
+   "Item:Master Carpenter",
+   "Item:Master Tanner"
+  ],
+  "Word, gesture, focus (holy symbol)": [
+   "Dranath>Banish",
+   "Dranath>Purge",
+   "Item:Banish",
+   "Item:Purge"
+  ],
+  "Gesture, ingredient (something to draw with)": [
+   "Dranath>Protector",
+   "Item:Protector"
+  ],
+  "Knives 12": [
+   "Leanara / Annabella>Backstabbing",
+   "Item:Assassin",
+   "Item:Backstabbing",
+   "Krisanna the Bold>Backstabbing"
+  ],
+  "-": [
+   "Item:Battle Cry",
+   "Item:Fast Healer",
+   "Item:Army of One",
+   "Item:Sole Survivor"
+  ],
+  "Acrobatics 12": [
+   "Item:Catlike"
+  ],
+  "Hunting & Fishing 12": [
+   "Item:Companion"
+  ],
+  "Bluffing 12": [
+   "Item:Disguise"
+  ],
+  "Awareness 12": [
+   "Item:Eagle Eye",
+   "Ingolfr Stone-Gaze>Eagle Eye"
+  ],
+  "Axes, Hammers, or Swords 12": [
+   "Item:Guardian",
+   "Makander of Halfbay>Guardian"
+  ],
+  "Persuasion 12": [
+   "Item:Insight"
+  ],
+  "Myths & Legends 12": [
+   "Item:Intuition"
+  ],
+  "Brawling 12": [
+   "Item:Iron Fist",
+   "Item:Iron Grip"
+  ],
+  "Bushcraft 12": [
+   "Item:Lone Wolf",
+   "Item:Pathfinder",
+   "Item:Quartermaster"
+  ],
+  "Any STR-based melee weapon skill 12": [
+   "Item:Massive Blow",
+   "Item:Shield Block"
+  ],
+  "Any magic school 12": [
+   "Item:Master Spellcaster",
+   "Archmage (Boss)>Master Spellcaster"
+  ],
+  "Beast Lore 12": [
+   "Item:Monster Hunter"
+  ],
+  "Performance 12": [
+   "Item:Musician"
+  ],
+  "Swim 12": [
+   "Item:Sea Legs"
+  ],
+  "Bartering 12": [
+   "Item:Treasure Hunter"
+  ],
+  "Bows 12": [
+   "Item:Twin Shot",
+   "Orla Moonsilver>Twin Shot"
+  ],
+  "Human": [
+   "Item:Adaptive",
+   "Archmaster Aodhan>Adaptive"
+  ],
+  "Halfling": [
+   "Item:Hard to Catch",
+   "Krisanna the Bold>Hard to Catch"
+  ],
+  "Wolfkin": [
+   "Item:Hunting Instincts",
+   "Bastonn Bloodjaw>Hunting Instincts"
+  ],
+  "Mallard": [
+   "Item:Ill-Tempered",
+   "Item:Webbed Feet",
+   "Makander of Halfbay>Ill-Tempered",
+   "Makander of Halfbay>Webbed Feet"
+  ],
+  "Elf": [
+   "Item:Inner Peace",
+   "Orla Moonsilver>Inner Peace"
+  ],
+  "Dwarf": [
+   "Item:Unforgiving"
+  ],
+  "Word, gesture, ingredient (corpse)": [
+   "Item:Resurrection"
+  ],
+  "Word, gesture, ingredient (stone or soil)": [
+   "Item:Gnome"
+  ],
+  "Word, gesture, ingredient (open fire)": [
+   "Item:Salamander"
+  ],
+  "Gesture, ingredient (pebbles)": [
+   "Item:Stone Shield"
+  ],
+  "Word, gesture, ingredient (water source)": [
+   "Item:Tidal Wave",
+   "Undine (power level 1)>Tidal Wave",
+   "Undine (power level 2)>Tidal Wave",
+   "Undine (power level 3)>Tidal Wave"
+  ],
+  "Word, gesture, ingredient (water)": [
+   "Item:Undine"
+  ]
+ },
+ "prerequisite": {
+  "Any School of Magic": [
+   "Harga>Fetch",
+   "Harga>Light",
+   "Harga>Open/Close",
+   "Harga>Dispel",
+   "Harga>Sense Magic",
+   "Thorendil>Fetch",
+   "Thorendil>Dispel",
+   "Dranath>Dispel",
+   "Dranath>Sense Magic",
+   "Dranath>Protector",
+   "Hafarmal>Flick",
+   "Hafarmal>Dispel",
+   "Hafarmal>Sense Magic",
+   "Item:Dispel",
+   "Item:Fetch",
+   "Item:Flick",
+   "Item:Light",
+   "Item:Open/Close",
+   "Item:Protector",
+   "Item:Repair Clothes",
+   "Item:Sense Magic"
+  ],
+  "Animism": [
+   "Harga>Ensnaring Roots",
+   "Dranath>Banish",
+   "Dranath>Ensnaring Roots",
+   "Dranath>Lightning Flash",
+   "Dranath>Treat Wound",
+   "Hafarmal>Birdsong",
+   "Hafarmal>Animal Whisperer",
+   "Hafarmal>Treat Wound",
+   "Item:Animal Whisperer",
+   "Item:Banish",
+   "Item:Birdsong",
+   "Item:Clean",
+   "Item:Cook Food",
+   "Item:Ensnaring Roots",
+   "Item:Floral Trail",
+   "Item:Hairstyle",
+   "Item:Lightning Flash",
+   "Item:Treat Wound",
+   "Orc - Shaman>Ensnaring Roots",
+   "Orc - Shaman>Lightning Flash",
+   "Orc - Shaman>Treat Wound"
+  ],
+  "Mentalism": [
+   "Harga>Lock/Unlock",
+   "Harga>Power Fist",
+   "Harga>Stone Skin",
+   "Hafarmal>Slow Fall",
+   "Hafarmal>Farsight",
+   "Hafarmal>Power Fist",
+   "Hafarmal>Levitate",
+   "Item:Stone Skin",
+   "Item:Farsight",
+   "Item:Levitate",
+   "Item:Lock/Unlock",
+   "Item:Longstrider",
+   "Item:Magic Stool",
+   "Item:Power Fist",
+   "Item:Slow Fall"
+  ],
+  "POWER FIST": [
+   "Harga>Mental Strike",
+   "Item:Enchant Weapon",
+   "Item:Mental Strike"
+  ],
+  "FARSIGHT": [
+   "Harga>Scrying",
+   "Harga>Telepathy",
+   "Hafarmal>Telepathy",
+   "Item:Divination",
+   "Item:Scrying",
+   "Item:Telepathy",
+   "Item:Teleport"
+  ],
+  "TELEPATHY": [
+   "Harga>Dominate",
+   "Item:Dominate"
+  ],
+  "Elementalism": [
+   "Thorendil>Ignite",
+   "Thorendil>Fireball",
+   "Thorendil>Frost",
+   "Thorendil>Shatter",
+   "Thorendil>Gust of Wind",
+   "Item:Fireball",
+   "Item:Frost",
+   "Item:Gust of Wind",
+   "Item:Heat/Chill",
+   "Item:Ignite",
+   "Item:Pillar",
+   "Item:Puff of Smoke",
+   "Item:Shatter",
+   "Gnome (power level 1)>Pillar",
+   "Gnome (power level 2)>Pillar",
+   "Gnome (power level 3)>Pillar",
+   "Sylph (power level 1)>Gust of Wind",
+   "Sylph (power level 2)>Gust of Wind",
+   "Sylph (power level 3)>Gust of Wind",
+   "Archmaster Aodhan>Fireball",
+   "Archmaster Aodhan>Pillar",
+   "Archmaster Aodhan>Gust of Wind",
+   "Archmaster Aodhan>Heat/Chill",
+   "Archmaster Aodhan>Puff of Smoke",
+   "Archmaster Aodhan>Ignite"
+  ],
+  "PROTECTOR or DISPEL": [
+   "Dranath>Magic Shield",
+   "Item:Magic Shield"
+  ],
+  "LIGHTNING FLASH": [
+   "Dranath>Lightning Bolt",
+   "Item:Lightning Bolt"
+  ],
+  "BANISH": [
+   "Dranath>Purge",
+   "Item:Purge"
+  ],
+  "TREAT WOUND": [
+   "Dranath>Heal Wound",
+   "Item:Heal Wound",
+   "Item:Sleep"
+  ],
+  "ENSNARING ROOTS": [
+   "Item:Engulfing Forest"
+  ],
+  "HEAL WOUND": [
+   "Item:Restoration",
+   "Item:Resurrection"
+  ],
+  "LIGHTNING BOLT": [
+   "Item:Thunderbolt"
+  ],
+  "FIREBALL": [
+   "Item:Fire Blast",
+   "Salamander (power level 1)>Fire Blast",
+   "Salamander (power level 2)>Fire Blast",
+   "Salamander (power level 3)>Fire Blast"
+  ],
+  "FIRE BLAST": [
+   "Item:Firebird",
+   "Item:Salamander"
+  ],
+  "FIRE BLAST, WHIRLWIND": [
+   "Item:Firestorm"
+  ],
+  "STONEWALL": [
+   "Item:Gnome"
+  ],
+  "PILLAR": [
+   "Item:Stone Shield",
+   "Item:Stonewall"
+  ],
+  "WHIRLWIND": [
+   "Item:Sylph"
+  ],
+  "FROST": [
+   "Item:Tidal Wave",
+   "Undine (power level 1)>Tidal Wave",
+   "Undine (power level 2)>Tidal Wave",
+   "Undine (power level 3)>Tidal Wave"
+  ],
+  "TIDAL WAVE": [
+   "Item:Undine"
+  ],
+  "GUST OF WIND": [
+   "Item:Whirlwind"
+  ],
+  "TRANSFER": [
+   "Item:Charge",
+   "Item:Magic Seal"
+  ],
+  "MAGIC SEAL": [
+   "Item:Permanence"
+  ],
+  "MAGIC SHIELD": [
+   "Item:Transfer"
+  ],
+  "LEVITATE": [
+   "Item:Flight"
+  ]
+ },
+ "boons": {
+  "Bushcraft": [
+   "Canutus Boetii>Field Kitchen",
+   "Item:Fur",
+   "Item:Field Kitchen",
+   "Item:Spyglass",
+   "Item:Large Tent",
+   "Item:Small Tent"
+  ],
+  "Brawling": [
+   "Item:Iron Grip"
+  ],
+  "Evade": [
+   "Item:Hard to Catch",
+   "Krisanna the Bold>Hard to Catch"
+  ],
+  "Swimming": [
+   "Item:Webbed Feet",
+   "Makander of Halfbay>Webbed Feet"
+  ],
+  "Bartering, Bluffing, Performance, Persuasion": [
+   "Item:Fine Garments",
+   "Item:Perfume (10 doses)"
+  ],
+  "Healing": [
+   "Item:Herbal Concoction (dose)",
+   "Item:Surgical Instruments"
+  ],
+  "Sleight of Hand": [
+   "Item:Lockpicks (Advanced)"
+  ],
+  "Spot Hidden": [
+   "Item:Magnifying Glass"
+  ],
+  "Acrobatics": [
+   "Item:Rope (Hemp, 10 meters)",
+   "Item:Rope (Silk, 10 meters)",
+   "Krisanna the Bold>Rope (Hemp, 10 meters)",
+   "Orla Moonsilver>Rope (Hemp, 10 meters)"
+  ]
+ },
+ "advDescription": {
+  "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>This will import all content from the adventure book into your world.</p><p>Note that existing versions of the content will be overwritten!</p><p>If you want to keep ownership settings on existing content, go to Game Settings &gt; Configure Settings and check the corresponding checkbox.</p><p></p><hr /><p style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</p><p>Dragonbane is a registered trademark by Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Published by: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Foundry VTT version by: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>": [
+   "Adv:Dragonbane - Adventures"
+  ],
+  "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>This will import all content from the rule book into your world.</p><p>Note that existing versions of the content will be overwritten!</p><p>If you want to keep ownership settings on existing content, go to Game Settings &gt; Configure Settings and check the corresponding checkbox.</p><p></p><hr /><p style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</p><p>Dragonbane is a registered trademark by Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Published by: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Foundry VTT version by: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>": [
+   "Adv:Dragonbane - Rules"
+  ],
+  "<img style=\"display:block;margin:auto;border:0px solid transparent\" src=\"systems/dragonbane/art/ui/logo-en.webp\" /><p>This will import the solo adventure book into your world.</p><p>Note that existing versions of the content will be overwritten!</p><p>If you want to keep ownership settings on existing content, go to Game Settings &gt; Configure Settings and check the corresponding checkbox.</p><p></p><hr /><p style=\"font-size:smaller\">No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</p><p>Dragonbane is a registered trademark by Fria Ligan AB.</p><p>©2023 Fria Ligan AB</p><hr /><p>Published by: <a href=\"http://freeleaguepublishing.com/\">Fria Ligan AB</a></p><p>Foundry VTT version by: <a href=\"http://patrikp.com/\">Patrik Påfvelsson (PatrikP)</a></p><p><a href=\"mailto:info@frialigan.se\">info@frialigan.se</a></p>": [
+   "Adv:Dragonbane - Solo Adventure"
+  ]
+ },
+ "abilities": {
+  "Unforgiving": [
+   "Item:Dwarf"
+  ],
+  "Inner Peace": [
+   "Item:Elf",
+   "Orla Moonsilver>Elf"
+  ],
+  "Hard to Catch": [
+   "Item:Halfling",
+   "Krisanna the Bold>Halfling"
+  ],
+  "Adaptive": [
+   "Item:Human",
+   "Archmaster Aodhan>Human"
+  ],
+  "Ill-Tempered, Webbed Feet": [
+   "Item:Mallard",
+   "Makander of Halfbay>Mallard"
+  ],
+  "Hunting Instincts": [
+   "Item:Wolfkin",
+   "Bastonn Bloodjaw>Wolfkin"
+  ],
+  "Musician": [
+   "Item:Bard"
+  ],
+  "Veteran": [
+   "Item:Fighter",
+   "Bastonn Bloodjaw>Fighter"
+  ],
+  "Companion": [
+   "Item:Hunter"
+  ],
+  "Guardian": [
+   "Item:Knight",
+   "Makander of Halfbay>Knight"
+  ],
+  "Sea Legs": [
+   "Item:Mariner"
+  ],
+  "Treasure Hunter": [
+   "Item:Merchant"
+  ],
+  "Intuition": [
+   "Item:Scholar"
+  ],
+  "Backstabbing": [
+   "Item:Thief",
+   "Krisanna the Bold>Thief"
+  ],
+  "Twin Shot": [
+   "Orla Moonsilver>Hunter"
+  ]
+ },
+ "skills": {
+  "Animism, Beast Lore, Bushcraft, Evade, Healing, Hunting & Fishing, Sneaking, Staves": [
+   "Item:Animist"
+  ],
+  "Axes, Brawling, Crafting, Hammers, Knives, Sleight of Hand, Spot Hidden, Swords": [
+   "Item:Artisan"
+  ],
+  "Acrobatics, Bluffing, Evade, Knives, Languages, Myths & Legends, Performance, Persuasion": [
+   "Item:Bard"
+  ],
+  "Elementalism, Awareness, Evade, Healing, Languages, Myths & Legends, Spot Hidden, Staves": [
+   "Item:Elementalist",
+   "Archmaster Aodhan>Elementalist"
+  ],
+  "Axes, Bows, Brawling, Crossbows, Evade, Hammers, Spears, Swords": [
+   "Item:Fighter",
+   "Bastonn Bloodjaw>Fighter"
+  ],
+  "Acrobatics, Awareness, Bows, Bushcraft, Hunting & Fishing, Knives, Slings, Sneaking": [
+   "Item:Hunter",
+   "Orla Moonsilver>Hunter"
+  ],
+  "Beast Lore, Hammers, Myths & Legends, Performance, Persuasion, Riding, Spears, Swords": [
+   "Item:Knight",
+   "Makander of Halfbay>Knight"
+  ],
+  "Acrobatics, Awareness, Hunting & Fishing, Knives, Languages, Seamanship, Swimming, Swords": [
+   "Item:Mariner"
+  ],
+  "Awareness, Bartering, Bluffing, Evade, Knives, Persuasion, Sleight of Hand, Spot Hidden": [
+   "Item:Merchant"
+  ],
+  "Awareness, Beast Lore, Bushcraft, Evade, Healing, Languages, Myths & Legends, Spot Hidden": [
+   "Item:Scholar"
+  ],
+  "Acrobatics, Awareness, Bluffing, Evade, Knives, Sleight of Hand, Sneaking, Spot Hidden": [
+   "Item:Thief",
+   "Krisanna the Bold>Thief"
+  ],
+  "Mentalism, Acrobatics, Awareness, Brawling, Evade, Healing, Languages, Myths & Legends": [
+   "Item:Mentalist"
+  ]
+ },
+ "appearance": {
+  "<p>Tall and wiry. Long white beard and bushy eyebrows. Inquisitive eyes.</p>": [
+   "Actor:Archmaster Aodhan"
+  ],
+  "<p>Scarred and wiry. Look loyally at friends, but menacingly at foes. You take good care of your clothes and often wear fragrant perfumes.</p>": [
+   "Actor:Bastonn Bloodjaw"
+  ],
+  "<p>Innocent face with shrewd, constantly observing eyes. Light and silent on your feet. You see opportunity in any situation.</p>": [
+   "Actor:Krisanna the Bold"
+  ],
+  "<p>Strong, sturdy, and stubborn. Waddling walk. Quick to anger when provoked, especially if someone insults your family or honor. You seldom smile.</p>": [
+   "Actor:Makander of Halfbay"
+  ],
+  "<p>Smooth and confident walk. Clear eyes that suspiciously scrutinize everyone. Eager and swift in thought and action.</p>": [
+   "Actor:Orla Moonsilver"
+  ]
+ },
+ "weakness": {
+  "<p>Fainthearted. You always stay at the back of the group.</p>": [
+   "Actor:Archmaster Aodhan"
+  ],
+  "<p>Gluttonous. You take every chance you get to eat something tasty.</p>": [
+   "Actor:Bastonn Bloodjaw"
+  ],
+  "<p>Reckless. You always take big risks without thought of the consequences.</p>": [
+   "Actor:Krisanna the Bold"
+  ],
+  "<p>Foolhardy. You always go first into danger.</p>": [
+   "Actor:Makander of Halfbay"
+  ],
+  "<p>Intolerant. Nightkin such as orcs and goblins are evil and need to be fought.</p>": [
+   "Actor:Orla Moonsilver"
+  ]
+ },
+ "notes": {
+  "<p>From an early age you have been fascinated with fire. Your sorcerous mother brought you to a school of magicians after you accidentally burned down a barn on the family farm. At school you learned the secrets of magic, but the thirst for deeper knowledge made you restless. Now, after a few years of extensive travel, you have joined a company of adventurers for an expedition to the Misty Vale.</p>": [
+   "Actor:Archmaster Aodhan"
+  ],
+  "<p>You have come from the northern wastelands in search of work, joy, and the finer things in life. Tired of your people’s tribal feuds, you dreamed of something bigger and traveled south. There you worked as a mercenary, gladiator, caravan escort, and guardsman, before banding together with a company of adventurers. You are now on your way to the Misty Vale, enticed by rumors of demons, monsters, and mighty foes.</p>": [
+   "Actor:Bastonn Bloodjaw"
+  ],
+  "<p>Growing up in a city in the west, you were always coming up with wild ideas and daring your friends to take ever-greater risks in the alleys. You became an adept pickpocket and later started burglarizing luxurious mansions. You were caught and thrown in prison, but escaped shortly thereafter. Now you keep clear of the city, always looking for new challenges and experiences together with a party of adventurers. You are currently on your way to the Misty Vale, which is said to offer plenty of both.</p>": [
+   "Actor:Krisanna the Bold"
+  ],
+  "<p>You are the youngest son of the Baron of Halfbay, who resides at his seat of power many days’ travel to the east. Knowing that the title will pass to your older (but lesser) brother, you searched your soul and decided to forge your own path. You take great pride in your name and honor, and accept missions that help the weak and punish the wicked. Now you have joined a company of adventurers, drawn by rumors of treasure in the Misty Vale.</p>": [
+   "Actor:Makander of Halfbay"
+  ],
+  "<p>You grew up in the tropical forests of the south, always in search of adventure, but also humbled by your family’s expectations of discipline and reflection. After a troll attacked your village and killed many of your kinsmen, you decided to find a new future for yourself. Still seeking your destiny, you have concluded that journeying is your goal. Together with a group of fellow adventurers you have traveled to the Misty Vale to see what it has to offer.</p>": [
+   "Actor:Orla Moonsilver"
+  ]
+ }
+}

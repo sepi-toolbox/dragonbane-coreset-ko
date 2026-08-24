@@ -41,6 +41,13 @@ const ADESC = {}, ATRAITS = {};
 for (const f of ["adesc_a.json","adesc_b.json","adesc_c.json","adesc_d.json"]) Object.assign(ADESC, rd(f));
 Object.assign(ATRAITS, rd("atr_traits.json"));
 
+// 구조화 필드(비용/요구조건/기술목록/외모/약점/메모/어드벤처 설명)
+const GAP = {};
+for (const f of ["gap_auto.json","gap_hand.json"]) for (const [k, m] of Object.entries(rd(f))) Object.assign(GAP[k] ??= {}, m);
+const GF_ITEM  = ["requirement","prerequisite","skills","banes","boons","abilities","cost"];
+const GF_ACTOR = ["appearance","weakness","notes"];
+const gap = (o, fields, e) => { for (const f of fields) { const v = String(o.system?.[f] ?? "").trim(); const t = GAP[f]?.[v]; if (v && t !== undefined && t !== v) e[f] = t; } };
+
 const db = new ClassicLevel("./cspack", { valueEncoding: "json" });
 const ADV = {};
 for await (const [k, v] of db.iterator()) ADV[v.name] = v;
@@ -65,11 +72,13 @@ for (const advName of Object.keys(ADV)) {
     const e = { name: t }, its = {};
     const ad = String(a.system?.description || "").trim();
     if (ad) { ADESC[ad] ? e.description = ADESC[ad] : missAll.actorDesc.add(a.name); }
+    gap(a, GF_ACTOR, e);
     const at = String(a.system?.traits || "").trim();
     if (at) { ATRAITS[at] ? e.traits = ATRAITS[at] : missAll.actorTraits.add(a.name); }
     for (const it of a.items || []) {
       const kt = ITEM[it.name]; if (!kt) { missAll.embItems.add(it.name); continue; }
       const ent = { name: kt };
+      gap(it, GF_ITEM, ent);
       const d = DESC[it._id] ?? DESC[it.name];
       if (d) ent.description = d;
       else if (String(it.system?.description || "").trim()) missAll.desc.add(it.name);
@@ -83,6 +92,7 @@ for (const advName of Object.keys(ADV)) {
   for (const it of r.items || []) {
     const t = ITEM[it.name]; if (!t) { missAll.items.add(it.name + "[" + it.type + "]"); continue; }
     const ent = { name: t };
+    gap(it, GF_ITEM, ent);
     const d = DESC[it._id] ?? DESC[it.name];
     if (d) ent.description = d;
     else if (String(it.system?.description || "").trim()) missAll.desc.add(it.name);
@@ -123,7 +133,8 @@ for (const advName of Object.keys(ADV)) {
     journals[j.name] = { name: jt.name, pages };
   }
 
-  entries[advName] = { name: ADVNAME[advName], folders, journals, scenes, macros, tables, items, actors, cards };
+  const advDesc = GAP.advDescription?.[String(r.description||"").trim()];
+  entries[advName] = { name: ADVNAME[advName], ...(advDesc ? { description: advDesc } : {}), folders, journals, scenes, macros, tables, items, actors, cards };
   const c = o => Object.keys(o).length;
   report.push([advName, c(folders) + "/" + new Set((r.folders||[]).map(x=>x.name)).size,
     c(actors) + "/" + (r.actors||[]).length, c(items) + "/" + (r.items||[]).length,
@@ -157,5 +168,16 @@ for (const [an, r] of Object.entries(ADV)) for (const a of r.actors || []) {
 }
 console.log("액터 설명:", adOK, "/", adT);
 console.log("액터 특징:", atOK, "/", atT);
+{ const F = { requirement:0, prerequisite:0, skills:0, banes:0, boons:0, abilities:0, cost:0, appearance:0, weakness:0, notes:0 };
+  const T = { ...F };
+  const chk = (o, e, fields) => { for (const f of fields) { const v = String(o.system?.[f]??"").trim(); if (!v) continue; const t = GAP[f]?.[v]; if (t === v) continue; T[f]++; if (e?.[f] !== undefined) F[f]++; } };
+  for (const [an, r] of Object.entries(ADV)) {
+    for (const it of r.items||[]) chk(it, entries[an].items[it.name] ?? entries[an].items[it._id], GF_ITEM);
+    for (const a of r.actors||[]) { chk(a, entries[an].actors[a.name], GF_ACTOR);
+      for (const it of a.items||[]) chk(it, entries[an].actors[a.name]?.items?.[it.name], GF_ITEM); } }
+  console.log("구조화 필드:", Object.entries(T).filter(([,n])=>n).map(([f,n])=>`${f} ${F[f]}/${n}`).join("  "));
+  const advT = Object.values(ADV).filter(r=>String(r.description||"").trim()).length;
+  const advO = Object.entries(ADV).filter(([an,r])=>entries[an].description).length;
+  console.log("어드벤처 설명:", advO, "/", advT); }
 console.log("\n미번역:");
 for (const [k, v] of Object.entries(missAll)) if (v.size) console.log("  " + k + " (" + v.size + "):", [...v].join(" | "));
