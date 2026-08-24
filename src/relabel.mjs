@@ -24,6 +24,7 @@ export const unknown = new Set();
 export function relabel(s, extra = {}) {
   const D = Object.assign({}, LBL, extra);
   return String(s).replace(/(@[A-Za-z]+\[[^\]]*\])\{([^}]*)\}/g, (m, tag, lab) => {
+    if (/[가-힣]/.test(lab)) return m;                 // 이미 한국어면 통과
     if (D[lab] === undefined) { unknown.add(lab); return m; }
     return tag + "{" + D[lab] + "}";
   });
