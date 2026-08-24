@@ -1,0 +1,14 @@
+import fs from "fs";
+const D = {};
+D["Cadal's Ring"] = `<p>어둠 속에서 볼 수 있게 해 주고(착용자는 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#darkness]{어둠}의 모든 효과를 무시할 수 있습니다) 섬의 사악한 안개로부터 지켜 줍니다. 다만 착용자가 먼저 엘레다인의 축복을 받아야 합니다. @UUID[Actor.sKqlbQLQ2ntcgvIR]{카달}이 축복을 내려 줄 수 있지만, 플레이어 캐릭터가 그의 부탁을 받아들여야만 합니다.</p>`;
+D["Bothild’s Broadaxe"] = `<p>보틸드의 명품 전투도끼로, 주인의 무훈을 새긴 룬으로 장식되어 있습니다.</p>`;
+D["Fiendcrusher"] = `<p>보석이 박힌 훌륭한 경량 워해머. 이 워해머는 마법이 걸려 있어, 지닌 이가 데몬으로부터 10미터 안에 들어오면 붉게 빛납니다.</p>`;
+D["Um-Durman"] = `<p><span style="font-family: QTFrizQuad">아름다운 장식과 보석 박힌 손잡이를 갖춘 명품 무기.</span></p><section id="secret-jXkSu03dRCvI2Sec" class="secret"><p><span style="font-family: QTFrizQuad">움두르만은 무기 마법 부여와 영속이 특별한 형태로 걸린 그레이트소드입니다. 이 검이 드래곤이나 데몬을 맞히면 그 공격은 자동으로 드래곤 굴림으로 칩니다.</span></p></section><img src="modules/dragonbane-coreset/assets/artwork/adventure/um-durman-horizontal.webp">`;
+D["Gilded Chainmail"] = `<p><span style="font-family: QTFrizQuad">도금 사슬 갑옷은 가볍고 유연합니다(방어도 4, 은신 굴림에만 불리점).</span></p>`;
+D["Strange Ornate Dagger"] = `<section id="secret-CkkpUhVrcSYXHiG9" class="secret"><p>@UUID[Actor.B09NjI2lS60bVVfe]{응시자}에게는 2D8의 피해, 그 밖의 상대에게는 평범한 피해.</p></section>`;
+D["Curved Goblin Dagger"] = `<p>굽은 고블린 대거.</p><section id="secret-xxU1DYq57H7vuLvS" class="secret"><p>칼날에 효력 9의 치명적인 독사 독이 발려 있습니다.</p></section>`;
+D["Gilded Crown"] = `<p><span style="font-family: QTFrizQuad">룬이 새겨진 도금 왕관.</span></p><section id="secret-0RbcHJ0SX8QLQOXd" class="secret"><p><span style="font-family: QTFrizQuad">이 왕관에는 데몬의 공격에서 받는 모든 피해를 절반으로 줄이는(올림) 주문이 깃들어 있습니다. 이 효과는 왕관에 새겨진 룬에 설명되어 있으며, 언어 굴림에 성공하면 읽을 수 있습니다.</span></p></section>`;
+D["Army of One"] = `<p>홀로 싸울 때 우선권 카드를 두 장 뽑아 둘 다 지닙니다. 매 라운드 차례를 두 번 갖습니다.</p>`;
+D["Sole Survivor"] = `<p>홀로 모험할 때 상태를 받지 않고 굴림을 밀어붙일 수 있습니다.</p>`;
+fs.writeFileSync("desc_g.json", JSON.stringify(D, null, 1));
+console.log("desc_g:", Object.keys(D).length, "항목");
