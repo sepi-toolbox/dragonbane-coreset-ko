@@ -9,18 +9,25 @@ Hooks.once("babele.init", (babele) => {
      * Babele 기본 매핑은 dnd5e 계열 스키마를 전제한다.
      *   Item.description  → system.description.value
      *   Actor.description → system.details.biography.value
-     * Dragonbane 시스템은 둘 다 평문 필드(system.description)를 쓰며,
-     * 그 밖의 표시 문자열도 system 아래 평문 필드로 흩어져 있다.
+     * Dragonbane은 표시 문자열을 system 아래 평문 필드로 둔다.
      * 경로가 없으면 Babele는 그 필드를 조용히 건너뛰므로(field-mapping.js의
      * translate() early-return), 매핑을 바로잡지 않으면 번역 데이터가 있어도
      * 화면에는 원문이 그대로 나온다.
+     *
+     * ⚠ 아이템 본문은 `system.description`이 아니라 `system.itemDescription`이다.
+     * dragonbane 4.x의 DoDItemBaseData.migrateData가 옛 description을
+     * itemDescription + gmDescription으로 쪼갠 뒤 description을 삭제한다
+     * (modules/data/items/item-base.js). Babele는 CONFIG.DatabaseBackend._getDocuments를
+     * 래핑해 document.toObject()를 번역하므로 = 마이그레이션 "이후" 경로가 기준이다.
+     * 팩 파일에는 아직 옛 이름(description)이 들어 있어 원본만 보면 속는다.
+     * 액터 쪽 필드(description/traits/appearance/weakness/notes)는 개명되지 않았다.
      *
      * registerMapping은 기본 매핑에 병합되므로 name/items/effects/tokenName 등
      * 기존 정의는 그대로 유지된다.
      */
     babele.registerMapping({
         Item: {
-            description: "system.description",   // 아이템·능력·주문 본문
+            description: "system.itemDescription", // 아이템·능력·주문 본문 (4.x 개명 필드)
             requirement: "system.requirement",   // 주문 요구조건 / 능력 요구 기술
             prerequisite: "system.prerequisite", // 선행 주문·학파
             skills: "system.skills",             // 직업 기술 목록

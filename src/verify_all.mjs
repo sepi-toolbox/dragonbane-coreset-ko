@@ -42,6 +42,12 @@ const db = new ClassicLevel("./cspack", { valueEncoding: "json" });
 const ADV = {}; for await (const [k, v] of db.iterator()) ADV[v.name] = v; await db.close();
 const T = JSON.parse(fs.readFileSync("cs_translation.json", "utf8"));
 
+// dragonbane 4.x DoDItemBaseData.migrateData 재현: description -> itemDescription (+ description 삭제)
+const migrateItem = it => { const o = dc(it);
+  if (o.system && o.system.itemDescription === undefined && o.system.description !== undefined) {
+    o.system.itemDescription = o.system.description; o.system.gmDescription ??= ""; delete o.system.description; }
+  return o; };
+
 const CLEAN = s => String(s ?? "")
   .replace(/<[^>]*>/g, " ")
   .replace(/\[\[[^\]]*\]\]/g, " ")
@@ -50,7 +56,7 @@ const CLEAN = s => String(s ?? "")
 const OK = /^(Foundry|VTT|Dragonbane|Fria|Ligan|Patrik|info|frialigan|com|http|https|www|freeleaguepublishing|patrikp|mailto|Drakar|och|Demoner|SATHMOG|Rotar|Ebil|Dough|Not|Ert|Ruo|Gomtas|Rewop|guano|draconis|Sathmog|NPC|HP|WP|RPG|CTRL|STR|CON|AGL|INT|WIL|CHA|Gear|GearTableStart|GearTableEnd|treasure|roll|damage|Core|Set|Rules|Adventures|amp|Tomas|Roger|Andreas|Undhagen|renstam|fvelsson)$/i;
 const engWords = s => [...new Set((CLEAN(s).match(/\b[A-Za-z][A-Za-z'’]{2,}\b/g) || []).filter(w => !OK.test(w)))];
 
-const FIELDS_ITEM  = ["system.description","system.requirement","system.prerequisite","system.skills","system.banes","system.boons","system.abilities","system.cost"];
+const FIELDS_ITEM  = ["system.itemDescription","system.requirement","system.prerequisite","system.skills","system.banes","system.boons","system.abilities","system.cost"];
 const FIELDS_ACTOR = ["system.description","system.traits","system.appearance","system.weakness","system.notes"];
 const bad = [];
 const stat = {};
@@ -72,11 +78,11 @@ const run = (type, src, tr, fields, label) => {
 for (const [an, r] of Object.entries(ADV)) {
   const E = T.entries[an];
   run("Adventure", { name: r.name, description: r.description, caption: r.caption }, E, ["description", "caption"], `Adv:${an}`);
-  for (const it of r.items || []) run("Item", it, E.items[it.name] ?? E.items[it._id], FIELDS_ITEM, `${an}/Item:${it.name}`);
+  for (const it of r.items || []) run("Item", migrateItem(it), E.items[it.name] ?? E.items[it._id], FIELDS_ITEM, `${an}/Item:${it.name}`);
   for (const a of r.actors || []) {
     const ta = E.actors[a.name];
     run("Actor", { ...a, items: [] }, ta, FIELDS_ACTOR, `${an}/Actor:${a.name}`);
-    for (const it of a.items || []) run("Item", it, ta?.items?.[it.name], FIELDS_ITEM, `${an}/${a.name}>${it.name}`);
+    for (const it of a.items || []) run("Item", migrateItem(it), ta?.items?.[it.name], FIELDS_ITEM, `${an}/${a.name}>${it.name}`);
   }
   for (const j of r.journal || []) {
     run("JournalEntry", { name: j.name }, E.journals[j.name], [], `${an}/J:${j.name}`);
