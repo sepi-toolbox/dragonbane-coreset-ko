@@ -14,7 +14,7 @@ for (const r of Object.values(ADV)) for (const t of r.tables || []) {
   for (const x of t.results || []) EN[t.name][x._id] = String(x.description ?? x.text ?? "");
   ENTD[t.name] = String(t.description || "");
 }
-const TOK = s => [...String(s).matchAll(/@UUID\[[^\]]*\]|@Table\[[^\]]*\]|@Compendium\[[^\]]*\]|\[\[\/[^\]]*\]\]/g)].map(m => m[0]).sort().join("|");
+const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\\[[^\\]]*\\]|\\[\\[[^\\]]*\\]\\]/g)].map(m => m[0]).sort().join("|");
 const TAGS = s => { const o = {}; for (const m of String(s).matchAll(/<\/?([a-z][a-z0-9]*)[^>]*>/gi)) { const t = m[1].toLowerCase(); if (["br","img","hr"].includes(t)) continue; o[t] = (o[t]||0) + (m[0][1]==="/"?-1:1); } return o; };
 let ok = 0, bad = 0, orphan = 0;
 for (const [tname, rs] of Object.entries(RES)) {
