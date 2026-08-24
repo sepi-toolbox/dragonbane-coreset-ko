@@ -1,0 +1,5379 @@
+{
+    "label": "드래곤베인 - 코어 세트",
+    "entries": {
+        "Dragonbane - Rules": {
+            "name": "드래곤베인 - 규칙",
+            "folders": {
+                "Dragonbane - Rules": "드래곤베인 - 규칙",
+                "Bestiary": "몬스터 도감",
+                "Common Animals": "흔한 동물",
+                "Elementals": "정령",
+                "Pre-Gen Characters": "기성 캐릭터",
+                "Typical NPCs": "일반 NPC",
+                "Abilities": "능력",
+                "Heroic Abilities": "영웅 능력",
+                "Kin Abilities": "종족 능력",
+                "Gear": "장비",
+                "Animals": "동물",
+                "Armor & Helmets": "갑옷과 투구",
+                "Clothes": "의복",
+                "Containers": "용기",
+                "Hunting & Fishing": "사냥과 낚시",
+                "Light Sources": "광원",
+                "Means of Travel": "이동 수단",
+                "Medicine": "의약품",
+                "Memento": "기념품",
+                "Musical Instruments": "악기",
+                "Services": "서비스",
+                "Studies & Magic": "학문과 마법",
+                "Tools": "도구",
+                "Trade Goods": "교역품",
+                "Kin": "종족",
+                "Professions": "직업",
+                "Skills": "기술",
+                "Core Skills": "기본 기술",
+                "Secondary Skills": "보조 기술",
+                "Weapon Skills": "무기 기술",
+                "Spells": "주문",
+                "Animism": "정령술",
+                "Elementalism": "원소술",
+                "General Magic": "일반 마법",
+                "Mentalism": "정신술",
+                "7. Bestiary": "7. 몬스터 도감",
+                "5. Magic": "5. 마법",
+                "2. Your Player Character": "2. 당신의 플레이어 캐릭터",
+                "4. Combat & Damage": "4. 전투와 피해",
+                "8. Adventures": "8. 어드벤처",
+                "Melee Weapons": "근접 무기",
+                "Ranged Weapons": "원거리 무기",
+                "Dragonbane": "드래곤베인",
+                "Treasure": "보물",
+                "Improvised Weapons": "즉석 무기",
+                "Create Adventure and NPC": "어드벤처와 NPC 만들기",
+                "The Castle of the Robber Knight": "약탈 기사의 성",
+                "Attribute Rolls": "능력치 굴림",
+                "Injuries": "부상"
+            },
+            "journals": {
+                "Preface": {
+                    "name": "머리말",
+                    "pages": {
+                        "Preface": {
+                            "name": "머리말"
+                        }
+                    }
+                },
+                "8. Adventures": {
+                    "name": "8. 어드벤처",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Journeys": {
+                            "name": "여정"
+                        },
+                        "The Gamemaster's Role": {
+                            "name": "게임마스터의 역할"
+                        },
+                        "Non-Player Characters": {
+                            "name": "논플레이어 캐릭터"
+                        },
+                        "Creating Adventures": {
+                            "name": "어드벤처 만들기"
+                        },
+                        "Campaigns": {
+                            "name": "캠페인"
+                        }
+                    }
+                },
+                "7. Bestiary": {
+                    "name": "7. 몬스터 도감",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Demon": {
+                            "name": "데몬"
+                        },
+                        "Dragon": {
+                            "name": "드래곤"
+                        },
+                        "Wight": {
+                            "name": "와이트"
+                        },
+                        "Griffon": {
+                            "name": "그리핀"
+                        },
+                        "Harpy": {
+                            "name": "하피"
+                        },
+                        "Giant": {
+                            "name": "거인"
+                        },
+                        "Giant Spider": {
+                            "name": "거대 거미"
+                        },
+                        "Manticore": {
+                            "name": "만티코어"
+                        },
+                        "Minotaur": {
+                            "name": "미노타우로스"
+                        },
+                        "Orc": {
+                            "name": "오크"
+                        },
+                        "Skeleton": {
+                            "name": "해골"
+                        },
+                        "Ghost": {
+                            "name": "유령"
+                        },
+                        "Goblin": {
+                            "name": "고블린"
+                        },
+                        "Troll": {
+                            "name": "트롤"
+                        },
+                        "Vampiric Bats": {
+                            "name": "흡혈 박쥐"
+                        },
+                        "Common Animals": {
+                            "name": "흔한 동물"
+                        }
+                    }
+                },
+                "6. Gear": {
+                    "name": "6. 장비",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Armor & Helmets": {
+                            "name": "갑옷과 투구"
+                        },
+                        "Melee Weapons": {
+                            "name": "근접 무기"
+                        },
+                        "Ranged Weapons": {
+                            "name": "원거리 무기"
+                        },
+                        "Clothes": {
+                            "name": "의복"
+                        },
+                        "Musical Instruments": {
+                            "name": "악기"
+                        },
+                        "Trade Goods": {
+                            "name": "교역품"
+                        },
+                        "Studies & Magic": {
+                            "name": "학문과 마법"
+                        },
+                        "Light Sources": {
+                            "name": "광원"
+                        },
+                        "Tools": {
+                            "name": "도구"
+                        },
+                        "Containers": {
+                            "name": "용기"
+                        },
+                        "Medicine": {
+                            "name": "의약품"
+                        },
+                        "Services": {
+                            "name": "서비스"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Means of Travel": {
+                            "name": "이동 수단"
+                        },
+                        "Animals": {
+                            "name": "동물"
+                        }
+                    }
+                },
+                "5. Magic": {
+                    "name": "5. 마법",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Schools of Magic": {
+                            "name": "마법 학파"
+                        },
+                        "Spells": {
+                            "name": "주문"
+                        },
+                        "Casting Spells": {
+                            "name": "주문 시전"
+                        },
+                        "Learning Magic": {
+                            "name": "마법 배우기"
+                        },
+                        "Spell List": {
+                            "name": "주문 목록"
+                        }
+                    }
+                },
+                "4. Combat & Damage": {
+                    "name": "4. 전투와 피해",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Rounds & Initiative": {
+                            "name": "라운드와 우선권"
+                        },
+                        "Actions & Movement": {
+                            "name": "행동과 이동"
+                        },
+                        "Melee Combat": {
+                            "name": "근접 전투"
+                        },
+                        "Ranged Combat": {
+                            "name": "원거리 전투"
+                        },
+                        "Damage": {
+                            "name": "피해"
+                        },
+                        "Conditions": {
+                            "name": "상태"
+                        },
+                        "Healing & Resting": {
+                            "name": "치유와 휴식"
+                        },
+                        "Other Hazards": {
+                            "name": "그 밖의 위험"
+                        },
+                        "Riding Animals": {
+                            "name": "탈것 타기"
+                        },
+                        "Improvised Weapons": {
+                            "name": "즉석 무기"
+                        }
+                    }
+                },
+                "3. Skills": {
+                    "name": "3. 기술",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Roll the Dice": {
+                            "name": "주사위 굴리기"
+                        },
+                        "Boons & Banes": {
+                            "name": "이점과 불리점"
+                        },
+                        "Opposed Rolls": {
+                            "name": "대항 굴림"
+                        },
+                        "The Core Skills": {
+                            "name": "기본 기술"
+                        },
+                        "Heroic Abilities": {
+                            "name": "영웅 능력"
+                        }
+                    }
+                },
+                "2. Your Player Character": {
+                    "name": "2. 당신의 플레이어 캐릭터",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "Kin": {
+                            "name": "종족"
+                        },
+                        "Profession": {
+                            "name": "직업"
+                        },
+                        "Age": {
+                            "name": "나이"
+                        },
+                        "Name": {
+                            "name": "이름"
+                        },
+                        "Attributes": {
+                            "name": "능력치"
+                        },
+                        "Derived Ratings": {
+                            "name": "파생 수치"
+                        },
+                        "Skills": {
+                            "name": "기술"
+                        },
+                        "Heroic Abilities": {
+                            "name": "영웅 능력"
+                        },
+                        "Optional Rule: Weakness": {
+                            "name": "선택 규칙: 약점"
+                        },
+                        "Gear": {
+                            "name": "장비"
+                        },
+                        "Encumbrance": {
+                            "name": "소지량"
+                        },
+                        "Appearance": {
+                            "name": "외모"
+                        },
+                        "Experience": {
+                            "name": "경험"
+                        }
+                    }
+                },
+                "1. In the Oldest Times": {
+                    "name": "1. 아주 오래된 시절에",
+                    "pages": {
+                        "Illustration": {
+                            "name": "삽화"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        }
+                    }
+                },
+                "Improvised Weapons": {
+                    "name": "즉석 무기",
+                    "pages": {
+                        "Boiling Cauldron": {
+                            "name": "펄펄 끓는 솥"
+                        },
+                        "Bucket of Soapy Water": {
+                            "name": "비눗물 양동이"
+                        },
+                        "Burning Firewood": {
+                            "name": "타오르는 장작"
+                        },
+                        "Rummaging Pig": {
+                            "name": "먹이를 뒤지는 돼지"
+                        },
+                        "Tables": {
+                            "name": "탁자"
+                        },
+                        "Wine Bottle": {
+                            "name": "포도주병"
+                        },
+                        "Chandelier": {
+                            "name": "샹들리에"
+                        },
+                        "Stalactite": {
+                            "name": "종유석"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        },
+                        "Stalagmite": {
+                            "name": "석순"
+                        },
+                        "Puddle": {
+                            "name": "웅덩이"
+                        },
+                        "Crevice": {
+                            "name": "갈라진 틈"
+                        },
+                        "Bats": {
+                            "name": "박쥐 떼"
+                        },
+                        "Low Branch": {
+                            "name": "낮은 나뭇가지"
+                        },
+                        "Wasp Nest": {
+                            "name": "말벌 집"
+                        },
+                        "Gnarled Roots": {
+                            "name": "뒤엉킨 뿌리"
+                        },
+                        "Boulder": {
+                            "name": "바위"
+                        },
+                        "Viper": {
+                            "name": "독사"
+                        },
+                        "Patch of Dirt": {
+                            "name": "흙바닥"
+                        }
+                    }
+                },
+                "Commands and Macros": {
+                    "name": "명령어와 매크로",
+                    "pages": {
+                        "Commands": {
+                            "name": "명령어"
+                        },
+                        "Macros": {
+                            "name": "매크로"
+                        }
+                    }
+                },
+                "Credits": {
+                    "name": "제작진",
+                    "pages": {
+                        "Credits": {
+                            "name": "제작진"
+                        }
+                    }
+                },
+                "The Castle of the Robber Knight": {
+                    "name": "약탈 기사의 성",
+                    "pages": {
+                        "The Castle of the Robber Knight": {
+                            "name": "약탈 기사의 성"
+                        },
+                        "Introduction": {
+                            "name": "들어가며"
+                        },
+                        "The Situation": {
+                            "name": "상황"
+                        },
+                        "The Castle": {
+                            "name": "성"
+                        },
+                        "Old Road": {
+                            "name": "옛길"
+                        },
+                        "Gate House": {
+                            "name": "문루"
+                        },
+                        "Courtyard": {
+                            "name": "안뜰"
+                        },
+                        "Great Hall": {
+                            "name": "대전당"
+                        },
+                        "Cellar": {
+                            "name": "지하실"
+                        },
+                        "Tower": {
+                            "name": "탑"
+                        },
+                        "The Robber Knight": {
+                            "name": "약탈 기사"
+                        }
+                    }
+                }
+            },
+            "scenes": {
+                "Dragonbane": {
+                    "name": "드래곤베인"
+                },
+                "Battlemap - Field": {
+                    "name": "전투 지도 - 들판"
+                },
+                "Battlemap - Stone": {
+                    "name": "전투 지도 - 석조"
+                },
+                "The Castle of the Robber Knight": {
+                    "name": "약탈 기사의 성"
+                }
+            },
+            "macros": {
+                "Monster - Attack": {
+                    "name": "몬스터 - 공격"
+                },
+                "Monster - Defend": {
+                    "name": "몬스터 - 방어"
+                },
+                "Reset Treasure Cards": {
+                    "name": "보물 카드 초기화"
+                },
+                "Draw Treasure Card": {
+                    "name": "보물 카드 뽑기"
+                },
+                "Draw Treasure Card (no reset)": {
+                    "name": "보물 카드 뽑기 (초기화 없음)"
+                },
+                "Create NPC": {
+                    "name": "NPC 만들기"
+                },
+                "The Quest": {
+                    "name": "임무"
+                },
+                "The Journey": {
+                    "name": "여정"
+                },
+                "The Adventure Site": {
+                    "name": "모험 장소"
+                },
+                "Roll CON": {
+                    "name": "건강 굴림"
+                },
+                "Roll WIL": {
+                    "name": "의지 굴림"
+                },
+                "Roll STR": {
+                    "name": "힘 굴림"
+                },
+                "Roll AGL": {
+                    "name": "민첩 굴림"
+                },
+                "Roll INT": {
+                    "name": "지능 굴림"
+                },
+                "Roll CHA": {
+                    "name": "매력 굴림"
+                }
+            },
+            "tables": {
+                "Monster Attacks - Demon": {
+                    "name": "몬스터 공격 - 데몬"
+                },
+                "Monster Attacks - Demon - Curse": {
+                    "name": "몬스터 공격 - 데몬 - 저주"
+                },
+                "Monster Attacks - Dragon": {
+                    "name": "몬스터 공격 - 드래곤"
+                },
+                "Monster Attacks - Wight": {
+                    "name": "몬스터 공격 - 와이트"
+                },
+                "Monster Attacks - Gnome (1)": {
+                    "name": "몬스터 공격 - 노움 (1)"
+                },
+                "Monster Attacks - Gnome (2)": {
+                    "name": "몬스터 공격 - 노움 (2)"
+                },
+                "Monster Attacks - Gnome (3)": {
+                    "name": "몬스터 공격 - 노움 (3)"
+                },
+                "Monster Attacks - Griffon": {
+                    "name": "몬스터 공격 - 그리핀"
+                },
+                "Monster Attacks - Harpy": {
+                    "name": "몬스터 공격 - 하피"
+                },
+                "Monster Attacks - Giant": {
+                    "name": "몬스터 공격 - 거인"
+                },
+                "Monster Attacks - Giant Spider": {
+                    "name": "몬스터 공격 - 거대 거미"
+                },
+                "Monster Attacks - Manticore": {
+                    "name": "몬스터 공격 - 만티코어"
+                },
+                "Monster Attacks - Minotaur": {
+                    "name": "몬스터 공격 - 미노타우로스"
+                },
+                "Monster Attacks - Salamander(1)": {
+                    "name": "몬스터 공격 - 샐러맨더(1)"
+                },
+                "Monster Attacks - Salamander(2)": {
+                    "name": "몬스터 공격 - 샐러맨더(2)"
+                },
+                "Monster Attacks - Salamander(3)": {
+                    "name": "몬스터 공격 - 샐러맨더(3)"
+                },
+                "Monster Attacks - Ghost": {
+                    "name": "몬스터 공격 - 유령"
+                },
+                "Monster Attacks - Sylph(1)": {
+                    "name": "몬스터 공격 - 실프(1)"
+                },
+                "Monster Attacks - Sylph(2)": {
+                    "name": "몬스터 공격 - 실프(2)"
+                },
+                "Monster Attacks - Sylph(3)": {
+                    "name": "몬스터 공격 - 실프(3)"
+                },
+                "Monster Attacks - Troll": {
+                    "name": "몬스터 공격 - 트롤"
+                },
+                "Monster Attacks - Undine(1)": {
+                    "name": "몬스터 공격 - 운디네(1)"
+                },
+                "Monster Attacks - Undine(2)": {
+                    "name": "몬스터 공격 - 운디네(2)"
+                },
+                "Monster Attacks - Undine(3)": {
+                    "name": "몬스터 공격 - 운디네(3)"
+                },
+                "Monster Attacks - Vampiric Bats": {
+                    "name": "몬스터 공격 - 흡혈 박쥐"
+                },
+                "Mishap - Magic": {
+                    "name": "사고 - 마법"
+                },
+                "Memento": {
+                    "name": "기념품"
+                },
+                "Name - Elf": {
+                    "name": "이름 - 엘프"
+                },
+                "Name - Mallard": {
+                    "name": "이름 - 말라드"
+                },
+                "Name - Dwarf": {
+                    "name": "이름 - 드워프"
+                },
+                "Name - Halfling": {
+                    "name": "이름 - 하플링"
+                },
+                "Name - Human": {
+                    "name": "이름 - 인간"
+                },
+                "Name - Wolfkin": {
+                    "name": "이름 - 울프킨"
+                },
+                "Kin": {
+                    "name": "종족"
+                },
+                "Weakness": {
+                    "name": "약점"
+                },
+                "Nickname - Bard": {
+                    "name": "별명 - 음유시인"
+                },
+                "Nickname - Artisan": {
+                    "name": "별명 - 장인"
+                },
+                "Nickname - Hunter": {
+                    "name": "별명 - 사냥꾼"
+                },
+                "Nickname - Fighter": {
+                    "name": "별명 - 전사"
+                },
+                "Nickname - Scholar": {
+                    "name": "별명 - 학자"
+                },
+                "Nickname - Mage": {
+                    "name": "별명 - 마법사"
+                },
+                "Nickname - Merchant": {
+                    "name": "별명 - 상인"
+                },
+                "Nickname - Knight": {
+                    "name": "별명 - 기사"
+                },
+                "Nickname - Mariner": {
+                    "name": "별명 - 뱃사람"
+                },
+                "Nickname - Thief": {
+                    "name": "별명 - 도적"
+                },
+                "Appearance": {
+                    "name": "외모"
+                },
+                "Profession": {
+                    "name": "직업"
+                },
+                "Profession - Mage": {
+                    "name": "직업 - 마법사"
+                },
+                "Age": {
+                    "name": "나이"
+                },
+                "Gear - Bard": {
+                    "name": "장비 - 음유시인"
+                },
+                "Gear - Artisan": {
+                    "name": "장비 - 장인"
+                },
+                "Gear - Hunter": {
+                    "name": "장비 - 사냥꾼"
+                },
+                "Gear - Fighter": {
+                    "name": "장비 - 전사"
+                },
+                "Gear - Scholar": {
+                    "name": "장비 - 학자"
+                },
+                "Gear - Mage": {
+                    "name": "장비 - 마법사"
+                },
+                "Gear - Merchant": {
+                    "name": "장비 - 상인"
+                },
+                "Gear - Knight": {
+                    "name": "장비 - 기사"
+                },
+                "Gear - Mariner": {
+                    "name": "장비 - 뱃사람"
+                },
+                "Gear - Thief": {
+                    "name": "장비 - 도적"
+                },
+                "Mishap - Ranged": {
+                    "name": "사고 - 원거리"
+                },
+                "Mishap - Melee": {
+                    "name": "사고 - 근접"
+                },
+                "Fear": {
+                    "name": "공포"
+                },
+                "Severe Injury": {
+                    "name": "중상"
+                },
+                "Leaving the Adventure Site": {
+                    "name": "모험 장소를 떠나며"
+                },
+                "Mishap - Journey": {
+                    "name": "사고 - 여정"
+                },
+                "The Journey - 1. The journey is": {
+                    "name": "여정 - 1. 이 여정은"
+                },
+                "The Journey - 2. and ends": {
+                    "name": "여정 - 2. 그리고 끝나는 곳은"
+                },
+                "The Journey - 3. There is an": {
+                    "name": "여정 - 3. 그곳에는"
+                },
+                "The Journey - 4. place": {
+                    "name": "여정 - 4. 장소"
+                },
+                "The Journey - 5. surrounded by": {
+                    "name": "여정 - 5. 둘러싸인 것은"
+                },
+                "The Journey - 6. The place is called": {
+                    "name": "여정 - 6. 그곳의 이름은"
+                },
+                "Create NPC - 1. Attitude": {
+                    "name": "NPC 만들기 - 1. 태도"
+                },
+                "Create NPC - 5. Trait": {
+                    "name": "NPC 만들기 - 5. 특징"
+                },
+                "Create NPC - 4. Motivation": {
+                    "name": "NPC 만들기 - 4. 동기"
+                },
+                "Create NPC - 6. Name": {
+                    "name": "NPC 만들기 - 6. 이름"
+                },
+                "Create NPC - 2. Kin": {
+                    "name": "NPC 만들기 - 2. 종족"
+                },
+                "Create NPC - 3. Profession": {
+                    "name": "NPC 만들기 - 3. 직업"
+                },
+                "The Quest - 1. One day": {
+                    "name": "임무 - 1. 어느 날"
+                },
+                "The Quest - 2. the characters come across": {
+                    "name": "임무 - 2. 캐릭터들이 마주친 것은"
+                },
+                "The Quest - 3. from/about/with": {
+                    "name": "임무 - 3. 출신/에 관한/을 지닌"
+                },
+                "The Quest - 4. who wants to": {
+                    "name": "임무 - 4. 그가 원하는 것은"
+                },
+                "The Quest - 5. a": {
+                    "name": "임무 - 5. 대상"
+                },
+                "The Quest - 6. called": {
+                    "name": "임무 - 6. 그 이름은"
+                },
+                "The Adventure Site - 1. The way in is": {
+                    "name": "모험 장소 - 1. 들어가는 길은"
+                },
+                "The Adventure Site - 2. There is": {
+                    "name": "모험 장소 - 2. 그곳에 있는 것은"
+                },
+                "The Adventure Site - 3. but also unexpected guests in the form of": {
+                    "name": "모험 장소 - 3. 그리고 뜻밖의 손님으로는"
+                },
+                "The Adventure Site - 4. and": {
+                    "name": "모험 장소 - 4. 그리고"
+                },
+                "The Adventure Site - 5. There is a deadly challenge in the form of": {
+                    "name": "모험 장소 - 5. 치명적인 시련으로는"
+                },
+                "The Adventure Site - 6. Finally, the player characters must defeat": {
+                    "name": "모험 장소 - 6. 마지막으로 플레이어 캐릭터들이 물리쳐야 할 것은"
+                },
+                "Treasure": {
+                    "name": "보물"
+                },
+                "Treasure - Armor": {
+                    "name": "보물 - 갑옷"
+                },
+                "Treasure - Book": {
+                    "name": "보물 - 책"
+                },
+                "Treasure - Clothing": {
+                    "name": "보물 - 의복"
+                },
+                "Treasure - Instrument": {
+                    "name": "보물 - 악기"
+                },
+                "Treasure - Mastercrafted Weapon": {
+                    "name": "보물 - 명품 무기"
+                },
+                "Treasure - Melee 1": {
+                    "name": "보물 - 근접 1"
+                },
+                "Treasure - Melee 2": {
+                    "name": "보물 - 근접 2"
+                },
+                "Treasure - Ranged": {
+                    "name": "보물 - 원거리"
+                },
+                "Treasure - Trade Goods": {
+                    "name": "보물 - 교역품"
+                },
+                "Improvised Weapons - Cave": {
+                    "name": "즉석 무기 - 동굴"
+                },
+                "Improvised Weapons - Forest": {
+                    "name": "즉석 무기 - 숲"
+                },
+                "Improvised Weapons - Inn": {
+                    "name": "즉석 무기 - 여관"
+                },
+                "Hunting": {
+                    "name": "사냥"
+                },
+                "Monster Attacks - The Robber Knight": {
+                    "name": "몬스터 공격 - 약탈 기사"
+                },
+                "Random Events - The Castle of the Robber Knight": {
+                    "name": "무작위 사건 - 약탈 기사의 성"
+                }
+            },
+            "items": {
+                "Assassin": {
+                    "name": "암살자"
+                },
+                "Backstabbing": {
+                    "name": "배후 공격"
+                },
+                "Battle Cry": {
+                    "name": "전투 함성"
+                },
+                "Berserker": {
+                    "name": "광전사"
+                },
+                "Catlike": {
+                    "name": "고양이 같은 몸놀림"
+                },
+                "Companion": {
+                    "name": "동료"
+                },
+                "Contortionist": {
+                    "name": "유연한 몸"
+                },
+                "Defensive": {
+                    "name": "방어 태세"
+                },
+                "Deflect Arrow": {
+                    "name": "화살 쳐내기"
+                },
+                "Disguise": {
+                    "name": "변장"
+                },
+                "Double Slash": {
+                    "name": "이중 베기"
+                },
+                "Dragonslayer": {
+                    "name": "용 사냥꾼"
+                },
+                "Dual Wield": {
+                    "name": "쌍수 무기"
+                },
+                "Eagle Eye": {
+                    "name": "매의 눈"
+                },
+                "Fast Footwork": {
+                    "name": "빠른 발놀림"
+                },
+                "Fast Healer": {
+                    "name": "빠른 회복"
+                },
+                "Fearless": {
+                    "name": "두려움 없음"
+                },
+                "Focused": {
+                    "name": "집중"
+                },
+                "Guardian": {
+                    "name": "수호자"
+                },
+                "Insight": {
+                    "name": "통찰"
+                },
+                "Intuition": {
+                    "name": "직감"
+                },
+                "Iron Fist": {
+                    "name": "강철 주먹"
+                },
+                "Iron Grip": {
+                    "name": "강철 손아귀"
+                },
+                "Lightning Fast": {
+                    "name": "번개같이 빠름"
+                },
+                "Lone Wolf": {
+                    "name": "외로운 늑대"
+                },
+                "Magic Talent": {
+                    "name": "마법 재능"
+                },
+                "Massive Blow": {
+                    "name": "강타"
+                },
+                "Master Blacksmith": {
+                    "name": "대장장이 명인"
+                },
+                "Master Carpenter": {
+                    "name": "목수 명인"
+                },
+                "Master Chef": {
+                    "name": "요리 명인"
+                },
+                "Master Spellcaster": {
+                    "name": "주문시전 명인"
+                },
+                "Master Tanner": {
+                    "name": "무두질 명인"
+                },
+                "Monster Hunter": {
+                    "name": "몬스터 사냥꾼"
+                },
+                "Musician": {
+                    "name": "악사"
+                },
+                "Pathfinder": {
+                    "name": "길잡이"
+                },
+                "Quartermaster": {
+                    "name": "보급관"
+                },
+                "Robust": {
+                    "name": "강건함"
+                },
+                "Sea Legs": {
+                    "name": "뱃사람의 다리"
+                },
+                "Shield Block": {
+                    "name": "방패 막기"
+                },
+                "Throwing Arm": {
+                    "name": "투척의 팔"
+                },
+                "Treasure Hunter": {
+                    "name": "보물 사냥꾼"
+                },
+                "Twin Shot": {
+                    "name": "쌍발 사격"
+                },
+                "Veteran": {
+                    "name": "역전의 용사"
+                },
+                "Weasel": {
+                    "name": "족제비"
+                },
+                "Adaptive": {
+                    "name": "적응력"
+                },
+                "Hard to Catch": {
+                    "name": "잡기 어려움"
+                },
+                "Hunting Instincts": {
+                    "name": "사냥 본능"
+                },
+                "Ill-Tempered": {
+                    "name": "성마름"
+                },
+                "Inner Peace": {
+                    "name": "내면의 평화"
+                },
+                "Unforgiving": {
+                    "name": "앙심"
+                },
+                "Webbed Feet": {
+                    "name": "물갈퀴 발"
+                },
+                "Chicken": {
+                    "name": "닭"
+                },
+                "Combat Trained Horse": {
+                    "name": "전투 훈련된 말"
+                },
+                "Cow": {
+                    "name": "소"
+                },
+                "Donkey": {
+                    "name": "당나귀"
+                },
+                "Guard Dog": {
+                    "name": "경비견"
+                },
+                "Homing Pigeon in Cage": {
+                    "name": "새장에 든 전서구"
+                },
+                "Pig": {
+                    "name": "돼지"
+                },
+                "Riding Horse": {
+                    "name": "승용마"
+                },
+                "Sheep": {
+                    "name": "양"
+                },
+                "Chainmail": {
+                    "name": "사슬 갑옷"
+                },
+                "Great Helm": {
+                    "name": "대형 투구"
+                },
+                "Leather": {
+                    "name": "가죽 갑옷"
+                },
+                "Open Helmet": {
+                    "name": "개방형 투구"
+                },
+                "Plate Armor": {
+                    "name": "판금 갑옷"
+                },
+                "Studded Leather": {
+                    "name": "징 박은 가죽 갑옷"
+                },
+                "Boots": {
+                    "name": "장화"
+                },
+                "Cloak": {
+                    "name": "망토"
+                },
+                "Fine Garments": {
+                    "name": "고급 의복"
+                },
+                "Fur": {
+                    "name": "모피"
+                },
+                "Rags": {
+                    "name": "누더기"
+                },
+                "Simple Clothes": {
+                    "name": "평범한 옷"
+                },
+                "Backpack": {
+                    "name": "배낭"
+                },
+                "Barrel": {
+                    "name": "통"
+                },
+                "Basket": {
+                    "name": "바구니"
+                },
+                "Bottle": {
+                    "name": "병"
+                },
+                "Bucket": {
+                    "name": "양동이"
+                },
+                "Chest": {
+                    "name": "궤짝"
+                },
+                "Clay Jug": {
+                    "name": "질항아리"
+                },
+                "Saddle Bag": {
+                    "name": "안장 가방"
+                },
+                "Bear Trap": {
+                    "name": "곰덫"
+                },
+                "Fishing Net": {
+                    "name": "어망"
+                },
+                "Fishing Rod": {
+                    "name": "낚싯대"
+                },
+                "Snare": {
+                    "name": "올가미"
+                },
+                "Flint & Tinder": {
+                    "name": "부싯돌과 부싯깃"
+                },
+                "Lamp Oil": {
+                    "name": "등잔 기름"
+                },
+                "Lantern": {
+                    "name": "랜턴"
+                },
+                "Oil Lamp": {
+                    "name": "기름 등잔"
+                },
+                "Tallow Candle": {
+                    "name": "수지 양초"
+                },
+                "Torch": {
+                    "name": "횃불"
+                },
+                "Canoe": {
+                    "name": "카누"
+                },
+                "Cart": {
+                    "name": "수레"
+                },
+                "Rowing Boat": {
+                    "name": "노 젓는 배"
+                },
+                "Sailing Boat": {
+                    "name": "돛단배"
+                },
+                "Wagon": {
+                    "name": "마차"
+                },
+                "Bandages (10)": {
+                    "name": "붕대 (10개)"
+                },
+                "Healing Potion (dose)": {
+                    "name": "치유 물약 (1회분)"
+                },
+                "Herbal Concoction (dose)": {
+                    "name": "약초 조합액 (1회분)"
+                },
+                "Lethal Poison (dose)": {
+                    "name": "치명적인 독 (1회분)"
+                },
+                "Paralyzing Poison (dose)": {
+                    "name": "마비독 (1회분)"
+                },
+                "Sleeping Poison (dose)": {
+                    "name": "수면독 (1회분)"
+                },
+                "Surgical Instruments": {
+                    "name": "수술 도구"
+                },
+                "A beautifully carved pipe": {
+                    "name": "아름답게 조각된 담뱃대"
+                },
+                "A bone whistle": {
+                    "name": "뼈 호루라기"
+                },
+                "A bracelet": {
+                    "name": "팔찌"
+                },
+                "A copper coin": {
+                    "name": "동전 한 닢"
+                },
+                "A couple of bone dice": {
+                    "name": "뼈 주사위 몇 개"
+                },
+                "A fang": {
+                    "name": "송곳니"
+                },
+                "A griffin feather": {
+                    "name": "그리핀 깃털"
+                },
+                "A map": {
+                    "name": "지도"
+                },
+                "A horn": {
+                    "name": "뿔"
+                },
+                "A letter": {
+                    "name": "편지"
+                },
+                "A locket": {
+                    "name": "로켓"
+                },
+                "A ragged old journal": {
+                    "name": "너덜너덜한 낡은 일지"
+                },
+                "A ring with an inscription": {
+                    "name": "글귀가 새겨진 반지"
+                },
+                "A simple silver medallion": {
+                    "name": "소박한 은메달"
+                },
+                "A strangely shaped stone": {
+                    "name": "기묘한 모양의 돌"
+                },
+                "A wooden figurine": {
+                    "name": "나무 조각상"
+                },
+                "An old pewter tankard": {
+                    "name": "낡은 백랍 잔"
+                },
+                "An ornate key": {
+                    "name": "화려한 열쇠"
+                },
+                "A ragged old hat": {
+                    "name": "너덜너덜한 낡은 모자"
+                },
+                "Your trusty old shoes": {
+                    "name": "믿음직한 낡은 신발"
+                },
+                "Bagpipe": {
+                    "name": "백파이프"
+                },
+                "Drum": {
+                    "name": "북"
+                },
+                "Flute": {
+                    "name": "피리"
+                },
+                "Harp": {
+                    "name": "하프"
+                },
+                "Horn": {
+                    "name": "뿔피리"
+                },
+                "Lyre": {
+                    "name": "리라"
+                },
+                "Bath at an Inn": {
+                    "name": "여관 목욕"
+                },
+                "Bodyguard": {
+                    "name": "호위병"
+                },
+                "Bowl of Stew": {
+                    "name": "스튜 한 그릇"
+                },
+                "Clothes Repair": {
+                    "name": "옷 수선"
+                },
+                "Courier": {
+                    "name": "전령"
+                },
+                "Feast": {
+                    "name": "연회"
+                },
+                "Goblet of Wine": {
+                    "name": "포도주 한 잔"
+                },
+                "Haircut": {
+                    "name": "이발"
+                },
+                "Healing": {
+                    "name": "치료"
+                },
+                "Lodging at Inn, Dormitory": {
+                    "name": "여관 숙박, 공동 침실"
+                },
+                "Lodging at Inn, Luxury Suite": {
+                    "name": "여관 숙박, 특실"
+                },
+                "Lodging at Inn, Separate Room": {
+                    "name": "여관 숙박, 독방"
+                },
+                "Meal at an Inn": {
+                    "name": "여관 식사"
+                },
+                "Road Toll": {
+                    "name": "통행료"
+                },
+                "Stagecoach": {
+                    "name": "역마차"
+                },
+                "Tankard of Mead": {
+                    "name": "벌꿀술 한 잔"
+                },
+                "Teacher": {
+                    "name": "스승"
+                },
+                "Amulet": {
+                    "name": "부적"
+                },
+                "Book": {
+                    "name": "책"
+                },
+                "Brooch": {
+                    "name": "브로치"
+                },
+                "Chalk": {
+                    "name": "분필"
+                },
+                "Grimoire": {
+                    "name": "마법서"
+                },
+                "Hourglass": {
+                    "name": "모래시계"
+                },
+                "Notebook": {
+                    "name": "공책"
+                },
+                "Orbuculum": {
+                    "name": "수정구"
+                },
+                "Paper (sheet)": {
+                    "name": "종이 (1장)"
+                },
+                "Parchment (sheet)": {
+                    "name": "양피지 (1장)"
+                },
+                "Quill & Ink": {
+                    "name": "깃펜과 잉크"
+                },
+                "Reliquary": {
+                    "name": "성유물함"
+                },
+                "Wand": {
+                    "name": "지팡이(완드)"
+                },
+                "Blacksmithing Tools": {
+                    "name": "대장장이 도구"
+                },
+                "Carpentry Tools": {
+                    "name": "목공 도구"
+                },
+                "Crowbar": {
+                    "name": "쇠지레"
+                },
+                "Hammer": {
+                    "name": "망치"
+                },
+                "Needle & Thread": {
+                    "name": "바늘과 실"
+                },
+                "Pickaxe": {
+                    "name": "곡괭이"
+                },
+                "Saw": {
+                    "name": "톱"
+                },
+                "Shovel": {
+                    "name": "삽"
+                },
+                "Sledgehammer": {
+                    "name": "큰 망치"
+                },
+                "Tanning Tools": {
+                    "name": "무두질 도구"
+                },
+                "Abacus": {
+                    "name": "주판"
+                },
+                "Blanket": {
+                    "name": "담요"
+                },
+                "Chess Set": {
+                    "name": "체스 세트"
+                },
+                "Dice": {
+                    "name": "주사위"
+                },
+                "Field Kitchen": {
+                    "name": "야전 취사도구"
+                },
+                "Field Ration": {
+                    "name": "야전 식량"
+                },
+                "Grappling Hook": {
+                    "name": "갈고리"
+                },
+                "Lockpicks (Advanced)": {
+                    "name": "자물쇠 따개 (고급)"
+                },
+                "Lockpicks (Simple)": {
+                    "name": "자물쇠 따개 (보급)"
+                },
+                "Magnifying Glass": {
+                    "name": "돋보기"
+                },
+                "Map": {
+                    "name": "지도"
+                },
+                "Marbles": {
+                    "name": "구슬"
+                },
+                "Padlock": {
+                    "name": "자물쇠"
+                },
+                "Perfume (10 doses)": {
+                    "name": "향수 (10회분)"
+                },
+                "Playing Cards": {
+                    "name": "카드 한 벌"
+                },
+                "Quiver of Arrows (Iron Head)": {
+                    "name": "화살통 (쇠촉)"
+                },
+                "Quiver of Arrows (Wooden Head)": {
+                    "name": "화살통 (나무촉)"
+                },
+                "Rope (Hemp, 10 meters)": {
+                    "name": "밧줄 (삼, 10미터)"
+                },
+                "Rope (Silk, 10 meters)": {
+                    "name": "밧줄 (비단, 10미터)"
+                },
+                "Saddle": {
+                    "name": "안장"
+                },
+                "Sleeping Fur": {
+                    "name": "침낭용 모피"
+                },
+                "Spyglass": {
+                    "name": "망원경"
+                },
+                "Large Tent": {
+                    "name": "큰 천막"
+                },
+                "Small Tent": {
+                    "name": "작은 천막"
+                },
+                "Whistle": {
+                    "name": "호루라기"
+                },
+                "Dwarf": {
+                    "name": "드워프"
+                },
+                "Elf": {
+                    "name": "엘프"
+                },
+                "Halfling": {
+                    "name": "하플링"
+                },
+                "Human": {
+                    "name": "인간"
+                },
+                "Mallard": {
+                    "name": "말라드"
+                },
+                "Wolfkin": {
+                    "name": "울프킨"
+                },
+                "Animist": {
+                    "name": "정령술사"
+                },
+                "Artisan": {
+                    "name": "장인"
+                },
+                "Bard": {
+                    "name": "음유시인"
+                },
+                "Elementalist": {
+                    "name": "원소술사"
+                },
+                "Fighter": {
+                    "name": "전사"
+                },
+                "Hunter": {
+                    "name": "사냥꾼"
+                },
+                "Knight": {
+                    "name": "기사"
+                },
+                "Mariner": {
+                    "name": "뱃사람"
+                },
+                "Merchant": {
+                    "name": "상인"
+                },
+                "Scholar": {
+                    "name": "학자"
+                },
+                "Thief": {
+                    "name": "도적"
+                },
+                "Acrobatics": {
+                    "name": "곡예"
+                },
+                "Awareness": {
+                    "name": "감지"
+                },
+                "Bartering": {
+                    "name": "흥정"
+                },
+                "Beast Lore": {
+                    "name": "야수 지식"
+                },
+                "Bluffing": {
+                    "name": "허풍"
+                },
+                "Bushcraft": {
+                    "name": "야외 생활"
+                },
+                "Crafting": {
+                    "name": "제작"
+                },
+                "Evade": {
+                    "name": "회피"
+                },
+                "Hunting & Fishing": {
+                    "name": "사냥과 낚시"
+                },
+                "Languages": {
+                    "name": "언어"
+                },
+                "Myths & Legends": {
+                    "name": "신화와 전설"
+                },
+                "Performance": {
+                    "name": "공연"
+                },
+                "Persuasion": {
+                    "name": "설득"
+                },
+                "Riding": {
+                    "name": "승마"
+                },
+                "Seamanship": {
+                    "name": "항해"
+                },
+                "Sleight of Hand": {
+                    "name": "손재주"
+                },
+                "Sneaking": {
+                    "name": "은신"
+                },
+                "Spot Hidden": {
+                    "name": "숨은 것 찾기"
+                },
+                "Swimming": {
+                    "name": "수영"
+                },
+                "Animism": {
+                    "name": "정령술"
+                },
+                "Elementalism": {
+                    "name": "원소술"
+                },
+                "Mentalism": {
+                    "name": "정신술"
+                },
+                "Axes": {
+                    "name": "도끼"
+                },
+                "Bows": {
+                    "name": "활"
+                },
+                "Brawling": {
+                    "name": "맨손 싸움"
+                },
+                "Crossbows": {
+                    "name": "석궁"
+                },
+                "Hammers": {
+                    "name": "망치"
+                },
+                "Knives": {
+                    "name": "단검"
+                },
+                "Slings": {
+                    "name": "투석구"
+                },
+                "Spears": {
+                    "name": "창"
+                },
+                "Staves": {
+                    "name": "지팡이"
+                },
+                "Swords": {
+                    "name": "검"
+                },
+                "Animal Whisperer": {
+                    "name": "동물의 속삭임"
+                },
+                "Banish": {
+                    "name": "추방"
+                },
+                "Birdsong": {
+                    "name": "새의 노래"
+                },
+                "Clean": {
+                    "name": "정화"
+                },
+                "Cook Food": {
+                    "name": "요리"
+                },
+                "Engulfing Forest": {
+                    "name": "삼키는 숲"
+                },
+                "Ensnaring Roots": {
+                    "name": "옭아매는 뿌리"
+                },
+                "Floral Trail": {
+                    "name": "꽃길"
+                },
+                "Hairstyle": {
+                    "name": "머리 손질"
+                },
+                "Heal Wound": {
+                    "name": "상처 치유"
+                },
+                "Lightning Bolt": {
+                    "name": "번개 화살"
+                },
+                "Lightning Flash": {
+                    "name": "번개 섬광"
+                },
+                "Purge": {
+                    "name": "정결"
+                },
+                "Restoration": {
+                    "name": "회복"
+                },
+                "Resurrection": {
+                    "name": "소생"
+                },
+                "Sleep": {
+                    "name": "수면"
+                },
+                "Thunderbolt": {
+                    "name": "뇌전"
+                },
+                "Treat Wound": {
+                    "name": "상처 처치"
+                },
+                "Fire Blast": {
+                    "name": "화염 폭발"
+                },
+                "Fireball": {
+                    "name": "화염구"
+                },
+                "Firebird": {
+                    "name": "불새"
+                },
+                "Firestorm": {
+                    "name": "화염 폭풍"
+                },
+                "Frost": {
+                    "name": "서리"
+                },
+                "Gnome": {
+                    "name": "노움"
+                },
+                "Gust of Wind": {
+                    "name": "돌풍"
+                },
+                "Heat/Chill": {
+                    "name": "가열/냉각"
+                },
+                "Ignite": {
+                    "name": "점화"
+                },
+                "Pillar": {
+                    "name": "돌기둥"
+                },
+                "Puff of Smoke": {
+                    "name": "연막"
+                },
+                "Salamander": {
+                    "name": "샐러맨더"
+                },
+                "Shatter": {
+                    "name": "분쇄"
+                },
+                "Stone Shield": {
+                    "name": "돌 방패"
+                },
+                "Stone Skin": {
+                    "name": "돌 피부"
+                },
+                "Stonewall": {
+                    "name": "돌벽"
+                },
+                "Sylph": {
+                    "name": "실프"
+                },
+                "Tidal Wave": {
+                    "name": "해일"
+                },
+                "Undine": {
+                    "name": "운디네"
+                },
+                "Whirlwind": {
+                    "name": "회오리바람"
+                },
+                "Charge": {
+                    "name": "충전"
+                },
+                "Dispel": {
+                    "name": "마법 해제"
+                },
+                "Fetch": {
+                    "name": "끌어오기"
+                },
+                "Flick": {
+                    "name": "튕기기"
+                },
+                "Light": {
+                    "name": "빛"
+                },
+                "Magic Seal": {
+                    "name": "마법 봉인"
+                },
+                "Magic Shield": {
+                    "name": "마법 방패"
+                },
+                "Open/Close": {
+                    "name": "열기/닫기"
+                },
+                "Permanence": {
+                    "name": "영속"
+                },
+                "Protector": {
+                    "name": "수호"
+                },
+                "Repair Clothes": {
+                    "name": "옷 수선"
+                },
+                "Sense Magic": {
+                    "name": "마법 감지"
+                },
+                "Transfer": {
+                    "name": "전이"
+                },
+                "Divination": {
+                    "name": "점술"
+                },
+                "Dominate": {
+                    "name": "지배"
+                },
+                "Enchant Weapon": {
+                    "name": "무기 마법 부여"
+                },
+                "Farsight": {
+                    "name": "원시"
+                },
+                "Flight": {
+                    "name": "비행"
+                },
+                "Levitate": {
+                    "name": "부양"
+                },
+                "Lock/Unlock": {
+                    "name": "잠그기/열기"
+                },
+                "Longstrider": {
+                    "name": "성큼걸음"
+                },
+                "Magic Stool": {
+                    "name": "마법 의자"
+                },
+                "Mental Strike": {
+                    "name": "정신 타격"
+                },
+                "Power Fist": {
+                    "name": "힘의 주먹"
+                },
+                "Scrying": {
+                    "name": "원격 투시"
+                },
+                "Slow Fall": {
+                    "name": "낙하 감속"
+                },
+                "Telepathy": {
+                    "name": "정신 감응"
+                },
+                "Teleport": {
+                    "name": "순간이동"
+                },
+                "Broadsword": {
+                    "name": "브로드소드"
+                },
+                "Dagger": {
+                    "name": "대거"
+                },
+                "Handaxe": {
+                    "name": "손도끼"
+                },
+                "Halberd": {
+                    "name": "할버드"
+                },
+                "Knife": {
+                    "name": "나이프"
+                },
+                "Short Spear": {
+                    "name": "짧은 창"
+                },
+                "Short Sword": {
+                    "name": "숏소드"
+                },
+                "Scimitar": {
+                    "name": "시미터"
+                },
+                "Lance": {
+                    "name": "랜스"
+                },
+                "Long Spear": {
+                    "name": "긴 창"
+                },
+                "Morningstar": {
+                    "name": "모닝스타"
+                },
+                "Unarmed": {
+                    "name": "비무장"
+                },
+                "Parrying Dagger": {
+                    "name": "방어용 대거"
+                },
+                "Small Shield": {
+                    "name": "작은 방패"
+                },
+                "Large Shield": {
+                    "name": "큰 방패"
+                },
+                "Longsword": {
+                    "name": "롱소드"
+                },
+                "Flail": {
+                    "name": "플레일"
+                },
+                "Light Warhammer": {
+                    "name": "경량 워해머"
+                },
+                "Heavy Warhammer": {
+                    "name": "중량 워해머"
+                },
+                "Mace": {
+                    "name": "메이스"
+                },
+                "Battleaxe": {
+                    "name": "전투도끼"
+                },
+                "Light Blunt Object": {
+                    "name": "가벼운 둔기"
+                },
+                "Heavy Blunt Object": {
+                    "name": "무거운 둔기"
+                },
+                "Trident": {
+                    "name": "삼지창"
+                },
+                "Small Wooden Club": {
+                    "name": "작은 나무 곤봉"
+                },
+                "Large Wooden Club": {
+                    "name": "큰 나무 곤봉"
+                },
+                "Staff": {
+                    "name": "지팡이"
+                },
+                "Greatsword": {
+                    "name": "그레이트소드"
+                },
+                "Two-Handed Axe": {
+                    "name": "양손 도끼"
+                },
+                "Hand Crossbow": {
+                    "name": "손 석궁"
+                },
+                "Light Crossbow": {
+                    "name": "경량 석궁"
+                },
+                "Heavy Crossbow": {
+                    "name": "중량 석궁"
+                },
+                "Short Bow": {
+                    "name": "짧은 활"
+                },
+                "Longbow": {
+                    "name": "긴 활"
+                },
+                "Sling": {
+                    "name": "투석구"
+                },
+                "Mentalist": {
+                    "name": "정신술사"
+                },
+                "Chalice": {
+                    "name": "성배"
+                },
+                "Gemstone": {
+                    "name": "보석"
+                },
+                "Gold Amulet": {
+                    "name": "금 부적"
+                },
+                "Gold Bracelet": {
+                    "name": "금 팔찌"
+                },
+                "Gold Necklace": {
+                    "name": "금 목걸이"
+                },
+                "Gold Ring": {
+                    "name": "금반지"
+                },
+                "Mastercrafted Battleaxe": {
+                    "name": "명품 전투도끼"
+                },
+                "Mastercrafted Broadsword": {
+                    "name": "명품 브로드소드"
+                },
+                "Mastercrafted Dagger": {
+                    "name": "명품 대거"
+                },
+                "Mastercrafted Heavy Warhammer": {
+                    "name": "명품 중량 워해머"
+                },
+                "Mastercrafted Longsword": {
+                    "name": "명품 롱소드"
+                },
+                "Mastercrafted Short Sword": {
+                    "name": "명품 숏소드"
+                },
+                "Poison Dagger": {
+                    "name": "독 바른 대거"
+                },
+                "Silver Bracelet": {
+                    "name": "은 팔찌"
+                },
+                "Silver Brooch": {
+                    "name": "은 브로치"
+                },
+                "Silver Necklace": {
+                    "name": "은 목걸이"
+                },
+                "Silver Ring": {
+                    "name": "은반지"
+                },
+                "Amnesia": {
+                    "name": "기억 상실"
+                },
+                "Broken arm": {
+                    "name": "부러진 팔"
+                },
+                "Broken leg": {
+                    "name": "부러진 다리"
+                },
+                "Broken nose": {
+                    "name": "부러진 코"
+                },
+                "Broken ribs": {
+                    "name": "부러진 갈비뼈"
+                },
+                "Changed personality": {
+                    "name": "변해 버린 성격"
+                },
+                "Concussion": {
+                    "name": "뇌진탕"
+                },
+                "Deep wounds": {
+                    "name": "깊은 상처"
+                },
+                "Gouged eye": {
+                    "name": "찢긴 눈"
+                },
+                "Nightmares": {
+                    "name": "악몽"
+                },
+                "Scarred face": {
+                    "name": "흉터진 얼굴"
+                },
+                "Severed finger": {
+                    "name": "잘린 손가락"
+                },
+                "Severed toe": {
+                    "name": "잘린 발가락"
+                },
+                "Teeth knocked out": {
+                    "name": "부러진 이"
+                }
+            },
+            "actors": {
+                "Demon": {
+                    "name": "데몬",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Dragon": {
+                    "name": "드래곤",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Ghost": {
+                    "name": "유령",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Giant": {
+                    "name": "거인",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Giant Spider": {
+                    "name": "거대 거미",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Goblin - Scout": {
+                    "name": "고블린 - 정찰병",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Short Bow": {
+                            "name": "짧은 활"
+                        },
+                        "Short Sword": {
+                            "name": "숏소드"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        }
+                    }
+                },
+                "Goblin - Warrior": {
+                    "name": "고블린 - 전사",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        },
+                        "Long Spear": {
+                            "name": "긴 창"
+                        }
+                    }
+                },
+                "Griffon": {
+                    "name": "그리핀",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Harpy": {
+                    "name": "하피",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Manticore": {
+                    "name": "만티코어",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Minotaur": {
+                    "name": "미노타우로스",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Two-Handed Axe": {
+                            "name": "양손 도끼"
+                        }
+                    }
+                },
+                "Orc - Chieftain": {
+                    "name": "오크 - 족장",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Scimitar": {
+                            "name": "시미터"
+                        },
+                        "Chainmail": {
+                            "name": "사슬 갑옷"
+                        },
+                        "Veteran": {
+                            "name": "역전의 용사"
+                        },
+                        "Defensive": {
+                            "name": "방어 태세"
+                        },
+                        "Dual Wield": {
+                            "name": "쌍수 무기"
+                        },
+                        "Robust": {
+                            "name": "강건함"
+                        }
+                    }
+                },
+                "Orc - Shaman": {
+                    "name": "오크 - 주술사",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Animism": {
+                            "name": "정령술"
+                        },
+                        "Staff": {
+                            "name": "지팡이"
+                        },
+                        "Ensnaring Roots": {
+                            "name": "옭아매는 뿌리"
+                        },
+                        "Lightning Flash": {
+                            "name": "번개 섬광"
+                        },
+                        "Treat Wound": {
+                            "name": "상처 처치"
+                        }
+                    }
+                },
+                "Orc - Warrior": {
+                    "name": "오크 - 전사",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Scimitar": {
+                            "name": "시미터"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        }
+                    }
+                },
+                "Skeleton - Archer": {
+                    "name": "해골 - 궁수",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        },
+                        "Dagger": {
+                            "name": "대거"
+                        },
+                        "Light Crossbow": {
+                            "name": "경량 석궁"
+                        }
+                    }
+                },
+                "Skeleton - Champion": {
+                    "name": "해골 - 챔피언",
+                    "items": {
+                        "Longsword": {
+                            "name": "롱소드"
+                        },
+                        "Large Shield": {
+                            "name": "큰 방패"
+                        },
+                        "Chainmail": {
+                            "name": "사슬 갑옷"
+                        },
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Veteran": {
+                            "name": "역전의 용사"
+                        },
+                        "Defensive": {
+                            "name": "방어 태세"
+                        },
+                        "Double Slash": {
+                            "name": "이중 베기"
+                        },
+                        "Robust": {
+                            "name": "강건함"
+                        }
+                    }
+                },
+                "Skeleton - Warrior": {
+                    "name": "해골 - 전사",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Short Sword": {
+                            "name": "숏소드"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        }
+                    }
+                },
+                "Troll": {
+                    "name": "트롤",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Vampiric Bats": {
+                    "name": "흡혈 박쥐",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Wight": {
+                    "name": "와이트",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Morningstar": {
+                            "name": "모닝스타"
+                        },
+                        "Chainmail": {
+                            "name": "사슬 갑옷"
+                        },
+                        "Power Attack!": {
+                            "name": "강타!"
+                        }
+                    }
+                },
+                "Bear": {
+                    "name": "곰",
+                    "items": {
+                        "Bite": {
+                            "name": "물기"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        }
+                    }
+                },
+                "Cat": {
+                    "name": "고양이",
+                    "items": {
+                        "Bite": {
+                            "name": "물기"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        }
+                    }
+                },
+                "Deer": {
+                    "name": "사슴",
+                    "items": {
+                        "Horns": {
+                            "name": "뿔"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        }
+                    }
+                },
+                "Dog": {
+                    "name": "개",
+                    "items": {
+                        "Bite": {
+                            "name": "물기"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        }
+                    }
+                },
+                "Donkey": {
+                    "name": "당나귀",
+                    "items": {
+                        "Kick": {
+                            "name": "걷어차기"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Fox": {
+                    "name": "여우",
+                    "items": {
+                        "Bite": {
+                            "name": "물기"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        }
+                    }
+                },
+                "Goat": {
+                    "name": "염소",
+                    "items": {
+                        "Horns": {
+                            "name": "뿔"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Horse": {
+                    "name": "말",
+                    "items": {
+                        "Kick": {
+                            "name": "걷어차기"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        }
+                    }
+                },
+                "Moose": {
+                    "name": "무스",
+                    "items": {
+                        "Horns": {
+                            "name": "뿔"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Wild Boar": {
+                    "name": "멧돼지",
+                    "items": {
+                        "Tusks": {
+                            "name": "엄니"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Wolf": {
+                    "name": "늑대",
+                    "items": {
+                        "Bite": {
+                            "name": "물기"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        }
+                    }
+                },
+                "Gnome (power level 1)": {
+                    "name": "노움 (위력 레벨 1)",
+                    "items": {
+                        "Pillar": {
+                            "name": "돌기둥"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Gnome (power level 2)": {
+                    "name": "노움 (위력 레벨 2)",
+                    "items": {
+                        "Pillar": {
+                            "name": "돌기둥"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Gnome (power level 3)": {
+                    "name": "노움 (위력 레벨 3)",
+                    "items": {
+                        "Pillar": {
+                            "name": "돌기둥"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Salamander (power level 1)": {
+                    "name": "샐러맨더 (위력 레벨 1)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Fire Blast": {
+                            "name": "화염 폭발"
+                        }
+                    }
+                },
+                "Salamander (power level 2)": {
+                    "name": "샐러맨더 (위력 레벨 2)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Fire Blast": {
+                            "name": "화염 폭발"
+                        }
+                    }
+                },
+                "Salamander (power level 3)": {
+                    "name": "샐러맨더 (위력 레벨 3)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Fire Blast": {
+                            "name": "화염 폭발"
+                        }
+                    }
+                },
+                "Sylph (power level 1)": {
+                    "name": "실프 (위력 레벨 1)",
+                    "items": {
+                        "Gust of Wind": {
+                            "name": "돌풍"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Sylph (power level 2)": {
+                    "name": "실프 (위력 레벨 2)",
+                    "items": {
+                        "Gust of Wind": {
+                            "name": "돌풍"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Sylph (power level 3)": {
+                    "name": "실프 (위력 레벨 3)",
+                    "items": {
+                        "Gust of Wind": {
+                            "name": "돌풍"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        }
+                    }
+                },
+                "Undine (power level 1)": {
+                    "name": "운디네 (위력 레벨 1)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Tidal Wave": {
+                            "name": "해일"
+                        }
+                    }
+                },
+                "Undine (power level 2)": {
+                    "name": "운디네 (위력 레벨 2)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Tidal Wave": {
+                            "name": "해일"
+                        }
+                    }
+                },
+                "Undine (power level 3)": {
+                    "name": "운디네 (위력 레벨 3)",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Tidal Wave": {
+                            "name": "해일"
+                        }
+                    }
+                },
+                "Archmaster Aodhan": {
+                    "name": "대사범 아오단",
+                    "items": {
+                        "Human": {
+                            "name": "인간"
+                        },
+                        "Adaptive": {
+                            "name": "적응력"
+                        },
+                        "Elementalist": {
+                            "name": "원소술사"
+                        },
+                        "Elementalism": {
+                            "name": "원소술"
+                        },
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Staff": {
+                            "name": "지팡이"
+                        },
+                        "Fireball": {
+                            "name": "화염구"
+                        },
+                        "Pillar": {
+                            "name": "돌기둥"
+                        },
+                        "Gust of Wind": {
+                            "name": "돌풍"
+                        },
+                        "Heat/Chill": {
+                            "name": "가열/냉각"
+                        },
+                        "Puff of Smoke": {
+                            "name": "연막"
+                        },
+                        "Ignite": {
+                            "name": "점화"
+                        },
+                        "Grimoire": {
+                            "name": "마법서"
+                        },
+                        "Flint & Tinder": {
+                            "name": "부싯돌과 부싯깃"
+                        },
+                        "Worn diary": {
+                            "name": "닳은 일기장"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        }
+                    }
+                },
+                "Bastonn Bloodjaw": {
+                    "name": "바스톤 블러드조",
+                    "items": {
+                        "Wolfkin": {
+                            "name": "울프킨"
+                        },
+                        "Hunting Instincts": {
+                            "name": "사냥 본능"
+                        },
+                        "Fighter": {
+                            "name": "전사"
+                        },
+                        "Veteran": {
+                            "name": "역전의 용사"
+                        },
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Flint & Tinder": {
+                            "name": "부싯돌과 부싯깃"
+                        },
+                        "Long Spear": {
+                            "name": "긴 창"
+                        },
+                        "Short Spear": {
+                            "name": "짧은 창"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        },
+                        "Blue bottle of perfume": {
+                            "name": "파란 향수병"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        }
+                    }
+                },
+                "Krisanna the Bold": {
+                    "name": "대담한 크리산나",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Halfling": {
+                            "name": "하플링"
+                        },
+                        "Hard to Catch": {
+                            "name": "잡기 어려움"
+                        },
+                        "Thief": {
+                            "name": "도적"
+                        },
+                        "Backstabbing": {
+                            "name": "배후 공격"
+                        },
+                        "Lockpicks (Simple)": {
+                            "name": "자물쇠 따개 (보급)"
+                        },
+                        "Flint & Tinder": {
+                            "name": "부싯돌과 부싯깃"
+                        },
+                        "Dagger": {
+                            "name": "대거"
+                        },
+                        "Knife": {
+                            "name": "나이프"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        },
+                        "A treasure map": {
+                            "name": "보물 지도"
+                        },
+                        "Rope (Hemp, 10 meters)": {
+                            "name": "밧줄 (삼, 10미터)"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        }
+                    }
+                },
+                "Makander of Halfbay": {
+                    "name": "하프베이의 마칸데르",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Mallard": {
+                            "name": "말라드"
+                        },
+                        "Ill-Tempered": {
+                            "name": "성마름"
+                        },
+                        "Webbed Feet": {
+                            "name": "물갈퀴 발"
+                        },
+                        "Knight": {
+                            "name": "기사"
+                        },
+                        "Guardian": {
+                            "name": "수호자"
+                        },
+                        "Flint & Tinder": {
+                            "name": "부싯돌과 부싯깃"
+                        },
+                        "Battleaxe": {
+                            "name": "전투도끼"
+                        },
+                        "Short Sword": {
+                            "name": "숏소드"
+                        },
+                        "Small Shield": {
+                            "name": "작은 방패"
+                        },
+                        "Plate Armor": {
+                            "name": "판금 갑옷"
+                        },
+                        "A fine pipe": {
+                            "name": "고급 담뱃대"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        }
+                    }
+                },
+                "Orla Moonsilver": {
+                    "name": "오를라 문실버",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Elf": {
+                            "name": "엘프"
+                        },
+                        "Inner Peace": {
+                            "name": "내면의 평화"
+                        },
+                        "Hunter": {
+                            "name": "사냥꾼"
+                        },
+                        "Twin Shot": {
+                            "name": "쌍발 사격"
+                        },
+                        "Quiver of Arrows (Iron Head)": {
+                            "name": "화살통 (쇠촉)"
+                        },
+                        "Flint & Tinder": {
+                            "name": "부싯돌과 부싯깃"
+                        },
+                        "Fang from a troll": {
+                            "name": "트롤의 송곳니"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        },
+                        "Longbow": {
+                            "name": "긴 활"
+                        },
+                        "Knife": {
+                            "name": "나이프"
+                        },
+                        "Rope (Hemp, 10 meters)": {
+                            "name": "밧줄 (삼, 10미터)"
+                        },
+                        "Torch": {
+                            "name": "횃불"
+                        }
+                    }
+                },
+                "Adventurer": {
+                    "name": "모험가",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Broadsword": {
+                            "name": "브로드소드"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        }
+                    }
+                },
+                "Archmage (Boss)": {
+                    "name": "대마법사 (보스)",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Elementalism": {
+                            "name": "원소술"
+                        },
+                        "Focused": {
+                            "name": "집중"
+                        },
+                        "Master Spellcaster": {
+                            "name": "주문시전 명인"
+                        },
+                        "Robust": {
+                            "name": "강건함"
+                        },
+                        "Staff": {
+                            "name": "지팡이"
+                        },
+                        "Grimoire": {
+                            "name": "마법서"
+                        }
+                    }
+                },
+                "Bandit": {
+                    "name": "산적",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Short Bow": {
+                            "name": "짧은 활"
+                        },
+                        "Short Sword": {
+                            "name": "숏소드"
+                        }
+                    }
+                },
+                "Bandit Chief (Boss)": {
+                    "name": "산적 두목 (보스)",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Berserker": {
+                            "name": "광전사"
+                        },
+                        "Veteran": {
+                            "name": "역전의 용사"
+                        },
+                        "Robust": {
+                            "name": "강건함"
+                        },
+                        "Heavy Warhammer": {
+                            "name": "중량 워해머"
+                        },
+                        "Chainmail": {
+                            "name": "사슬 갑옷"
+                        },
+                        "Open Helmet": {
+                            "name": "개방형 투구"
+                        }
+                    }
+                },
+                "Cultist": {
+                    "name": "광신도",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Dagger": {
+                            "name": "대거"
+                        }
+                    }
+                },
+                "Guard": {
+                    "name": "경비병",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Broadsword": {
+                            "name": "브로드소드"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        }
+                    }
+                },
+                "Hunter": {
+                    "name": "사냥꾼",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Longbow": {
+                            "name": "긴 활"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        }
+                    }
+                },
+                "Knight Champion (Boss)": {
+                    "name": "기사 챔피언 (보스)",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Large Shield": {
+                            "name": "큰 방패"
+                        },
+                        "Longsword": {
+                            "name": "롱소드"
+                        },
+                        "Plate Armor": {
+                            "name": "판금 갑옷"
+                        },
+                        "Great Helm": {
+                            "name": "대형 투구"
+                        },
+                        "Defensive": {
+                            "name": "방어 태세"
+                        },
+                        "Double Slash": {
+                            "name": "이중 베기"
+                        },
+                        "Focused": {
+                            "name": "집중"
+                        },
+                        "Robust": {
+                            "name": "강건함"
+                        }
+                    }
+                },
+                "Scholar": {
+                    "name": "학자",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Book": {
+                            "name": "책"
+                        }
+                    }
+                },
+                "Thief": {
+                    "name": "도둑",
+                    "items": {
+                        "Knife": {
+                            "name": "나이프"
+                        },
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        }
+                    }
+                },
+                "Villager": {
+                    "name": "마을 사람",
+                    "items": {
+                        "Light Blunt Object": {
+                            "name": "가벼운 둔기"
+                        },
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        }
+                    }
+                },
+                "Goblin": {
+                    "name": "고블린",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Short Bow": {
+                            "name": "짧은 활"
+                        },
+                        "Short Sword": {
+                            "name": "숏소드"
+                        },
+                        "Leather": {
+                            "name": "가죽 갑옷"
+                        }
+                    }
+                },
+                "Grunta": {
+                    "name": "그룬타",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Small Wooden Club": {
+                            "name": "작은 나무 곤봉"
+                        }
+                    }
+                },
+                "Jaldo": {
+                    "name": "잘도",
+                    "items": {
+                        "Acrobatics": {
+                            "name": "곡예"
+                        },
+                        "Awareness": {
+                            "name": "감지"
+                        },
+                        "Bartering": {
+                            "name": "흥정"
+                        },
+                        "Beast Lore": {
+                            "name": "야수 지식"
+                        },
+                        "Bluffing": {
+                            "name": "허풍"
+                        },
+                        "Bushcraft": {
+                            "name": "야외 생활"
+                        },
+                        "Crafting": {
+                            "name": "제작"
+                        },
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Healing": {
+                            "name": "치료"
+                        },
+                        "Hunting & Fishing": {
+                            "name": "사냥과 낚시"
+                        },
+                        "Languages": {
+                            "name": "언어"
+                        },
+                        "Myths & Legends": {
+                            "name": "신화와 전설"
+                        },
+                        "Performance": {
+                            "name": "공연"
+                        },
+                        "Persuasion": {
+                            "name": "설득"
+                        },
+                        "Riding": {
+                            "name": "승마"
+                        },
+                        "Seamanship": {
+                            "name": "항해"
+                        },
+                        "Sleight of Hand": {
+                            "name": "손재주"
+                        },
+                        "Sneaking": {
+                            "name": "은신"
+                        },
+                        "Spot Hidden": {
+                            "name": "숨은 것 찾기"
+                        },
+                        "Swimming": {
+                            "name": "수영"
+                        },
+                        "Axes": {
+                            "name": "도끼"
+                        },
+                        "Bows": {
+                            "name": "활"
+                        },
+                        "Brawling": {
+                            "name": "맨손 싸움"
+                        },
+                        "Crossbows": {
+                            "name": "석궁"
+                        },
+                        "Hammers": {
+                            "name": "망치"
+                        },
+                        "Knives": {
+                            "name": "단검"
+                        },
+                        "Slings": {
+                            "name": "투석구"
+                        },
+                        "Spears": {
+                            "name": "창"
+                        },
+                        "Staves": {
+                            "name": "지팡이"
+                        },
+                        "Swords": {
+                            "name": "검"
+                        },
+                        "Scimitar": {
+                            "name": "시미터"
+                        },
+                        "Studded Leather": {
+                            "name": "징 박은 가죽 갑옷"
+                        },
+                        "Open Helmet": {
+                            "name": "개방형 투구"
+                        }
+                    }
+                },
+                "The Robber Knight": {
+                    "name": "약탈 기사",
+                    "items": {
+                        "Evade": {
+                            "name": "회피"
+                        },
+                        "Morningstar": {
+                            "name": "모닝스타"
+                        }
+                    }
+                }
+            },
+            "cards": {
+                "Treasure": {
+                    "name": "보물"
+                },
+                "Initiative": {
+                    "name": "우선권"
+                },
+                "Improvised Weapon - Inn": {
+                    "name": "즉석 무기 - 여관"
+                },
+                "Improvised Weapon - Forest": {
+                    "name": "즉석 무기 - 숲"
+                },
+                "Improvised Weapon - Cave": {
+                    "name": "즉석 무기 - 동굴"
+                }
+            }
+        }
+    }
+}

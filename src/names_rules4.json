@@ -1,0 +1,58 @@
+{
+"journals": {
+  "Preface": { "name": "머리말", "pages": { "Preface": "머리말" } },
+  "1. In the Oldest Times": { "name": "1. 아주 오래된 시절에", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며" } },
+  "2. Your Player Character": { "name": "2. 당신의 플레이어 캐릭터", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Kin": "종족", "Profession": "직업",
+    "Age": "나이", "Name": "이름", "Attributes": "능력치", "Derived Ratings": "파생 수치",
+    "Skills": "기술", "Heroic Abilities": "영웅 능력", "Optional Rule: Weakness": "선택 규칙: 약점",
+    "Gear": "장비", "Encumbrance": "소지량", "Appearance": "외모", "Experience": "경험" } },
+  "3. Skills": { "name": "3. 기술", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Roll the Dice": "주사위 굴리기",
+    "Boons & Banes": "이점과 불리점", "Opposed Rolls": "대항 굴림", "The Core Skills": "기본 기술",
+    "Heroic Abilities": "영웅 능력" } },
+  "4. Combat & Damage": { "name": "4. 전투와 피해", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Rounds & Initiative": "라운드와 우선권",
+    "Actions & Movement": "행동과 이동", "Melee Combat": "근접 전투", "Ranged Combat": "원거리 전투",
+    "Damage": "피해", "Conditions": "상태", "Healing & Resting": "치유와 휴식",
+    "Other Hazards": "그 밖의 위험", "Riding Animals": "탈것 타기", "Improvised Weapons": "즉석 무기" } },
+  "5. Magic": { "name": "5. 마법", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Schools of Magic": "마법 학파",
+    "Spells": "주문", "Casting Spells": "주문 시전", "Learning Magic": "마법 배우기",
+    "Spell List": "주문 목록" } },
+  "6. Gear": { "name": "6. 장비", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Armor & Helmets": "갑옷과 투구",
+    "Melee Weapons": "근접 무기", "Ranged Weapons": "원거리 무기", "Clothes": "의복",
+    "Musical Instruments": "악기", "Trade Goods": "교역품", "Studies & Magic": "학문과 마법",
+    "Light Sources": "광원", "Tools": "도구", "Containers": "용기", "Medicine": "의약품",
+    "Services": "서비스", "Hunting & Fishing": "사냥과 낚시", "Means of Travel": "이동 수단",
+    "Animals": "동물" } },
+  "7. Bestiary": { "name": "7. 몬스터 도감", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Demon": "데몬", "Dragon": "드래곤",
+    "Wight": "와이트", "Griffon": "그리핀", "Harpy": "하피", "Giant": "거인",
+    "Giant Spider": "거대 거미", "Manticore": "만티코어", "Minotaur": "미노타우로스",
+    "Orc": "오크", "Skeleton": "해골", "Ghost": "유령", "Goblin": "고블린", "Troll": "트롤",
+    "Vampiric Bats": "흡혈 박쥐", "Common Animals": "흔한 동물" } },
+  "8. Adventures": { "name": "8. 어드벤처", "pages": {
+    "Illustration": "삽화", "Introduction": "들어가며", "Journeys": "여정",
+    "The Gamemaster's Role": "게임마스터의 역할", "Non-Player Characters": "논플레이어 캐릭터",
+    "Creating Adventures": "어드벤처 만들기", "Campaigns": "캠페인" } },
+  "Improvised Weapons": { "name": "즉석 무기", "pages": {
+    "Boiling Cauldron": "펄펄 끓는 솥", "Bucket of Soapy Water": "비눗물 양동이",
+    "Burning Firewood": "타오르는 장작", "Rummaging Pig": "먹이를 뒤지는 돼지",
+    "Tables": "탁자", "Wine Bottle": "포도주병", "Chandelier": "샹들리에",
+    "Stalactite": "종유석", "Torch": "횃불", "Stalagmite": "석순", "Puddle": "웅덩이",
+    "Crevice": "갈라진 틈", "Bats": "박쥐 떼", "Low Branch": "낮은 나뭇가지",
+    "Wasp Nest": "말벌 집", "Gnarled Roots": "뒤엉킨 뿌리", "Boulder": "바위",
+    "Viper": "독사", "Patch of Dirt": "흙바닥" } },
+  "Commands and Macros": { "name": "명령어와 매크로", "pages": {
+    "Commands": "명령어", "Macros": "매크로" } },
+  "Credits": { "name": "제작진", "pages": { "Credits": "제작진" } },
+  "The Castle of the Robber Knight": { "name": "약탈 기사의 성", "pages": {
+    "The Castle of the Robber Knight": "약탈 기사의 성", "Introduction": "들어가며",
+    "The Situation": "상황", "The Castle": "성", "Old Road": "옛길", "Gate House": "문루",
+    "Courtyard": "안뜰", "Great Hall": "대전당", "Cellar": "지하실", "Tower": "탑",
+    "The Robber Knight": "약탈 기사" } }
+}
+}
