@@ -1,0 +1,84 @@
+import fs from "fs";
+const D = {};
+const J = {
+  mage:      "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mage]{마법사}",
+  artisan:   "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#artisan]{장인}",
+  bard:      "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#bard]{음유시인}",
+  fighter:   "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#fighter]{전사}",
+  hunter:    "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#hunter]{사냥꾼}",
+  knight:    "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#knight]{기사}",
+  mariner:   "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#mariner]{뱃사람}",
+  merchant:  "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#merchant]{상인}",
+  scholar:   "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#scholar]{학자}",
+  thief:     "@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#thief]{도적}"
+};
+
+// ── 투구 ──
+D["Great Helm"] = `<p>모든 원거리 공격에 불리점</p>`;
+
+// ── 직업 ──
+D["Animist"]      = `<p>${J.mage}</p>`;
+D["Elementalist"] = `<p>${J.mage}</p>`;
+D["Mentalist"]    = `<p>${J.mage}</p><p></p>`;
+D["Artisan"]      = `<p>${J.artisan}</p><p>직업 능력으로 @UUID[Item.suJlrH1fFuRlOzlk]{대장장이 명인}, @UUID[Item.J0QAE0wDNse8scng]{목수 명인}, @UUID[Item.miTVL0ITML2zycx0]{무두질 명인} 중 하나를 선택하세요.</p><p></p>`;
+D["Bard"]     = `<p>${J.bard}</p><p></p>`;
+D["Fighter"]  = `<p>${J.fighter}</p><p></p>`;
+D["Hunter"]   = `<p>${J.hunter}</p><p></p>`;
+D["Knight"]   = `<p>${J.knight}</p><p></p>`;
+D["Mariner"]  = `<p>${J.mariner}</p><p></p><p></p>`;
+D["Merchant"] = `<p>${J.merchant}</p><p></p>`;
+D["Scholar"]  = `<p>${J.scholar}</p>`;
+D["Thief"]    = `<p>${J.thief}</p>`;
+
+// ── 기본 기술 ──
+D["Acrobatics"] = `<p>뛰어오르거나, 기어오르거나, 균형을 잡거나, 그와 비슷한 몸놀림을 할 때 이 기술을 굴립니다.</p>`;
+D["Awareness"] = `<p>모험가라면 늘 경계를 늦추지 말아야 합니다. 그러지 않으면 오래 살지 못합니다. 근처에서 몰래 움직이는 자를 보거나 듣기 위해 감지 기술을 사용합니다(대항 굴림, 은신 참조). GM은 다가오는 위협을 제때 알아채도록 감지 굴림을 시킬 수도 있습니다. 이런 수동적인 굴림은 밀어붙일 수 없습니다. </p><p><strong>집단</strong>: 여러 플레이어 캐릭터가 같은 자리에 있다면 각자 따로 감지를 굴립니다. 서로 @UUID[JournalEntry.V4R4dCuKSK2mi8RF.JournalEntryPage.eIQgHhYPUczg7kbZ#help-from-others]{도울} 수 없습니다. </p>`;
+D["Bartering"] = `<p>무언가를 사거나 팔면서 값을 흥정할 때 흥정을 굴립니다. 성공하면 값이 20% 내려가거나 올라갑니다. 드래곤이 나오면 값이 절반이 되거나 두 배가 됩니다. 데몬이 나오면 상대를 심하게 불쾌하게 만들어 거래를 거부당합니다.</p>`;
+D["Beast Lore"] = `<p>세상은 흔하거나 희귀한 온갖 동물과 야수로 가득합니다. 동물이나 몬스터의 정체를 알아내거나, 그 습성·능력·약점을 떠올리려 할 때 야수 지식을 굴립니다. 성공하면 GM이 쓸모 있는 정보를 하나 알려 주어야 합니다.</p>`;
+D["Bluffing"] = `<p>그럴듯한 거짓말을 즉석에서 지어내는 재주는 모험가에게 더없이 값집니다. GM이 보기에 허풍이 설득력 없으면 굴림에 불리점을 받습니다. 아예 말이 안 되는 허풍이라면 아무리 그럴싸하게 늘어놓아도 자동으로 실패합니다.</p>`;
+D["Bushcraft"] = `<p>드넓은 야생은 야수가 어슬렁대는 위험한 곳입니다. 무지한 자는 숲에서 길을 잘못 들거나 엉뚱한 자리에 야영해 목숨을 잃기도 합니다. 야생에서 길을 이끌거나, 야영을 준비하거나, 음식을 만들거나, 추운 날씨에 몸을 덥히려면 야외 생활을 굴립니다. 자세한 내용은 @UUID[JournalEntry.NVNCLs3ZE3Xttqk0]{8. 어드벤처}를 참고하세요. </p>`;
+D["Crafting"] = `<p>모험가는 장비가 망가지면 직접 고쳐야 할 때가 많습니다. 손상된 물품을 수리하는 데는 보통 1시프트가 걸리며, 알맞은 도구를 쓸 수 있어야 합니다.</p>`;
+D["Evade"] = `<p>공격을 피하거나 전투에서 달아나려 할 때 이 기술을 굴립니다. 자세한 내용은 @UUID[JournalEntry.SbbSMsuvWeo3HaID]{4. 전투와 피해}를 참고하세요.</p>`;
+D["Healing"] = `<p>모험가로 살다 보면 언젠가 당신이나 동료가 다칠 위험이 큽니다. 그럴 때 치료가 쓸모 있습니다. 이 기술로 쓰러진 동료를 다시 일으켜 세우거나, 목숨을 구할 수도 있습니다. 자세한 내용은 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.CJjqkHzpow39ViUi#death]{죽음}을 참고하세요.</p>`;
+D["Hunting & Fishing"] = `<p>야생에서는 사냥이나 낚시로 먹을 것을 직접 구해야 할 때가 많습니다. 자세한 내용은 @UUID[JournalEntry.NVNCLs3ZE3Xttqk0.JournalEntryPage.xVgoGJxj0cnTCD9B#food-in-the-wilderness]{야생에서의 식량}에 나옵니다.</p>`;
+D["Languages"] = `<p>모든 플레이어 캐릭터는 공용어를 말하고 간단한 글을 읽을 수 있으며, 인간이 아닌 종족은 자기 종족의 언어도 압니다. 낯선 언어나 고대 언어를 이해하려면 이 기술을 굴립니다.</p>`;
+D["Myths & Legends"] = `<p>옛 시대나 먼 땅의 이야기를 떠올리려 하거나, 과거와 이어진 실마리를 이해하려 할 때 이 기술을 굴립니다. </p>`;
+D["Performance"] = `<p>노래를 부르거나, 시를 읊거나, 농담을 하거나, 그 밖의 방법으로 사람들을 즐겁게 하려 할 때 공연을 굴립니다. </p>`;
+D["Persuasion"] = `<p>모험가의 삶은 위험하지만, 매력이나 협박, 조리 있는 설득으로 폭력 없이 목적을 이룰 때도 많습니다. 상대가 당신의 뜻대로 생각하게 만들려면 설득을 굴립니다. 성공하면 당신이 밝힌 목적을 이루고, NPC는 당신이 바라는 대로 행동합니다. 다만 그 대가로 무언가를 요구할 수도 있으며, 무엇을 요구할지는 GM이 정합니다. </p><p>당신이 요구하는 바가 NPC에게 중요한 무언가를 희생하거나 걸게 만드는 것이라면 굴림이 더 어려워집니다. 이때는 당신의 설득과 상대의 의지가 맞붙는 대항 굴림이 됩니다. 그러나 이 경우에도 요구는 합당해야 합니다. 굴림이 아무리 잘 나와도 아무 요구나 받아들이거나 제 이익에 정면으로 어긋나게 행동하는 NPC는 없습니다. 최종 판단은 GM이 내립니다. 명시적으로 허용되지 않는 한 몬스터는 설득할 수 없습니다. </p>`;
+D["Riding"] = `<p>말에 올라 천천히 달리는 정도는 기술 굴림이 필요 없지만, 더 까다로운 조작에는 승마를 굴려야 합니다. 전투 중에는 특별 규칙이 적용됩니다(@UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.x8o4ZkMHq7FOKGyn]{탈것 타기} 참조).</p>`;
+D["Seamanship"] = `<p>누구나 배를 천천히 젓거나 카누를 저을 수는 있지만, 더 까다로운 상황에서 물 위의 배를 다루려면 항해를 굴려야 합니다. 이 기술은 항로를 잡는 데에도 쓸 수 있습니다.</p>`;
+D["Sleight of Hand"] = `<p>들키지 않고 무언가를 훔치거나, 자물쇠를 따거나, 그 밖에 섬세한 손놀림이 필요한 행동을 할 때 손재주를 굴립니다.</p>`;
+D["Sneaking"] = `<p>전투를 피하고 숨거나 적을 몰래 지나치는 편이 현명할 때가 많습니다. 성공하면 들키지 않습니다. 보통은 단순한 기술 굴림이지만, 누군가 적극적으로 당신을 찾고 있다면 당신의 은신과 적의 감지로 대항 굴림을 해야 합니다. </p><p>은신 굴림은 피하려는 적을 실제로 보거나 들을 수 있을 때만 할 수 있습니다. 근처에 적이 있을지도 모른다는 이유만으로 은신을 굴리지는 않습니다.</p><p><strong>집단 은신</strong>: 여러 플레이어 캐릭터가 함께 숨어 움직인다면 각자 따로 굴립니다. 한 명이라도 실패하면 집단 전체가 발각됩니다. </p>`;
+D["Spot Hidden"] = `<p>감춰진 것을 찾아내는 재주는 당신을 헤아릴 수 없이 부유하게 만들 수도, 목숨을 구해 줄 수도 있습니다. 숨겨진 무언가를 찾을 때 숨은 것 찾기를 굴립니다. 어디를 어떻게 살피는지 아주 구체적으로 설명하면 GM은 이점을 주거나 굴림 없이 성공시킬 수도 있습니다. </p><p>숨은 것 찾기 굴림 한 번에는 대략 1스트레치가 걸립니다. 똑같은 자리에서 똑같은 것을 찾는 시도는 한 번만 할 수 있습니다. 여러 플레이어 캐릭터가 동시에 찾을 수는 있습니다. </p>`;
+D["Swimming"] = `<p>모든 플레이어 캐릭터는 잠깐 동안 물에 떠 있을 수 있지만, 더 까다로운 상황에서는 수영을 굴려야 합니다. 헤엄과 익사에 관한 자세한 내용은 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#swimming-and-drowning]{헤엄과 익사}를 참고하세요.</p>`;
+
+// ── 무기 기술 ──
+D["Axes"] = `<p>온갖 종류의 도끼로 싸울 때 쓰는 기술이며, 던질 때에도 씁니다.</p>`;
+D["Bows"] = `<p>석궁을 뺀 모든 종류의 활로 공격할 때 쓰는 기술입니다.</p>`;
+D["Brawling"] = `<p>주먹, 발, 이빨, 발톱으로 하는 맨손 전투에 씁니다.</p>`;
+D["Crossbows"] = `<p>온갖 종류의 석궁으로 공격할 때 쓰는 기술입니다.</p>`;
+D["Hammers"] = `<p>워해머와 곤봉, 메이스 같은 그 밖의 둔기로 싸울 때 씁니다.</p>`;
+D["Knives"] = `<p>나이프와 대거로 싸울 때 쓰는 기술이며, 던질 때에도 씁니다.</p>`;
+D["Slings"] = `<p>투석구로 공격할 때 이 기술을 굴립니다.</p>`;
+D["Spears"] = `<p>창과 삼지창으로 싸울 때 쓰는 기술이며, 던질 때에도 씁니다. 랜스도 이 기술을 씁니다.</p>`;
+D["Staves"] = `<p>지팡이로 싸울 때 이 기술을 씁니다.</p>`;
+D["Swords"] = `<p>온갖 종류의 검으로 싸울 때 씁니다.</p>`;
+
+// ── 부상 ──
+D["Amnesia"] = `<p>당신이 누구인지, 다른 플레이어 캐릭터가 누구인지 기억하지 못합니다. 이 효과는 반드시 연기로 표현해야 합니다.</p>`;
+D["Broken arm"] = `<p>양손 무기를 쓸 수 없고 쌍수 무기도 쓸 수 없으며, 기어오르기처럼 보통 두 팔을 함께 쓰는 다른 모든 행동에 불리점을 받습니다.</p>`;
+D["Broken leg"] = `<p>이동력이 절반이 됩니다.</p>`;
+D["Broken nose"] = `<p>모든 감지 굴림에 불리점을 받습니다.</p>`;
+D["Broken ribs"] = `<p>힘이나 민첩에 기반한 모든 기술에 불리점.</p>`;
+D["Changed personality"] = `<p>새 @UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.s50NVvywvWgYmiH6#weakness]{약점}을 무작위로 결정합니다.</p>`;
+D["Concussion"] = `<p>지능에 기반한 모든 기술에 불리점.</p>`;
+D["Deep wounds"] = `<p>힘이나 민첩에 기반한 모든 기술에 불리점을 받고, 그런 기술을 굴릴 때마다 [[/damage D6]]을 입습니다.</p>`;
+D["Gouged eye"] = `<p>숨은 것 찾기 기술 수치가 영구히 2 줄어듭니다(최소 3).</p><p><em>Foundry VTT: 기술 수치는 직접 낮춰야 합니다.</em></p>`;
+D["Nightmares"] = `<p>잠자는 시프트마다 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#fear]{공포}에 저항하는 굴림을 합니다. 실패하면 그 시프트는 잠든 것으로 치지 않습니다.</p>`;
+D["Scarred face"] = `<p>모든 공연·설득 굴림에 불리점.</p>`;
+D["Severed finger"] = `<p>모든 무기 기술 수치가 영구히 1 줄어듭니다(최소 3).</p><p><em>Foundry VTT: 기술 수치는 직접 낮춰야 합니다.</em></p>`;
+D["Severed toe"] = `<p>이동력이 영구히 2 줄어듭니다(최소 4).</p>`;
+D["Teeth knocked out"] = `<p>공연과 설득 기술 수치가 영구히 2 줄어듭니다(최소 3).</p><p><em>Foundry VTT: 기술 수치는 직접 낮춰야 합니다.</em></p>`;
+
+fs.writeFileSync("desc_a.json", JSON.stringify(D, null, 1));
+console.log("desc_a:", Object.keys(D).length, "항목");
