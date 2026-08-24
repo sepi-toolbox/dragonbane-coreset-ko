@@ -17,6 +17,13 @@ const MACRO = Object.assign({}, n3.macros);
 const CARD = Object.assign({}, n3.cards, na.cards);
 const JOURNAL = { "Dragonbane - Rules": n4.journals, ...naj };
 
+// 저널 페이지 본문
+const JTEXT = {};
+for (const f of fs.readdirSync(".").filter(f => /^jn_\d+\.json$/.test(f))) {
+  const o = JSON.parse(fs.readFileSync(f, "utf8"));
+  for (const [j, p] of Object.entries(o)) Object.assign(JTEXT[j] = JTEXT[j] || {}, p);
+}
+
 // 굴림표 결과/설명
 const TRES = {}, TDESC = {};
 for (const f of fs.readdirSync(".").filter(f => /^tres_\d+\.json$/.test(f))) {
@@ -95,7 +102,13 @@ for (const advName of Object.keys(ADV)) {
   for (const j of r.journal || []) {
     const jt = JD[j.name]; if (!jt) { missAll.journals.add(advName + " / " + j.name); continue; }
     const pages = {};
-    for (const p of j.pages || []) jt.pages[p.name] ? pages[p.name] = { name: jt.pages[p.name] } : missAll.pages.add(j.name + " / " + p.name);
+    for (const p of j.pages || []) {
+      if (!jt.pages[p.name]) { missAll.pages.add(j.name + " / " + p.name); continue; }
+      const e = { name: jt.pages[p.name] };
+      const t = JTEXT[j.name]?.[p.name];
+      if (t) e.text = t;
+      pages[p.name] = e;
+    }
     journals[j.name] = { name: jt.name, pages };
   }
 
@@ -120,5 +133,11 @@ for (const [an, r] of Object.entries(ADV)) for (const t of r.tables || []) for (
   rT++; if (entries[an].tables[t.name]?.results?.[x._id]) rOK++;
 }
 console.log("굴림표 결과:", rOK, "/", rT);
+let tOK = 0, tT = 0;
+for (const [an, r] of Object.entries(ADV)) for (const j of r.journal || []) for (const p of j.pages || []) {
+  if (!String(p.text?.content || "").trim()) continue;
+  tT++; if (entries[an].journals[j.name]?.pages?.[p.name]?.text) tOK++;
+}
+console.log("저널 본문:", tOK, "/", tT);
 console.log("\n미번역:");
 for (const [k, v] of Object.entries(missAll)) if (v.size) console.log("  " + k + " (" + v.size + "):", [...v].join(" | "));

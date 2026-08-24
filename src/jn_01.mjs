@@ -1,0 +1,23 @@
+import fs from "fs";
+const J = {};
+
+J["Preface"] = {
+"Preface": `<p>숲속 호숫가 낡은 집의 벽난로 곁에 앉아, 밖에서 땅거미가 밤으로 바뀌어 가는 동안, 형이 눈앞의 사나운 오크들을 생생하게 묘사하는 것을 넋 놓고 듣던 기억. 그 낯설고 마법 같은 다면체 주사위를 집어 들고 싸울 준비를 하던, 아니 죽을 준비를 하던 기억.</p><p>그것이 내가 떠올릴 수 있는 가장 오래된 「드라카르 오크 데모네르」 플레이의 기억입니다. 스웨덴 아이들 한 세대에게 롤플레잉 게임과 동의어였던 그 게임 말입니다. 1985년 여름이었고, 그 순간이 내 삶에 얼마나 오래 남을 자국을 낼지 그때는 알지 못했습니다.</p><p>이름이 풍기는 인상과 달리 이 게임의 뿌리는 초기 케이오시움 작품들에 있습니다. 1982년의 첫 판본은 「매직 월드」를 그대로 번역한 것이었습니다. 하지만 게임은 곧 제 갈 길을 찾아, 수십 년에 걸쳐 스웨덴에서 열두어 개의 판본으로 진화해 왔습니다.</p><p>이제 새로 상상해 낸 「드라카르 오크 데모네르」를 「드래곤베인」이라는 이름으로 세계의 독자에게 내놓으면서, 우리는 스스로에게 물어야 했습니다. 이 게임은 도대체 무엇인가?</p><p>우리에게, 그리고 스웨덴 롤플레잉 공동체의 많은 이에게 「드라카르 오크 데모네르」는 이 취미의 시금석이었고 따로 정의하거나 설명할 필요가 없었습니다. 그러나 나머지 롤플레잉 세계에 이 게임은 전혀 알려지지 않은 존재였습니다.</p><p>우리의 임무는 북유럽 롤플레잉 역사 40년을 멀리까지 헤집고 다니며 이 게임의 본질을 찾아내는 것이었습니다. 무엇이 이 게임을 진짜로 위대하게 만들었는가. 그런 다음 그 유산의 조각들을 되살려, 40년에 걸친 게임 디자인의 발전과 우리가 프리 리그 RPG를 만들어 온 10년의 경험을 써서 2020년대의 새 게임으로 빚어내는 것이었습니다.</p><p>그 결과물이 마법과 신비와 모험으로 가득한 판타지 롤플레잉 게임입니다. 준비 시간은 아주 적고 진행하기 수월한 어드벤처로, 빠르고 격렬한 플레이가 이루어지도록 밑바닥부터 설계했습니다.</p><p>온갖 종류의 판타지 이야기를 풀어낼 수 있는 도구 상자이면서도, 「드래곤베인」은 테이블에 웃음이, 때로는 약간의 엉뚱함까지 들어설 자리가 있는 게임입니다. 그러면서도 모험가들에게는 가혹한 시련을 안겨 줍니다. 우리는 이런 플레이 방식을 즐거움과 아수라장의 롤플레잉이라 부릅니다. 긴 캠페인에도 좋고, 하룻밤 가볍게 즐기고 싶을 때의 단편 플레이에도 더없이 알맞습니다.</p><p>이것은 40여 년 전에 시작된 여정의 다음 걸음입니다. 여러분과 함께 이 길을 가게 되어 몹시 기쁩니다.</p><p><strong>– 토마스 헤렌스탐, 스톡홀름, 2022년 12월</strong></p>`
+};
+
+J["Improvised Weapons"] = {
+"Tables": `<p>@DisplayTable[RollTable.XQdcL9Y1q9oRgdym]{여관}</p><p>@DisplayTable[RollTable.mBATgizfrTCqh2vw]{동굴}</p><p>@DisplayTable[RollTable.IDBJdj1nB4Sy8z6U]{숲}</p>`
+};
+
+J["Commands and Macros"] = {
+"Commands": `<p>Foundry VTT 모듈 <strong>Dragonbane - Core Set</strong>은 다음 채팅 명령어를 추가합니다.</p><p></p><h4><span style="font-family:Courier New">/treasure [X]</span></h4><p>보물 카드를 X장 뽑은 뒤 덱을 초기화합니다.</p>`,
+"Macros": `<p><strong>Dragonbane - Rules</strong>를 가져오면 다음 매크로가 추가됩니다.</p><p></p><div class="flexrow"><div><img src="modules/dragonbane-coreset/assets/artwork/macros-en.webp" /></div><div style="border:1em solid transparent"><h4><strong>보물 카드 뽑기</strong></h4><p>보물 카드를 한 장 뽑고 보물 덱을 초기화합니다.</p><p></p><h4><strong>보물 카드 뽑기 (초기화 없음)</strong></h4><p>보물 덱을 초기화하지 않고 보물 카드를 한 장 뽑습니다.</p><p></p><h4><strong>보물 카드 초기화</strong></h4><p>보물 덱을 초기화합니다.</p><p></p><h4><strong>몬스터 - 공격</strong></h4><p>선택한 토큰이 몬스터 공격을 실행합니다.</p><p></p><h4><strong>몬스터 - 방어</strong></h4><p>선택한 토큰이 몬스터 방어 행동을 실행합니다</p></div></div>`
+};
+
+J["Credits"] = {
+"Credits": `<img src="systems/dragonbane/art/ui/logo-en.webp" /><h4>총괄 디자인 &amp; 편집</h4><p>Tomas Härenstam</p><p></p><h4>공동 집필</h4><p>Roger Undhagen <em>(아우트스커트·안개의 섬 원본 텍스트)</em>, Andreas Marklund <em>(도입부 텍스트, 몬스터, 리더마운드, 용 황제의 비밀, 아우트스커트·안개의 섬 개정판)</em>, Krister Sundelin <em>(마법)</em>, Niklas Natt och Dag <em>(어제의 마을)</em>, Moa Frithiofsson <em>(신탁의 동굴)</em>, Johan Sjöberg <em>(보틸드 광맥)</em>, Gabrielle de Bourg <em>(죽은 눈 동굴)</em>, Magnus Seter <em>(트롤의 첨탑)</em>, Gunilla Jonsson &amp; Michael Petersén <em>(탄식의 탑)</em>, Svante Landgraf <em>(자줏빛 불꽃의 신전)</em>, Pelle Nilsson <em>(길끝 여관)</em>, Mattias Johnsson Haake <em>(말루스 요새, 직업 인용문)</em>, Mattias Lilja <em>(안개의 섬 개정판)</em>, Shawn Tomkin &amp; Matt Click <em>(솔로 규칙)</em>, Marco Behrmann <em>(기성 캐릭터)</em>, Nils Karlén <em>(GM 조언과 표)</em>, Kosta Kostulas <em>(표)</em></p><p></p><h4>총괄 일러스트</h4><p>Johan Egerkrans</p><p></p><h4>추가 아트</h4><p>Anton Vitus, Niklas Brandt</p><p></p><h4>그래픽 디자인</h4><p>Niklas Brandt, Christian Granath, Dan Algstrand</p><p></p><h4>레이아웃</h4><p>Dan Algstrand</p><p></p><h4>지도</h4><p>Francesca Baerald, Niklas Brandt</p><p></p><h4>번역</h4><p>Niklas Lundmark</p><p></p><h4>교정</h4><p>Brandon Bowling</p><p></p><h4>규칙 검수</h4><p>Jonas Ferry, Marco Behrmann, Nils Karlén, Kosta Kostulas</p><p></p><h4>디지털 플랫폼</h4><p>Martin Takaichi</p><p></p><h4>홍보 담당</h4><p>Boel Bermann</p><p></p><h4>행사 담당</h4><p>Anna Westerling</p><p></p><h4>고객 지원</h4><p>Daniel Lehto, Jenny Lehto</p><p></p><h4>플레이테스터</h4><p>Marco Behrmann, Nils Karlén, Kosta Kostulas, Anna Westerling, Jonas Ferry, Fredrik Jarl, Kristoffer Sjöö, Henric Löfqvist, Kalle Henricsson, Krister Sundelin, Andreas Ekeroot, Johan Osbjer, Niklas Fröjd, Emma Fahlström, Olle Karlsson, Mattias Strandberg, Sara Engström, Maximilian Pukk Härenstam</p><p></p><h4>특별히 고마운 분들</h4><p>Roger Undhagen, Orvar Säfström, Fredrik Malmberg, Anders Blixt, Pelle Nilsson, Kiku Pukk Härenstam, Stella Härenstam, Stephen Perrin, Chaosium Inc., 그리고 크라우드펀딩과 피드백으로 이 게임에 힘을 보태 주신 모든 분들</p><p></p><p><em>Dragonbane</em>은 Fria Ligan AB의 등록 상표입니다.</p><p>©2023 Fria Ligan AB</p>`
+};
+
+fs.writeFileSync("jn_01.json", JSON.stringify(J, null, 1));
+let n = 0; for (const p of Object.values(J)) n += Object.keys(p).length;
+console.log("jn_01:", Object.keys(J).length, "저널,", n, "페이지");
