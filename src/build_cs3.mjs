@@ -36,6 +36,11 @@ const DESC = {};
 for (const f of ["desc_a.json","desc_b.json","desc_c.json","desc_d.json","desc_e.json","desc_f.json","desc_g.json","desc_h.json"])
   Object.assign(DESC, rd(f));
 
+// 액터 본문: system.description / system.traits (원문 문자열 → 한국어)
+const ADESC = {}, ATRAITS = {};
+for (const f of ["adesc_a.json","adesc_b.json","adesc_c.json","adesc_d.json"]) Object.assign(ADESC, rd(f));
+Object.assign(ATRAITS, rd("atr_traits.json"));
+
 const db = new ClassicLevel("./cspack", { valueEncoding: "json" });
 const ADV = {};
 for await (const [k, v] of db.iterator()) ADV[v.name] = v;
@@ -44,7 +49,7 @@ await db.close();
 const ADVNAME = Object.assign({ "Dragonbane - Rules": "드래곤베인 - 규칙" }, na.advNames);
 const entries = {};
 const report = [];
-const missAll = { folders: new Set(), actors: new Set(), items: new Set(), tables: new Set(), scenes: new Set(), macros: new Set(), cards: new Set(), journals: new Set(), pages: new Set(), embItems: new Set(), desc: new Set() };
+const missAll = { folders: new Set(), actors: new Set(), items: new Set(), tables: new Set(), scenes: new Set(), macros: new Set(), cards: new Set(), actorDesc: new Set(), actorTraits: new Set(), journals: new Set(), pages: new Set(), embItems: new Set(), desc: new Set() };
 
 for (const advName of Object.keys(ADV)) {
   const r = ADV[advName];
@@ -58,6 +63,10 @@ for (const advName of Object.keys(ADV)) {
   for (const a of r.actors || []) {
     const t = ACTOR[a.name]; if (!t) { missAll.actors.add(a.name); continue; }
     const e = { name: t }, its = {};
+    const ad = String(a.system?.description || "").trim();
+    if (ad) { ADESC[ad] ? e.description = ADESC[ad] : missAll.actorDesc.add(a.name); }
+    const at = String(a.system?.traits || "").trim();
+    if (at) { ATRAITS[at] ? e.traits = ATRAITS[at] : missAll.actorTraits.add(a.name); }
     for (const it of a.items || []) {
       const kt = ITEM[it.name]; if (!kt) { missAll.embItems.add(it.name); continue; }
       const ent = { name: kt };
@@ -141,5 +150,12 @@ for (const [an, r] of Object.entries(ADV)) for (const j of r.journal || []) for 
   tT++; const pg = entries[an].journals[j.name]?.pages; if (pg?.[p._id]?.text || pg?.[p.name]?.text) tOK++;
 }
 console.log("저널 본문:", tOK, "/", tT);
+let adOK=0, adT=0, atOK=0, atT=0;
+for (const [an, r] of Object.entries(ADV)) for (const a of r.actors || []) {
+  if (String(a.system?.description||"").trim()) { adT++; if (entries[an].actors[a.name]?.description) adOK++; }
+  if (String(a.system?.traits||"").trim()) { atT++; if (entries[an].actors[a.name]?.traits) atOK++; }
+}
+console.log("액터 설명:", adOK, "/", adT);
+console.log("액터 특징:", atOK, "/", atT);
 console.log("\n미번역:");
 for (const [k, v] of Object.entries(missAll)) if (v.size) console.log("  " + k + " (" + v.size + "):", [...v].join(" | "));
