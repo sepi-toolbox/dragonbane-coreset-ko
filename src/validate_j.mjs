@@ -14,7 +14,8 @@ for (const r of Object.values(ADV)) for (const j of r.journal || []) {
 }
 // 인리처 토큰(@UUID[...]·@Table[...]·[[/roll ...]]) 집합 — 라벨 {…}은 번역 대상이라 제외
 // 원문 인리처 안의 소프트 하이픈(U+00AD, 예: "bludgeon­ing")은 번역에서 제거해도 동일 취급
-const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\[[^\]]*\]|\[\[[^\]]*\]\]/g)].map(m => m[0].replace(/\u00AD/g, "")).sort().join("|");
+// \uC800\uB110 \uC575\uCEE4(#\uC2AC\uB7EC\uADF8)\uB294 \uBC88\uC5ED \uC81C\uBAA9 \uAE30\uC900\uC73C\uB85C \uB2E4\uC2DC \uB9CC\uB4E4\uBBC0\uB85C(anchorfix) \uBE44\uAD50\uC5D0\uC11C \uC81C\uC678
+const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\[[^\]]*\]|\[\[[^\]]*\]\]/g)].map(m => m[0].replace(/\u00AD/g, "").replace(/#[^\]]*\]/, "]")).sort().join("|");
 const TAGS = s => { const o = {}; for (const m of String(s).matchAll(/<\/?([a-z][a-z0-9]*)[^>]*>/gi)) { const t = m[1].toLowerCase(); if (["br","img","hr"].includes(t)) continue; o[t] = (o[t]||0) + (m[0][1]==="/"?-1:1); } return o; };
 const ATTRS = s => [...String(s).matchAll(/(class|id|src|href|style|data-[a-z-]+)="[^"]*"/g)].map(m => m[0]).sort().join("|");
 let ok=0, bad=0;

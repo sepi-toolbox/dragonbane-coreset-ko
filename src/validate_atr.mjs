@@ -1,5 +1,4 @@
 import fs from "fs";
-const rows = JSON.parse(fs.readFileSync("actor_fields.json","utf8"));
 const files = process.argv.slice(2);
 const KO = {}; for (const f of files) Object.assign(KO, JSON.parse(fs.readFileSync(f,"utf8")));
 const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\[[^\]]*\]|\[\[[^\]]*\]\]/g)].map(m=>m[0]).sort().join("|");

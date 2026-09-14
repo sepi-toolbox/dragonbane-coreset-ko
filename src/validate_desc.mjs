@@ -29,7 +29,8 @@ for (const [name, ko] of Object.entries(KO)) {
     if (aa !== ab) issues.push("속성 불일치\n      en: " + aa + "\n      ko: " + ab);
   }
   const bal = TAGS(ko); for (const [t, n] of Object.entries(bal)) if (n !== 0) issues.push(`닫히지 않은 <${t}> (${n})`);
-  const eng = String(ko).replace(/<[^>]*>/g, "").replace(/@UUID\[[^\]]*\]/g, "").replace(/\[\[\/[^\]]*\]\]/g, "").match(/[A-Za-z][A-Za-z'&. -]{5,}/g);
+  // 브랜드명(Foundry VTT)은 영문 그대로가 정상
+  const eng = String(ko).replace(/<[^>]*>/g, "").replace(/@UUID\[[^\]]*\]/g, "").replace(/\[\[\/[^\]]*\]\]/g, "").replace(/Foundry VTT/g, "").match(/[A-Za-z][A-Za-z'&. -]{5,}/g);
   if (eng) issues.push("영문 잔존: " + JSON.stringify(eng));
   if (issues.length) { bad++; console.log("✗ " + name); issues.forEach(i => console.log("    " + i)); } else ok++;
 }
