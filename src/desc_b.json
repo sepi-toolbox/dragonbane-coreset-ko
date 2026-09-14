@@ -30,7 +30,7 @@
  "Master Carpenter": "<p>이 능력에는 목수의 도구가 필요합니다. 행동 하나로 문이나 벽, 그 밖의 무생물에 소모한 의지력당 [[/roll D12]]만큼 피해를 입힐 수 있으며, 대상의 방어도는 무시합니다. </p><p>한 시프트 동안 @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.Pn6JvfhmadVzIOKI]{갑옷 & 투구}, @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.unZDN4qPEzHSgRdr]{근접 무기}, @UUID[JournalEntry.mlykiHMVIbZ00vLD.JournalEntryPage.2DMSjttCdZhkXage]{원거리 무기}의 목록에서 곤봉, 지팡이, 방패 같은 목제 물품을 제작할 수 있습니다. 나무(무게 1 또는 GM이 결정)가 필요하며, 물품의 금화 가격만큼의 의지력이 듭니다(올림). 목록에 없는 물품의 비용은 GM이 정합니다. </p>",
  "Master Chef": "<p>부시크래프트를 굴리지 않고 @UUID[JournalEntry.NVNCLs3ZE3Xttqk0.JournalEntryPage.xVgoGJxj0cnTCD9B#food-in-the-wilderness]{요리}에 성공합니다.</p>",
  "Master Spellcaster": "<p>전투에서 자기 턴에 이 능력을 발동하면 서로 다른 주문 두 개를 하나의 행동으로 시전할 수 있습니다. 반드시 서로 다른 주문이어야 합니다. 첫 번째 주문을 굴린 뒤에 이 영웅 능력을 발동할 수 있습니다.</p>",
- "Master Tanner": "<p>이 능력에는 무두장이 도구가 필요합니다. 동물이나 몬스터 가죽으로 가죽 갑옷을 만들 수 있습니다. 그 갑옷은 짐승의 방어도 절반(올림)을 가지며(최소 1), 한 시프트가 걸리고 의지력 비용은 그 물품의 방어도와 같습니다.</p>",
+ "Master Tanner": "<p>이 능력에는 무두장이 도구가 필요합니다. 동물이나 몬스터 가죽으로 레더를 만들 수 있습니다. 그 갑옷은 짐승의 방어도 절반(올림)을 가지며(최소 1), 한 시프트가 걸리고 의지력 비용은 그 물품의 방어도와 같습니다.</p>",
  "Monster Hunter": "<p>갈림길 같은 곳에서 이 능력을 발동하여 가장 위험한 적들이 어느 방향에 있는지 알아낼 수 있습니다.</p>",
  "Musician": "<p>목소리로 동료에게 용기를, 적에게 두려움을 불어넣습니다. 이 능력을 발동하면(전투에서는 행동 하나) 10미터 이내의 모든 아군이 모든 굴림에 은총을 받거나, 같은 범위의 모든 적이 파멸을 받습니다. 둘 중 하나를 고르세요. 효과는 다음 라운드 자기 턴까지 지속됩니다.</p><p><strong>악기</strong>: 음악가 능력에 악기를 쓸 수 있습니다. 그러면 능력의 범위가 늘어나거나 의지력 비용이 줄어들 수 있습니다.</p>",
  "Pathfinder": "<p>야생에서 올바른 방향을 찾으려 할 때 부시크래프트 굴림에 은총을 받습니다.</p>",
