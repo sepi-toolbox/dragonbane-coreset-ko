@@ -3,7 +3,7 @@
  "Bothild’s Broadaxe": "<p>보틸드의 걸작 전투도끼에는 주인의 업적을 기리는 룬이 새겨져 있습니다.</p>",
  "Fiendcrusher": "<p>보석이 박힌 훌륭한 라이트 워해머입니다. 이 워해머는 마법 무기이며, 지닌 자가 악마로부터 10미터 이내에 있으면 붉게 빛납니다.</p>",
  "Um-Durman": "<p><span style=\"font-family: QTFrizQuad\">아름다운 장식과 보석이 박힌 자루를 갖춘 걸작 무기입니다.</span></p><section id=\"secret-jXkSu03dRCvI2Sec\" class=\"secret\"><p><span style=\"font-family: QTFrizQuad\">움-두르만은 영속이 걸린 특별판 무기 마법화를 지닌 그레이트소드입니다. 이 검이 드래곤이나 악마를 맞히면 그 공격은 자동으로 드래곤 굴림으로 취급됩니다.</span></p></section><img src=\"modules/dragonbane-coreset/assets/artwork/adventure/um-durman-horizontal.webp\">",
- "Gilded Chainmail": "<p><span style=\"font-family: QTFrizQuad\">금박을 입힌 사슬갑옷은 가볍고 유연합니다(방어도 4, 은밀 굴림에만 파멸을 줍니다).</span></p>",
+ "Gilded Chainmail": "<p><span style=\"font-family: QTFrizQuad\">금박을 입힌 체인메일은 가볍고 유연합니다(방어도 4, 은밀 굴림에만 파멸을 줍니다).</span></p>",
  "Strange Ornate Dagger": "<section id=\"secret-CkkpUhVrcSYXHiG9\" class=\"secret\"><p>이 대거는 @UUID[Actor.B09NjI2lS60bVVfe]{스타레}를 상대로 2D8 피해를 입히지만, 다른 상대에게는 평소대로 작동합니다.</p></section>",
  "Curved Goblin Dagger": "<p>굽은 고블린 대거입니다.</p><section id=\"secret-xxU1DYq57H7vuLvS\" class=\"secret\"><p>날에는 효능 9의 독사 치사독이 발려 있습니다.</p></section>",
  "Gilded Crown": "<p><span style=\"font-family: QTFrizQuad\">룬이 새겨진 금박을 입힌 왕관입니다.</span></p><section id=\"secret-0RbcHJ0SX8QLQOXd\" class=\"secret\"><p><span style=\"font-family: QTFrizQuad\">왕관에는 악마의 공격으로 받는 모든 피해를 절반으로 줄여주는(올림) 주문이 깃들어 있습니다. 이 효과는 왕관에 새겨진 룬으로 설명되어 있으며, 언어 굴림에 성공하면 읽을 수 있습니다.</span></p></section>",
