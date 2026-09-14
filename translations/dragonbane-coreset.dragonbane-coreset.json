@@ -11164,7 +11164,7 @@
                             "description": "아라신"
                         },
                         "we8wRWTdijNyQpfB": {
-                            "description": "일리리아나"
+                            "description": "일리아나"
                         },
                         "wtZAFR1aasinsmqD": {
                             "description": "갈반데르"
@@ -11173,10 +11173,10 @@
                             "description": "티린델리아"
                         },
                         "fky80OaAWIzb9W25": {
-                            "description": "에르윌노르"
+                            "description": "엘윈노르"
                         },
                         "26eLHtRA81nBikW7": {
-                            "description": "안드레모네"
+                            "description": "안드레몬"
                         }
                     }
                 },
@@ -11184,13 +11184,13 @@
                     "name": "이름 - 말라드",
                     "results": {
                         "OIJsoUZWflR1YbAs": {
-                            "description": "콱썸"
+                            "description": "콱섬"
                         },
                         "l9vRS1xry1c9hbGi": {
                             "description": "스플랫츠"
                         },
                         "TxtPnUEU48FxdLFo": {
-                            "description": "모기"
+                            "description": "모지"
                         },
                         "tqROciHP68a06glF": {
                             "description": "그로디"
@@ -11199,7 +11199,7 @@
                             "description": "블리산디나"
                         },
                         "iSqTvElKinJmQRTO": {
-                            "description": "해클스웰"
+                            "description": "헥스웰"
                         }
                     }
                 },
@@ -11245,7 +11245,7 @@
                             "description": "페리윅"
                         },
                         "UzdG0kbCKgpIGJ1i": {
-                            "description": "테올리네"
+                            "description": "테올린"
                         }
                     }
                 },
@@ -11259,10 +11259,10 @@
                             "description": "팀"
                         },
                         "xaRi7FOU5X3ghR7p": {
-                            "description": "할벨다"
+                            "description": "할베르다"
                         },
                         "zvWkubXNf3YQBRwz": {
-                            "description": "가르만데르"
+                            "description": "가르만델"
                         },
                         "RpS4YGFKBEh8Iki7": {
                             "description": "베롤룬"
@@ -11282,10 +11282,10 @@
                             "description": "울프섀도"
                         },
                         "qvySNC31bybz99Nb": {
-                            "description": "루나리엠"
+                            "description": "루나리엔"
                         },
                         "lVq045o4B8O0XrWi": {
-                            "description": "옵두리안"
+                            "description": "오드리안"
                         },
                         "7cSYdf0Lz1pnQFR8": {
                             "description": "프로스트바이트"
@@ -11302,64 +11302,64 @@
                     "name": "약점",
                     "results": {
                         "PyGd9rpfURJQcDL4": {
-                            "description": "잘 속음. 나는 남이 하는 말을 모두 믿는다."
+                            "description": "잘 속음. 남이 하는 말은 뭐든 믿는다."
                         },
                         "1J37OaI8XE0Gdg2p": {
-                            "description": "탐욕. 나는 모든 보물에서 더 큰 몫을 원한다."
+                            "description": "탐욕스러움. 모든 보물에서 더 큰 몫을 원한다."
                         },
                         "Q9nYWnmCEw6PslgC": {
-                            "description": "속이 좁음. 나는 도발을 절대 참지 못한다."
+                            "description": "속이 좁음. 도발은 결코 참지 않는다."
                         },
                         "75zY8mgpMFpyL34U": {
-                            "description": "무모함. 나는 언제나 위험에 앞장선다."
+                            "description": "무모함. 위험 앞에 언제나 내가 먼저 나선다."
                         },
                         "Zrfx3VwhDihgBhS2": {
-                            "description": "겁이 많음. 나는 언제나 일행의 맨 뒤에 선다."
+                            "description": "겁이 많음. 언제나 동료들보다 뒤에 서야 한다."
                         },
                         "17E90d6RH7Y0eERE": {
-                            "description": "몬스터 학살자. 몬스터는 모두 악하므로 죽여야 한다."
+                            "description": "괴물 사냥꾼. 모든 몬스터는 악하며 반드시 죽여야 한다."
                         },
                         "HjwyGK6EkZ4B39IF": {
-                            "description": "편협함. 오크와 고블린 같은 밤의 종족은 악하므로 맞서 싸워야 한다."
+                            "description": "편협함. 오크나 고블린 같은 밤의 혈족은 악하며 맞서 싸워야 한다."
                         },
                         "JWQhsQf8V1YzsKlT": {
-                            "description": "게으름. 나는 틈만 나면 쉰다."
+                            "description": "게으름. 쉴 기회가 생기면 놓치지 않는다."
                         },
                         "tDsZEM1tHDWE5lGE": {
-                            "description": "식탐. 나는 맛있는 것을 먹을 기회를 결코 놓치지 않는다."
+                            "description": "식탐. 맛있는 것을 먹을 기회가 생기면 놓치지 않는다."
                         },
                         "1tXdFvsWeVLxEjVm": {
-                            "description": "도벽. 나는 값나가는 물건을 보면 훔치지 않고는 못 배긴다."
+                            "description": "손버릇. 값나가는 물건을 훔치는 걸 멈출 수 없다."
                         },
                         "xGvE5BlrloUr4ckr": {
-                            "description": "허영. 나는 나를 칭찬하거나 치켜세우는 사람이라면 누구든 돕는다."
+                            "description": "허영심. 나를 칭찬하거나 치켜세우는 사람은 누구든 돕는다."
                         },
                         "63gO28FoIatrn5Qf": {
-                            "description": "저돌적임. 나는 뒷일을 생각하지 않고 늘 큰 위험을 감수한다."
+                            "description": "분별없음. 결과를 생각하지 않고 언제나 큰 위험을 감수한다."
                         },
                         "3aMHGQKGHp7zmbhk": {
-                            "description": "마법을 두려워함. 마법은 사악한 힘이며 시전자는 믿을 수 없다."
+                            "description": "마법 공포. 마법은 사악한 힘이며 마법사는 믿을 수 없다."
                         },
                         "UE9PCpIMKSvitnyZ": {
-                            "description": "지식에 목마름. 지식을 좇는 일이 동료보다 중요하다."
+                            "description": "지식 갈망. 지식을 좇는 일이 친구들의 안전보다 중요하다."
                         },
                         "36SflrstBoND2nLX": {
-                            "description": "야생의 아이. 나는 결코 실내에서 자지 않는다."
+                            "description": "야생의 아이. 결코 실내에서 자지 않는다."
                         },
                         "KGJShUtxXdZhaGCv": {
-                            "description": "허풍쟁이. 나는 늘 내 공적을 부풀린다."
+                            "description": "허풍쟁이. 언제나 내 업적을 부풀려 과장되게 말한다."
                         },
                         "F6Pc4iPJxXiG4tlP": {
-                            "description": "폭력적임. 나는 어떤 걸림돌이든 폭력으로 넘어선다."
+                            "description": "폭력적. 모든 장애물을 폭력으로 해결하려 한다."
                         },
                         "bOaAnU6UsrzoaWJP": {
-                            "description": "고압적임. 나는 늘 남에게 이래라저래라 한다."
+                            "description": "참견꾼. 언제나 남에게 이래라저래라 한다."
                         },
                         "3NnE5rwegseRODJK": {
-                            "description": "비관주의. 나는 늘 일이 최악으로 흘러갈 거라 여긴다."
+                            "description": "비관주의자. 언제나 일이 최악으로 끝날 거라 생각한다."
                         },
                         "dHLL3AqbkXrzPryb": {
-                            "description": "오만함. 나는 만나는 모두를 깔본다."
+                            "description": "오만함. 만나는 사람마다 깔본다."
                         }
                     }
                 },
@@ -11367,22 +11367,22 @@
                     "name": "별명 - 음유시인",
                     "results": {
                         "Fa5wLEG1DUXOTkcg": {
-                            "description": "송시장이"
+                            "description": "오드메이커"
                         },
                         "YYpVmD2XD0Q7xoOh": {
                             "description": "이야기꾼"
                         },
                         "YVlCY1H1DITLmD36": {
-                            "description": "은빛 목소리"
+                            "description": "실버보이스"
                         },
                         "mZKKgZdJUmoqNHsJ": {
-                            "description": "황금 음자리"
+                            "description": "황금 음자리표"
                         },
                         "1OWUPpftDYCOaPnx": {
-                            "description": "꿀 같은 혀"
+                            "description": "꿀 혓바닥"
                         },
                         "w1XOY0T0zR3BXul0": {
-                            "description": "운율 대장장이"
+                            "description": "라임스미스"
                         }
                     }
                 },
@@ -11390,22 +11390,22 @@
                     "name": "별명 - 장인",
                     "results": {
                         "V2W64bPOowDMUTZS": {
-                            "description": "돌망치"
+                            "description": "스톤해머"
                         },
                         "PwgGMrGGVKG0tYyJ": {
-                            "description": "나무 쪼개는 이"
+                            "description": "우드클리버"
                         },
                         "7s9640d6ljrckqLm": {
-                            "description": "억센 주먹"
+                            "description": "스트롱피스트"
                         },
                         "OPqctU0HpX7Z9m4s": {
-                            "description": "통 만드는 이"
+                            "description": "배럴메이커"
                         },
                         "uf8nuE4DhB5qcoMu": {
-                            "description": "다리 놓는 이"
+                            "description": "브리지빌더"
                         },
                         "XRoDeAPtmDvc7CiK": {
-                            "description": "쇠의 명인"
+                            "description": "아이언마스터"
                         }
                     }
                 },
@@ -11416,19 +11416,19 @@
                             "description": "숲여우"
                         },
                         "WrQAuK4ln1dsmkOj": {
-                            "description": "늑대의 재앙"
+                            "description": "울프베인"
                         },
                         "kWA8AkIajgL5iPPy": {
                             "description": "길잡이"
                         },
                         "fk8QB6rvEufrCiqL": {
-                            "description": "풍파에 시달린 자"
+                            "description": "거친 얼굴"
                         },
                         "aWMz4Too6suGx7Nk": {
-                            "description": "피에 굶주린 자"
+                            "description": "블러드헝거"
                         },
                         "omwjX8RgnHQxIfih": {
-                            "description": "그림자 화살"
+                            "description": "섀도볼트"
                         }
                     }
                 },
@@ -11436,19 +11436,19 @@
                     "name": "별명 - 전사",
                     "results": {
                         "VuLp3szt1p3ZmJKl": {
-                            "description": "무덤 만드는 이"
+                            "description": "그레이브메이커"
                         },
                         "bJ6YU7hh6bHt9jak": {
-                            "description": "험상궂은 턱"
+                            "description": "그림죠"
                         },
                         "dOUWIgRgINqOL9cZ": {
-                            "description": "바람 녹이는 자"
+                            "description": "윈드소우"
                         },
                         "tMHKoVrcYACVx5yR": {
-                            "description": "차디찬 강철"
+                            "description": "콜드스틸"
                         },
                         "FoFm18xTrSwQPJYL": {
-                            "description": "두려움 없는 자"
+                            "description": "두려움 없는"
                         },
                         "eyNHLNnTbLXEgzrR": {
                             "description": "도살자"
@@ -11459,22 +11459,22 @@
                     "name": "별명 - 학자",
                     "results": {
                         "Wo2ODGglzRde6QOE": {
-                            "description": "맑은 정신"
+                            "description": "클리어마인드"
                         },
                         "NAfcd4h4evjhyZFx": {
-                            "description": "먼지 폐"
+                            "description": "더스트렁"
                         },
                         "xSKjJBZjx5vmUf1F": {
-                            "description": "먼눈"
+                            "description": "파사이트"
                         },
                         "dN136SiUpD7x1Q1E": {
-                            "description": "글 아는 자"
+                            "description": "박식한"
                         },
                         "wKgLUdguI3afWG7e": {
-                            "description": "모든 것을 아는 자"
+                            "description": "모든 것을 아는"
                         },
                         "nqbRspFaxjlH7o4v": {
-                            "description": "통통하고 박식한 자"
+                            "description": "통통하고 박식한"
                         }
                     }
                 },
@@ -11482,22 +11482,22 @@
                     "name": "별명 - 마법사",
                     "results": {
                         "YykRGiSTIcpYmblO": {
-                            "description": "뿌리 심장"
+                            "description": "뿌리심장"
                         },
                         "Gu8w3J1ttyoXLr5I": {
-                            "description": "굽은 등"
+                            "description": "굽은등"
                         },
                         "895IDP3XT62RqpG7": {
-                            "description": "잿빛 망토"
+                            "description": "회색망토"
                         },
                         "XcFiJ8iNa4z75Klv": {
-                            "description": "폭풍의 손"
+                            "description": "폭풍손"
                         },
                         "PaWokMWQltuoklga": {
-                            "description": "지팡이 절뚝이"
+                            "description": "지팡이 짚는"
                         },
                         "plH2vTuq7TLYUdNU": {
-                            "description": "그림자를 부르는 자"
+                            "description": "섀도브링어"
                         }
                     }
                 },
@@ -11505,19 +11505,19 @@
                     "name": "별명 - 상인",
                     "results": {
                         "iX9papCcTO82rhQn": {
-                            "description": "은빛 미소"
+                            "description": "실버그린"
                         },
                         "tLD0mKofxsHb2GpQ": {
-                            "description": "금니"
+                            "description": "금 이빨"
                         },
                         "kRp1cEVDLXXLJfHJ": {
-                            "description": "비단 혀"
+                            "description": "실크텅"
                         },
                         "7rfsZCwvMNGOz75T": {
-                            "description": "혀 짧고 정직한 자"
+                            "description": "혀 짧고 정직한"
                         },
                         "oD9uQkoTEAcERAJI": {
-                            "description": "기름배"
+                            "description": "라드벨리"
                         },
                         "1KrOrKvplYH2WDGA": {
                             "description": "구두쇠"
@@ -11528,22 +11528,22 @@
                     "name": "별명 - 기사",
                     "results": {
                         "0Cq7RP7wvNv8YYaI": {
-                            "description": "용의 심장"
+                            "description": "드래곤하트"
                         },
                         "nikUNA1kZ2cAI953": {
-                            "description": "황금 랜스"
+                            "description": "골드랜스"
                         },
                         "IMdAAq8s0bYRBTJg": {
-                            "description": "그리핀 발톱"
+                            "description": "그리핀클로"
                         },
                         "7dpdAPnU76ZW1tOB": {
-                            "description": "고결한 자"
+                            "description": "고귀한"
                         },
                         "AxWifb1VbVr0XTho": {
-                            "description": "번쩍이는 투구"
+                            "description": "글림헬름"
                         },
                         "Z0va0UFgYZHeH7dF": {
-                            "description": "상복 망토"
+                            "description": "모닝클록"
                         }
                     }
                 },
@@ -11551,22 +11551,22 @@
                     "name": "별명 - 선원",
                     "results": {
                         "sss9iQcijGMlsASz": {
-                            "description": "흰 물살"
+                            "description": "화이트워터"
                         },
                         "13ltqXrs0LvOM5fI": {
-                            "description": "파도 타는 자"
+                            "description": "파도 타는"
                         },
                         "waNQqBFgML5gFU6v": {
-                            "description": "거품에서 난 자"
+                            "description": "폼본"
                         },
                         "9ngBGd663KLl3wLE": {
-                            "description": "소금 물보라"
+                            "description": "솔트스플래시"
                         },
                         "CgGKzBnee4JDNUQ6": {
-                            "description": "늙은 뱃사람"
+                            "description": "바다 개"
                         },
                         "RIYIxMA5gUw4ba8E": {
-                            "description": "폭풍 헤치는 자"
+                            "description": "스톰페어러"
                         }
                     }
                 },
@@ -11574,22 +11574,22 @@
                     "name": "별명 - 도둑",
                     "results": {
                         "wn3wkT4nQgf887yx": {
-                            "description": "반 토막 손가락"
+                            "description": "하프핑거"
                         },
                         "kKaeAj5I8a4346P7": {
-                            "description": "검은 쥐"
+                            "description": "블랙랫"
                         },
                         "ETnsy1XxHOUlkYTZ": {
-                            "description": "붉은 눈"
+                            "description": "레드아이"
                         },
                         "GcGxODbVcdJqRBha": {
-                            "description": "날랜 발"
+                            "description": "퀵풋"
                         },
                         "rgDH1kmDRnxEHNia": {
-                            "description": "두 갈래 혀"
+                            "description": "더블텅"
                         },
                         "DNwXfOQ9hGhhZE7K": {
-                            "description": "밤의 자객"
+                            "description": "나이트스태버"
                         }
                     }
                 },
@@ -11597,37 +11597,37 @@
                     "name": "외모",
                     "results": {
                         "hWuUytk4HpyQVl01": {
-                            "description": "뺨을 가로지르는 흉한 흉터"
+                            "description": "뺨을 가로지르는 흉측한 흉터"
                         },
                         "fzQRE5MrdzcdUVNf": {
-                            "description": "기묘한 머리쓰개"
+                            "description": "기묘한 머리 장식"
                         },
                         "jHK9kviV2zYYXJAp": {
-                            "description": "유난히 창백하고 핏기 없는 낯빛"
+                            "description": "창백하고 핏기 없는 얼굴"
                         },
                         "NQX63HeryFKdgrF5": {
                             "description": "입가에서 떠나지 않는 미소"
                         },
                         "hjIRBWzl1HLkAIpD": {
-                            "description": "얼음장 같고 꿰뚫어 보는 눈길"
+                            "description": "얼음처럼 꿰뚫어 보는 눈빛"
                         },
                         "UdjYBXv7oSyx5CVS": {
-                            "description": "허리께에 붙은 약간의 살"
+                            "description": "배와 옆구리에 붙은 군살"
                         },
                         "lYfF6tOKmn7U6MeH": {
                             "description": "마르고 다부진 몸"
                         },
                         "NTm0FcCCJin0YBaw": {
-                            "description": "유난히 많은 털 (종족에 따라 다름)"
+                            "description": "비정상적으로 많은 체모(혈족에 따라)"
                         },
                         "y7pquhxvdgwHjmXE": {
-                            "description": "벗어지는 머리 (종족에 따라 다름)"
+                            "description": "벗겨지는 머리(혈족에 따라)"
                         },
                         "xd66H36FSf6mGvz4": {
                             "description": "눈에 띄는 문신"
                         },
                         "qHe9Lc9HLrXMMDaR": {
-                            "description": "고약한 몸 냄새"
+                            "description": "지독한 체취"
                         },
                         "5UiQoHF5Q3ylnxPW": {
                             "description": "근사한 머리 모양"
@@ -11642,13 +11642,13 @@
                             "description": "정직해 보이는 푸른 눈"
                         },
                         "nn46V58fbe1tFvBw": {
-                            "description": "은니"
+                            "description": "은 이빨"
                         },
                         "iwEiLJ3H4iXaf54E": {
                             "description": "짙은 향수 냄새"
                         },
                         "zrGk3veC4pn46wcs": {
-                            "description": "짝짝이 눈동자 색"
+                            "description": "오드아이"
                         },
                         "ubk6ztaCw8XU6Yd6": {
                             "description": "쉭쉭거리는 목소리"
@@ -11662,7 +11662,7 @@
                     "name": "직업",
                     "results": {
                         "9RhPzpRU7ZVUhW4u": {
-                            "description": "마법사. @UUID[Item.xsMWmMEDLOtF4pDg]{정령술사}, @UUID[Item.5qFrwNTam2KA98jh]{원소술사}, @UUID[Item.fLYDNkiglRRrOcdx]{정신술사} 중에서 고르세요."
+                            "description": "마법사. @UUID[Item.xsMWmMEDLOtF4pDg]{정령술사}, @UUID[Item.5qFrwNTam2KA98jh]{원소술사}, @UUID[Item.fLYDNkiglRRrOcdx]{정신술사} 중에서 고릅니다."
                         }
                     }
                 },
@@ -11676,7 +11676,7 @@
                             "description": "젊음"
                         },
                         "IoNmne2VFS1bel80": {
-                            "description": "성인"
+                            "description": "성년"
                         },
                         "I9r6k5LDAISSlUj2": {
                             "description": "노년"
@@ -11687,13 +11687,13 @@
                     "name": "장비 - 음유시인",
                     "results": {
                         "Yk5LNyVpnnIkjo1w": {
-                            "description": "@UUID[Item.D2U19D7Y88lhqoC7]{리라}, @UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.q1QjsGqlJAfvyloU]{기름 등잔}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.D2U19D7Y88lhqoC7]{리라}, @UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.q1QjsGqlJAfvyloU]{오일 램프}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "4JEjBN1QlQEY0JL7": {
-                            "description": "@UUID[Item.j6L1uJD8bkRUaPsa]{피리}, @UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.j6L1uJD8bkRUaPsa]{플루트}, @UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "RYTsXyu7wZXzHN4X": {
-                            "description": "@UUID[Item.Sm35JzJe9ggzEVKo]{뿔피리}, @UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.Sm35JzJe9ggzEVKo]{뿔나팔}, @UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         }
                     }
                 },
@@ -11701,13 +11701,13 @@
                     "name": "장비 - 장인",
                     "results": {
                         "eOpXEWMkCyqaYXJl": {
-                            "description": "@UUID[Item.ApOJDT5NOkTGUITX]{워해머, 경량}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.88nXOQKWHA52n0dC]{대장장이 도구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.ApOJDT5NOkTGUITX]{경량 워해머}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.88nXOQKWHA52n0dC]{대장장이 도구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "DMO2QJa7tHLMP4dc": {
-                            "description": "@UUID[Item.HJQSyTC2Aqpn1g0x]{손도끼}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.0SJ0txMLS1BOt15y]{목공 도구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.HJQSyTC2Aqpn1g0x]{손도끼}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.0SJ0txMLS1BOt15y]{목수의 도구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "S7OJnqSWNRdLkKob": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.ZOqv90IYuiOzSSGz]{무두질 도구}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.ZOqv90IYuiOzSSGz]{무두장이 도구}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         }
                     }
                 },
@@ -11715,13 +11715,13 @@
                     "name": "장비 - 사냥꾼",
                     "results": {
                         "EM951Lw3fEulqeLg": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.JrIyYWUpCA7eRnKH]{짧은 활}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통, 쇠촉}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.nbKvfDqFtg1ALX5x]{올가미}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.JrIyYWUpCA7eRnKH]{숏보우}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통 (쇠촉)}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.nbKvfDqFtg1ALX5x]{올가미}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         },
                         "kgj8fzDeHt6mE1S6": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.eETPMPPF8LQhTdy6]{긴 활}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통, 쇠촉}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.5XxiSXI3CQJtEdBZ]{낚싯대}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.eETPMPPF8LQhTdy6]{롱보우}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통 (쇠촉)}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.5XxiSXI3CQJtEdBZ]{낚싯대}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         },
                         "g2vBd3WhvrKwT9hI": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.2aoEHGjOgRkDpNNy]{투석구}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.nbKvfDqFtg1ALX5x]{올가미}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.2aoEHGjOgRkDpNNy]{슬링}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.nbKvfDqFtg1ALX5x]{올가미}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         }
                     }
                 },
@@ -11729,13 +11729,13 @@
                     "name": "장비 - 전사",
                     "results": {
                         "uVEySERAWKvJxm9Y": {
-                            "description": "@UUID[Item.sefGmdXkWF8GzAPH]{브로드소드} 또는 @UUID[Item.rECfZ03SIfAktrLm]{전투도끼} 또는 @UUID[Item.H0cmKKiRTN0feKBB]{모닝스타}, @UUID[Item.EvriVpr9y7NNxw2q]{방패, 작은}, @UUID[Item.mipOQqpdwapgMuOe]{사슬 갑옷}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.sefGmdXkWF8GzAPH]{브로드소드}/@UUID[Item.rECfZ03SIfAktrLm]{배틀액스}/@UUID[Item.H0cmKKiRTN0feKBB]{모닝스타}, @UUID[Item.EvriVpr9y7NNxw2q]{소형 방패}, @UUID[Item.mipOQqpdwapgMuOe]{체인메일}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         },
                         "FnrLdIaQPWBqWEB0": {
-                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드} 또는 @UUID[Item.HJQSyTC2Aqpn1g0x]{손도끼} 또는 @UUID[Item.9DGwM3eAKYXv54nx]{짧은 창}, @UUID[Item.qaCcThI64S5lRMGa]{석궁, 경량}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통, 쇠촉}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드}/@UUID[Item.HJQSyTC2Aqpn1g0x]{손도끼}/@UUID[Item.9DGwM3eAKYXv54nx]{숏스피어}, @UUID[Item.qaCcThI64S5lRMGa]{경량 크로스보우}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통 (쇠촉)}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         },
                         "fVeXxkWAIEYJXTvN": {
-                            "description": "@UUID[Item.khOSAZVzs9GMdnB1]{긴 창}, @UUID[Item.Vv01rIiqPieMYx5v]{징 박은 가죽 갑옷}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D6]] 은화"
+                            "description": "@UUID[Item.khOSAZVzs9GMdnB1]{롱스피어}, @UUID[Item.Vv01rIiqPieMYx5v]{스터디드 레더}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D6]] 은화"
                         }
                     }
                 },
@@ -11743,13 +11743,13 @@
                     "name": "장비 - 학자",
                     "results": {
                         "1vttPZN044j2TdwV": {
-                            "description": "@UUID[Item.lL2NDjJbCRygTBYt]{지팡이}, @UUID[Item.BSZ8IUXZSdRNDpOq]{공책}, @UUID[Item.LCQq5edI2CYZi19X]{깃펜과 잉크}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.lL2NDjJbCRygTBYt]{스태프}, @UUID[Item.BSZ8IUXZSdRNDpOq]{공책}, @UUID[Item.LCQq5edI2CYZi19X]{깃펜 &amp; 잉크}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "AEIkO9JvQll85cCD": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.csHy2MVcDDH6yuKa]{책 (아무 분야)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.q1QjsGqlJAfvyloU]{기름 등잔}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.csHy2MVcDDH6yuKa]{책 (주제 무관)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.q1QjsGqlJAfvyloU]{오일 램프}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "3kNWigvTQBsFNuSc": {
-                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드}, @UUID[Item.301gf2jCfhxwyQD7]{붕대 (10개)}, @UUID[Item.xsgSXYq1sdkH8eyl]{독, 수면 (1회분)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드}, @UUID[Item.301gf2jCfhxwyQD7]{붕대 (10개)}, @UUID[Item.xsgSXYq1sdkH8eyl]{수면독 (1회분)}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         }
                     }
                 },
@@ -11757,13 +11757,13 @@
                     "name": "장비 - 마법사",
                     "results": {
                         "l3tMAOyAwDyvqSho": {
-                            "description": "@UUID[Item.lL2NDjJbCRygTBYt]{지팡이}, @UUID[Item.SkfAuURGWldr0KIL]{수정구}, @UUID[Item.brwS719az0E1uM4V]{마법서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.lL2NDjJbCRygTBYt]{스태프}, @UUID[Item.SkfAuURGWldr0KIL]{수정구}, @UUID[Item.brwS719az0E1uM4V]{마도서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "xXk0GnqPDVISdZy9": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.hL26ji4ndIhQtHui]{지팡이(완드)}, @UUID[Item.brwS719az0E1uM4V]{마법서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.hL26ji4ndIhQtHui]{완드}, @UUID[Item.brwS719az0E1uM4V]{마도서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         },
                         "hR7LqcmbO1S30OJ5": {
-                            "description": "@UUID[Item.H7m2kJF4iBCmgddj]{부적}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.brwS719az0E1uM4V]{마법서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D8]] 은화"
+                            "description": "@UUID[Item.H7m2kJF4iBCmgddj]{아뮬렛}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.brwS719az0E1uM4V]{마도서}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D8]] 은화"
                         }
                     }
                 },
@@ -11771,13 +11771,13 @@
                     "name": "장비 - 상인",
                     "results": {
                         "YETKDfUdP4BSBqXe": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.NPz7PXpMtnu9Tn2j]{당나귀}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.NPz7PXpMtnu9Tn2j]{당나귀}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         },
                         "WqXm2XsC0vXeqjPM": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.M88coetAVdy4LQoq]{야전 취사도구}, @UUID[Item.NPz7PXpMtnu9Tn2j]{당나귀}, @UUID[Item.fukAHy82ZlonaOYl]{수레}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.Sdzg1HSXUqhmnjGq]{랜턴}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.M88coetAVdy4LQoq]{야전 취사도구}, @UUID[Item.NPz7PXpMtnu9Tn2j]{당나귀}, @UUID[Item.fukAHy82ZlonaOYl]{수레}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         },
                         "c4eBgYkfO15cCOV0": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.41hsVJL8psHosZNH]{큰 천막}, @UUID[Item.q1QjsGqlJAfvyloU]{기름 등잔}, @UUID[Item.BtTyGxh7u1BjJ0n7]{등잔 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.BdVjXmrMTUw2KsnT]{배낭}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.41hsVJL8psHosZNH]{대형 텐트}, @UUID[Item.q1QjsGqlJAfvyloU]{오일 램프}, @UUID[Item.BtTyGxh7u1BjJ0n7]{램프 기름}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, @UUID[Item.BdVjXmrMTUw2KsnT]{배낭}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         }
                     }
                 },
@@ -11785,13 +11785,13 @@
                     "name": "장비 - 기사",
                     "results": {
                         "AVnbPQHEPHmKiNLI": {
-                            "description": "@UUID[Item.sefGmdXkWF8GzAPH]{브로드소드} 또는 @UUID[Item.H0cmKKiRTN0feKBB]{모닝스타}, @UUID[Item.EvriVpr9y7NNxw2q]{방패, 작은}, @UUID[Item.WipvbzHAA5vBHbPL]{판금 갑옷}, @UUID[Item.8mC6FZefZPZOEzJo]{대형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.sefGmdXkWF8GzAPH]{브로드소드}/@UUID[Item.H0cmKKiRTN0feKBB]{모닝스타}, @UUID[Item.EvriVpr9y7NNxw2q]{소형 방패}, @UUID[Item.WipvbzHAA5vBHbPL]{플레이트}, @UUID[Item.8mC6FZefZPZOEzJo]{대형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         },
                         "EKP8bECmoWySQKPd": {
-                            "description": "@UUID[Item.DjqqaipPzRML3sxL]{플레일} 또는 @UUID[Item.ApOJDT5NOkTGUITX]{워해머, 경량}, @UUID[Item.EvriVpr9y7NNxw2q]{방패, 작은}, @UUID[Item.mipOQqpdwapgMuOe]{사슬 갑옷}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.DjqqaipPzRML3sxL]{플레일}/@UUID[Item.ApOJDT5NOkTGUITX]{경량 워해머}, @UUID[Item.EvriVpr9y7NNxw2q]{소형 방패}, @UUID[Item.mipOQqpdwapgMuOe]{체인메일}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         },
                         "v9conlRtiNMwH6Lf": {
-                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드}, @UUID[Item.duUrw7keFmaINU3U]{랜스}, @UUID[Item.EvriVpr9y7NNxw2q]{방패, 작은}, @UUID[Item.mipOQqpdwapgMuOe]{사슬 갑옷}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.Oc53ih4rp9nMSuZE]{전투 훈련된 말}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D12]] 은화"
+                            "description": "@UUID[Item.Ovcu7ZmJPWdeBvg5]{숏소드}, @UUID[Item.duUrw7keFmaINU3U]{랜스}, @UUID[Item.EvriVpr9y7NNxw2q]{소형 방패}, @UUID[Item.mipOQqpdwapgMuOe]{체인메일}, @UUID[Item.c0JttpFm82gW6uSy]{개방형 투구}, @UUID[Item.Oc53ih4rp9nMSuZE]{전투마}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D12]] 은화"
                         }
                     }
                 },
@@ -11799,13 +11799,13 @@
                     "name": "장비 - 선원",
                     "results": {
                         "UqpLQE7VXMUTB1gm": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.JrIyYWUpCA7eRnKH]{짧은 활}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통, 쇠촉}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{갈고리}, @UUID[Item.Pv49mKzwvjvQvvZ1]{침낭용 모피}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.JrIyYWUpCA7eRnKH]{숏보우}, @UUID[Item.N3NiUj3YyV0yjJDm]{화살통 (쇠촉)}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{등반용 갈고리}, @UUID[Item.Pv49mKzwvjvQvvZ1]{모피 침낭}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "wwWU5wfOI1itRnDF": {
-                            "description": "@UUID[Item.7izBI8cBzeN3aPIP]{시미터}, @UUID[Item.UtY5xcQPBJZuuj7F]{가죽 갑옷}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.7izBI8cBzeN3aPIP]{시미터}, @UUID[Item.UtY5xcQPBJZuuj7F]{레더}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{등반용 갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "FYP9is2BoQswHx7B": {
-                            "description": "@UUID[Item.bpzJF14FyIBazsLE]{삼지창}, @UUID[Item.IUD6Qu5Z4ZTnjKgL]{망원경}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.bpzJF14FyIBazsLE]{트라이던트}, @UUID[Item.IUD6Qu5Z4ZTnjKgL]{망원경}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{등반용 갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D8]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         }
                     }
                 },
@@ -11813,13 +11813,13 @@
                     "name": "장비 - 도둑",
                     "results": {
                         "8wg1F55y58fSKAvW": {
-                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.2aoEHGjOgRkDpNNy]{투석구}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.2aoEHGjOgRkDpNNy]{슬링}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.1LVGlgHHVSewU8n4]{등반용 갈고리}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "Bs2HQ3Lo2L6hGNwr": {
-                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.amV4mEwPw0yltFrX]{자물쇠 따개, 보급}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.otNTdw5ukG97slmA]{나이프}, @UUID[Item.amV4mEwPw0yltFrX]{락픽 (일반)}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         },
                         "gKnBh8DhRjv8llip": {
-                            "description": "2x@UUID[Item.iaw4A60DRS2GRzU0]{대거}, @UUID[Item.CctvEneNpQrpDZs2]{구슬}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄, 삼 (10미터)}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{야전 식량}, [[/roll D10]] 은화"
+                            "description": "@UUID[Item.iaw4A60DRS2GRzU0]{대거} 두 자루, @UUID[Item.CctvEneNpQrpDZs2]{쇠구슬}, @UUID[Item.MbOxZVTvXbiHc399]{밧줄 (삼베, 10미터)}, @UUID[Item.9pnujo2YnAkyWGYz]{횃불}, @UUID[Item.Cxwz560f52T07ktk]{부싯돌과 부싯깃}, [[/roll D6]]x@UUID[Item.H9N7sigpDLHMQmGL]{휴대 식량}, [[/roll D10]] 은화"
                         }
                     }
                 },
