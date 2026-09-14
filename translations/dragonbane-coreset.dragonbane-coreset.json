@@ -1719,7 +1719,7 @@
                 },
                 "Bothild’s Broadaxe": {
                     "name": "보틸드의 광부도끼",
-                    "cost": "금화 100닢",
+                    "cost": "100 금화",
                     "description": "<p>보틸드의 명품 전투도끼로, 주인의 무훈을 새긴 룬으로 장식되어 있습니다.</p>"
                 },
                 "Fiendcrusher": {
@@ -1914,80 +1914,80 @@
                         },
                         "Fetch": {
                             "name": "끌어오기",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>10미터 이내에 놓인 물건(무게 1 이하)을 자신에게로 떠오게 합니다.</p>"
                         },
                         "Light": {
                             "name": "빛",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>원하는 매개체에서 뿜어져 나오는 밝은 빛을 만듭니다. 매개체를 중심으로 반경 10미터를 밝히며 한 시프트 동안 지속됩니다. 자신의 HP가 0이 되면 빛이 꺼집니다.</p>"
                         },
                         "Open/Close": {
                             "name": "열기/닫기",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>10미터 이내에 보이는 잠기지 않은 문을 열거나 닫습니다.</p>"
                         },
                         "Dispel": {
                             "name": "마법 해제",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>진행 중인 주문 중 파워 레벨이 자신보다 낮거나 같은 것을 취소합니다. 모험이나 GM이 허락한다면 마법 해제로 다른 마법 효과를 끝낼 수도 있습니다.</p>"
                         },
                         "Ensnaring Roots": {
                             "name": "뿌리 묶기",
-                            "requirement": "손짓, 재료(주변의 가지나 뿌리)",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓, 재료(주변의 가지나 뿌리)",
+                            "prerequisite": "정령주의",
                             "description": "<p>대상이 뿌리에 얽매여 움직일 수 없게 됩니다. 빠져나오려면 회피 굴림이 필요합니다. 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 시도할 때마다 행동 하나로 칩니다. 라운드당 한 번만 시도할 수 있지만 다른 사람이 도울 수 있습니다. 이 주문은 몬스터에게는 통하지 않습니다.</p>"
                         },
                         "Lock/Unlock": {
                             "name": "잠금/해제",
-                            "requirement": "손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>손을 대면 마법이 걸리지 않은 자물쇠가 잠기거나 열립니다.</p>"
                         },
                         "Power Fist": {
                             "name": "철권",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>맨손 공격의 피해가 파워 레벨당 d6씩 늘어납니다.</p>"
                         },
                         "Stone Skin": {
                             "name": "바위 피부",
-                            "requirement": "말, 손짓, 재료(돌)",
-                            "prerequisite": "정신술",
+                            "requirement": "말, 몸짓, 재료(돌)",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>표적의 피부가 잿빛으로 변하며 방어도 4를 얻습니다. 상승한 파워 레벨마다 방어도가 2씩 더 늘어납니다. 갑옷을 입고 있다면 더 높은 방어도만 계산합니다.</p>"
                         },
                         "Mental Strike": {
                             "name": "정신 충격",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "힘의 주먹",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "철권",
                             "description": "<p>정신의 힘을 강력한 물리적 타격으로 쏘아 보냅니다. 이 공격은 표적을 자신에게서 2d6미터 날려 보내고 같은 양의 피해를 입힙니다. 파워 레벨이 오를 때마다 굴림에 d6가 더해집니다. 이 주문은 원거리 공격처럼 회피하거나 막을 수 있습니다.</p>"
                         },
                         "Scrying": {
                             "name": "투영",
-                            "requirement": "손짓",
-                            "prerequisite": "원시",
+                            "requirement": "몸짓",
+                            "prerequisite": "천리안",
                             "description": "<p>지금 있는 장소에서 과거에 벌어진 사건을 알게 됩니다. 무슨 일이 있었는지 기억하는 산 자가 아무도 없어도 마찬가지입니다. 파워 레벨 1에서는 하루 전까지, 2에서는 1년 전까지, 3에서는 수백 년 전까지 들여다봅니다. 환영은 대개 알쏭달쏭하고 파편적이며, 정확히 무엇을 보게 되는지는 GM이 정합니다.</p>"
                         },
                         "Telepathy": {
                             "name": "텔레파시",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원시",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "천리안",
                             "description": "<p>타인의 표면적인 생각을 읽을 수 있습니다. 더 깊은 기억에 닿으려면 파워 레벨 2 이상이 필요하며, 그 기억이 얼마나 최근의 것인지에 따라 달라집니다. 최종 판단은 GM에게 있습니다. 이 주문으로 자신의 생각을 다른 사람에게 보낼 수도 있습니다.</p>"
                         },
                         "Dominate": {
                             "name": "지배",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "정신 감응",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "텔레파시",
                             "description": "<p>다른 사람의 행동을 완전히 통제할 수 있습니다. 이 주문을 시전하려면 표적의 의지와 대항 굴림을 합니다.</p><p>NPC는 최대 의지력이 명시되어 있다면 그 값으로 굴리되, 영웅 능력 집중력 단계마다 2씩 낮춥니다. 의지력이 명시되어 있지 않다면 NPC는 10으로 굴립니다.</p><p>파워 레벨 1에서는 파멸을 받고, 2에서는 평소대로, 3에서는 은총을 받고 굴립니다.</p><p>굴림에서 이기면 표적은 즉시 여러분이 정한 이동과 행동을 해야 합니다. 다만 의지력을 소모해야 하는 행동은 제외됩니다. 희생자는 다음 자기 턴도 잃습니다. 이 주문은 몬스터에게는 효과가 없습니다.</p>"
                         },
                         "Sense Magic": {
                             "name": "마법 감지",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>지금 있는 장소나 들고 있는 물건이 마법의 영향을 받고 있는지, 그렇다면 어떤 종류의 마법인지 감지할 수 있습니다.</p>"
                         }
                     }
@@ -4005,44 +4005,44 @@
                         },
                         "Fetch": {
                             "name": "끌어오기",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>10미터 이내에 놓인 물건(무게 1 이하)을 자신에게로 떠오게 합니다.</p>"
                         },
                         "Dispel": {
                             "name": "마법 해제",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>진행 중인 주문 중 파워 레벨이 자신보다 낮거나 같은 것을 취소합니다. 모험이나 GM이 허락한다면 마법 해제로 다른 마법 효과를 끝낼 수도 있습니다.</p>"
                         },
                         "Ignite": {
                             "name": "점화",
-                            "requirement": "손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>10미터 이내의 양초나 횃불, 랜턴에 불을 붙이거나 끕니다.</p>"
                         },
                         "Fireball": {
                             "name": "화염구",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>손이나 매개체에서 화염구를 표적에게 날립니다. 화염구는 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d6 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d6씩 늘거나, 추가 표적을 맞히는 화염구를 하나 더 만듭니다.</p>"
                         },
                         "Frost": {
                             "name": "서릿발",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>주위 온도를 떨어뜨립니다. 범위 안의 모든 자연스러운 불이 꺼지고, 살아 있는 모든 생물이 주문 시전 시 d6 생명력과 d6 의지력을 잃으며 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#cold]{추위}에 시달립니다. 몸이 따뜻해질 때까지 생명력과 의지력을 회복할 수 없습니다.</p><p>주문 시전 시 범위 안에 있던 인간형 생물(몬스터는 제외)은 자리에 얼어붙어 움직일 수도, 어떤 행동(대응조차)도 할 수 없습니다. 얼어붙은 희생자는 매 턴 근력 굴림(행동 아님)으로 빠져나올 수 있습니다. 파워 레벨이 오를 때마다 사거리가 4미터씩 늘어납니다.</p><p>효과 범위 안의 물은 즉시 업니다. 강에서는 그 위를 걷거나 뗏목처럼 쓸 수 있는 유빙이 생깁니다.</p>"
                         },
                         "Shatter": {
                             "name": "분쇄",
                             "requirement": "말",
-                            "prerequisite": "원소술",
+                            "prerequisite": "원소주의",
                             "description": "<p>물질을 붙들고 있는 보이지 않는 결속을 끊어 물체를 부술 수 있습니다. 물체이면서 마법이 걸리지 않은 물품에 2d10 피해를 입힙니다. 방어도는 효과가 없습니다. 상승한 파워 레벨마다 피해가 d10씩 늘어납니다.</p>"
                         },
                         "Gust of Wind": {
                             "name": "돌풍",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                         }
                     }
@@ -6036,68 +6036,68 @@
                         },
                         "Dispel": {
                             "name": "마법 해제",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>진행 중인 주문 중 파워 레벨이 자신보다 낮거나 같은 것을 취소합니다. 모험이나 GM이 허락한다면 마법 해제로 다른 마법 효과를 끝낼 수도 있습니다.</p>"
                         },
                         "Magic Shield": {
                             "name": "마법 방패",
-                            "requirement": "손짓",
-                            "prerequisite": "수호 또는 마법 해제",
+                            "requirement": "몸짓",
+                            "prerequisite": "보호막 또는 마법 해제",
                             "description": "<p>다른 마법사가 시전한 주문을 방해합니다. 이 주문은 대응이라 전투의 우선권 순서를 깨뜨리지만, 그 라운드의 행동을 대신하지는 않습니다. 상대의 성공 굴림 뒤, 피해나 다른 효과를 굴리기 전에 시전합니다. 성공하면 상대 주문의 파워 레벨이 자신의 마법 방패 파워 레벨만큼 낮아집니다. 결과가 0 이하면 상대의 주문은 아무 효과도 없습니다. 몬스터의 마법 공격을 막는 데도 쓸 수 있습니다. 그 경우 파워 레벨마다 피해 주사위 개수가 1씩 줄어듭니다.</p>"
                         },
                         "Banish": {
                             "name": "추방",
-                            "requirement": "말, 손짓, 매개물(성표)",
-                            "prerequisite": "정령술",
+                            "requirement": "말, 몸짓, 매개체(성표)",
+                            "prerequisite": "정령주의",
                             "description": "<p>악마와 언데드는 자연의 질서를 거스르는 존재이므로 막아야 합니다. 이 주문은 그런 생물에게 2d8 피해를 입힙니다. 파워 레벨이 오를 때마다 피해가 d8씩 늘어납니다. 방어구와 천연 방어구는 효과가 없으며, 회피할 수도 막을 수도 없습니다.</p>"
                         },
                         "Ensnaring Roots": {
                             "name": "뿌리 묶기",
-                            "requirement": "손짓, 재료(주변의 가지나 뿌리)",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓, 재료(주변의 가지나 뿌리)",
+                            "prerequisite": "정령주의",
                             "description": "<p>대상이 뿌리에 얽매여 움직일 수 없게 됩니다. 빠져나오려면 회피 굴림이 필요합니다. 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 시도할 때마다 행동 하나로 칩니다. 라운드당 한 번만 시도할 수 있지만 다른 사람이 도울 수 있습니다. 이 주문은 몬스터에게는 통하지 않습니다.</p>"
                         },
                         "Lightning Bolt": {
                             "name": "번개 줄기",
-                            "requirement": "손짓",
+                            "requirement": "몸짓",
                             "prerequisite": "번개 섬광",
                             "description": "<p>표적에게 벼락을 불러 2d8 피해를 입힙니다. 벼락은 표적으로부터 2미터 이내의 무작위 표적으로 이어져 2d6 피해를 입히고, 다시 2미터 이내의 세 번째 표적에게 이어져 2d4 피해를 입힙니다. 상승한 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다. 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 성공하면 다음 표적은 맞지 않습니다. 실내에서 의지력 비용이 두 배가 됩니다.</p>"
                         },
                         "Lightning Flash": {
                             "name": "번개 섬광",
-                            "requirement": "손짓",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓",
+                            "prerequisite": "정령주의",
                             "description": "<p>하늘에서 번개를 불러 내립니다. 표적이 2d6 피해를 입습니다. 번개는 표적으로부터 2미터 이내의 다른 무작위 표적에게 2d4 피해를 입힙니다. 상승한 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다(예를 들어 파워 레벨 2에서는 각각 3d6과 3d4). 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 성공하면 다음 표적은 맞지 않습니다. 실내에서는 의지력 비용이 두 배가 됩니다.</p>"
                         },
                         "Purge": {
                             "name": "정화",
-                            "requirement": "말, 손짓, 매개물(성표)",
+                            "requirement": "말, 몸짓, 매개체(성표)",
                             "prerequisite": "추방",
                             "description": "<p>악마나 언데드를 쫓아내어 2d10 피해를 입힙니다. 파워 레벨마다 피해가 d10씩 늘어납니다. 방어구와 천연 방어구는 효과가 없으며, 회피나 막을 수 없습니다.</p>"
                         },
                         "Sense Magic": {
                             "name": "마법 감지",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>지금 있는 장소나 들고 있는 물건이 마법의 영향을 받고 있는지, 그렇다면 어떤 종류의 마법인지 감지할 수 있습니다.</p>"
                         },
                         "Protector": {
                             "name": "보호막",
-                            "requirement": "손짓, 재료(그릴 수 있는 것)",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓, 재료(그릴 수 있는 것)",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>사람이나 장소(사람보다 크지 않은)를 마법으로부터 보호합니다. 자신에게 시전할 수도 있습니다. 그 사람이나 장소를 겨눈 주문의 파워 레벨이 보호막의 파워 레벨만큼 낮아집니다. 몬스터의 마법 공격을 막는 데도 쓸 수 있습니다. 그 경우 파워 레벨마다 피해 주사위 개수가 1씩 줄어듭니다.</p>"
                         },
                         "Heal Wound": {
                             "name": "상처 완치",
                             "requirement": "말",
-                            "prerequisite": "상처 처치",
+                            "prerequisite": "상처 치료",
                             "description": "<p>살아 있는 생물의 HP를 2d8 회복시키고 비영구적인 부상 하나를 치료합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d8 HP를 추가로 회복시킵니다.</p>"
                         },
                         "Treat Wound": {
                             "name": "상처 치료",
                             "requirement": "말",
-                            "prerequisite": "정령술",
+                            "prerequisite": "정령주의",
                             "description": "<p>살아 있는 생물의 HP를 2d6 회복합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d6 HP를 추가로 회복합니다.</p>"
                         }
                     }
@@ -8702,68 +8702,68 @@
                         },
                         "Flick": {
                             "name": "튕기기",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>10미터 이내의 물건이나 생물에게 마법의 스파크를 날립니다. 이 \"공격\"은 1점의 피해를 입히며, 예를 들어 유리를 깨뜨릴 수 있습니다.</p>"
                         },
                         "Birdsong": {
                             "name": "새의 노래",
-                            "requirement": "손짓",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓",
+                            "prerequisite": "정령주의",
                             "description": "<p>한 스트레치 동안 아름다운 새소리에 둘러싸입니다. 새들이 경계에 은총을 줍니다. 이 재주는 실외에서만 작동합니다.</p>"
                         },
                         "Slow Fall": {
                             "name": "느린 낙하",
-                            "requirement": "손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>높이와 관계없이 낙하 속도가 느려져 깃털처럼 가볍게 착지합니다.</p>"
                         },
                         "Dispel": {
                             "name": "마법 해제",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>진행 중인 주문 중 파워 레벨이 자신보다 낮거나 같은 것을 취소합니다. 모험이나 GM이 허락한다면 마법 해제로 다른 마법 효과를 끝낼 수도 있습니다.</p>"
                         },
                         "Animal Whisperer": {
                             "name": "동물과 대화",
                             "requirement": "말",
-                            "prerequisite": "정령술",
+                            "prerequisite": "정령주의",
                             "description": "<p>이 주문으로 새나 포유류와 이야기할 수 있습니다. 파워 레벨만큼 질문할 수 있습니다. 동물은 자신이 보고 듣고 냄새 맡은 것을 말해줄 수 있지만, 인간형 생물과 같은 방식으로 세계를 인식하지 않아 그 대답은 해석하기 어렵습니다. 가장 큰 장점은 결코 거짓말하지 않는다는 점입니다.</p>"
                         },
                         "Farsight": {
                             "name": "천리안",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>최대 1킬로미터 떨어진 장소에서 벌어지는 일을 마치 그 자리에 있는 것처럼 보고 들을 수 있습니다. 그 장소가 시야에 들어와 있거나 전에 가본 적이 있어야 합니다. 파워 레벨이 하나 오를 때마다 사거리가 열 배가 됩니다. 파워 레벨 2에서는 10킬로미터, 3에서는 100킬로미터입니다. 이 주문으로 다른 차원을 들여다볼 수는 없습니다.</p>"
                         },
                         "Power Fist": {
                             "name": "철권",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>맨손 공격의 피해가 파워 레벨당 d6씩 늘어납니다.</p>"
                         },
                         "Levitate": {
                             "name": "부유",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "정신술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "멘탈리즘",
                             "description": "<p>자신이나 사람 크기까지의 다른 사람 또는 물건을 띄워 원하는 방향으로 최대 6미터 떠가게 한 뒤, 부드럽게 내려놓거나 떨어뜨립니다(여러분이 정합니다). 파워 레벨이 오를 때마다 표적을 2미터 더 띄우거나 사람이나 물건을 하나 더 띄울 수 있습니다. 원하지 않는 생물을 부유시키려 하면 굴림에 파멸을 받습니다.</p>"
                         },
                         "Telepathy": {
                             "name": "텔레파시",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원시",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "천리안",
                             "description": "<p>타인의 표면적인 생각을 읽을 수 있습니다. 더 깊은 기억에 닿으려면 파워 레벨 2 이상이 필요하며, 그 기억이 얼마나 최근의 것인지에 따라 달라집니다. 최종 판단은 GM에게 있습니다. 이 주문으로 자신의 생각을 다른 사람에게 보낼 수도 있습니다.</p>"
                         },
                         "Sense Magic": {
                             "name": "마법 감지",
-                            "requirement": "손짓",
-                            "prerequisite": "마법 학파 아무거나",
+                            "requirement": "몸짓",
+                            "prerequisite": "아무 마법 유파",
                             "description": "<p>지금 있는 장소나 들고 있는 물건이 마법의 영향을 받고 있는지, 그렇다면 어떤 종류의 마법인지 감지할 수 있습니다.</p>"
                         },
                         "Treat Wound": {
                             "name": "상처 치료",
                             "requirement": "말",
-                            "prerequisite": "정령술",
+                            "prerequisite": "정령주의",
                             "description": "<p>살아 있는 생물의 HP를 2d6 회복합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d6 HP를 추가로 회복합니다.</p>"
                         }
                     }
@@ -14246,397 +14246,397 @@
                 "Animal Whisperer": {
                     "name": "동물과 대화",
                     "requirement": "말",
-                    "prerequisite": "정령술",
+                    "prerequisite": "정령주의",
                     "description": "<p>이 주문으로 새나 포유류와 이야기할 수 있습니다. 파워 레벨만큼 질문할 수 있습니다. 동물은 자신이 보고 듣고 냄새 맡은 것을 말해줄 수 있지만, 인간형 생물과 같은 방식으로 세계를 인식하지 않아 그 대답은 해석하기 어렵습니다. 가장 큰 장점은 결코 거짓말하지 않는다는 점입니다.</p>"
                 },
                 "Banish": {
                     "name": "추방",
-                    "requirement": "말, 손짓, 매개물(성표)",
-                    "prerequisite": "정령술",
+                    "requirement": "말, 몸짓, 매개체(성표)",
+                    "prerequisite": "정령주의",
                     "description": "<p>악마와 언데드는 자연의 질서를 거스르는 존재이므로 막아야 합니다. 이 주문은 그런 생물에게 2d8 피해를 입힙니다. 파워 레벨이 오를 때마다 피해가 d8씩 늘어납니다. 방어구와 천연 방어구는 효과가 없으며, 회피할 수도 막을 수도 없습니다.</p>"
                 },
                 "Birdsong": {
                     "name": "새의 노래",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>한 스트레치 동안 아름다운 새소리에 둘러싸입니다. 새들이 경계에 은총을 줍니다. 이 재주는 실외에서만 작동합니다.</p>"
                 },
                 "Clean": {
                     "name": "청소",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>지금 있는 방이 깨끗해집니다. 모든 먼지와 때가 사라지고 방이 정돈됩니다.</p>"
                 },
                 "Cook Food": {
                     "name": "요리",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>부시크래프트 굴림 없이 자동으로 @UUID[JournalEntry.NVNCLs3ZE3Xttqk0.JournalEntryPage.xVgoGJxj0cnTCD9B#food-in-the-wilderness]{요리}에 성공하며, 즉시(행동 하나로) 이루어집니다.</p>"
                 },
                 "Engulfing Forest": {
                     "name": "집어삼키는 숲",
-                    "requirement": "손짓, 재료(주변의 가지나 뿌리)",
-                    "prerequisite": "옭아매는 뿌리",
+                    "requirement": "몸짓, 재료(주변의 가지나 뿌리)",
+                    "prerequisite": "뿌리 묶기",
                     "description": "<p>숲의 정령들을 불러내면, 효과 범위 안의 땅에서 가시덤불과 뿌리가 순식간에 솟아오릅니다. 그 구역은 험지로 취급되며, 주문을 시전할 때 범위 안에 있던 자신을 제외한 모두(몬스터는 제외)가 뿌리에 얽혀 움직일 수 없게 됩니다. 나오려면 회피 굴림이 필요합니다. 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 시도할 때마다 행동 하나로 칩니다. 라운드당 한 번만 시도할 수 있습니다. 얽매이지 않은 사람이 도울 수 있습니다.</p>"
                 },
                 "Ensnaring Roots": {
                     "name": "뿌리 묶기",
-                    "requirement": "손짓, 재료(주변의 가지나 뿌리)",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓, 재료(주변의 가지나 뿌리)",
+                    "prerequisite": "정령주의",
                     "description": "<p>대상이 뿌리에 얽매여 움직일 수 없게 됩니다. 빠져나오려면 회피 굴림이 필요합니다. 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 시도할 때마다 행동 하나로 칩니다. 라운드당 한 번만 시도할 수 있지만 다른 사람이 도울 수 있습니다. 이 주문은 몬스터에게는 통하지 않습니다.</p>"
                 },
                 "Floral Trail": {
                     "name": "꽃길",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>걷는 자리마다 아름다운 꽃이 피어납니다. 꽃은 한 시프트 뒤에 시듭니다.</p>"
                 },
                 "Hairstyle": {
                     "name": "머리 손질",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>머리카락의 색과 길이, 모양을 원하는 대로 바꿉니다. 어떤 상황에서는 허풍과 설득 굴림에 은총을 줄 수 있습니다.</p>"
                 },
                 "Heal Wound": {
                     "name": "상처 완치",
                     "requirement": "말",
-                    "prerequisite": "상처 처치",
+                    "prerequisite": "상처 치료",
                     "description": "<p>살아 있는 생물의 HP를 2d8 회복시키고 비영구적인 부상 하나를 치료합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d8 HP를 추가로 회복시킵니다.</p>"
                 },
                 "Lightning Bolt": {
                     "name": "번개 줄기",
-                    "requirement": "손짓",
+                    "requirement": "몸짓",
                     "prerequisite": "번개 섬광",
                     "description": "<p>표적에게 벼락을 불러 2d8 피해를 입힙니다. 벼락은 표적으로부터 2미터 이내의 무작위 표적으로 이어져 2d6 피해를 입히고, 다시 2미터 이내의 세 번째 표적에게 이어져 2d4 피해를 입힙니다. 상승한 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다. 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 성공하면 다음 표적은 맞지 않습니다. 실내에서 의지력 비용이 두 배가 됩니다.</p>"
                 },
                 "Lightning Flash": {
                     "name": "번개 섬광",
-                    "requirement": "손짓",
-                    "prerequisite": "정령술",
+                    "requirement": "몸짓",
+                    "prerequisite": "정령주의",
                     "description": "<p>하늘에서 번개를 불러 내립니다. 표적이 2d6 피해를 입습니다. 번개는 표적으로부터 2미터 이내의 다른 무작위 표적에게 2d4 피해를 입힙니다. 상승한 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다(예를 들어 파워 레벨 2에서는 각각 3d6과 3d4). 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 성공하면 다음 표적은 맞지 않습니다. 실내에서는 의지력 비용이 두 배가 됩니다.</p>"
                 },
                 "Purge": {
                     "name": "정화",
-                    "requirement": "말, 손짓, 매개물(성표)",
+                    "requirement": "말, 몸짓, 매개체(성표)",
                     "prerequisite": "추방",
                     "description": "<p>악마나 언데드를 쫓아내어 2d10 피해를 입힙니다. 파워 레벨마다 피해가 d10씩 늘어납니다. 방어구와 천연 방어구는 효과가 없으며, 회피나 막을 수 없습니다.</p>"
                 },
                 "Restoration": {
                     "name": "재생",
                     "requirement": "말",
-                    "prerequisite": "상처 치유",
+                    "prerequisite": "상처 완치",
                     "description": "<p>살아 있는 생물의 HP를 2d10 회복시키고 부상 하나를 치료합니다. 상승한 파워 레벨마다 d10 HP를 추가로 회복시킵니다. 자신에게 쓸 수도 있습니다.</p>"
                 },
                 "Resurrection": {
                     "name": "부활",
-                    "requirement": "말, 손짓, 재료(시체)",
-                    "prerequisite": "상처 치유",
+                    "requirement": "말, 몸짓, 재료(시체)",
+                    "prerequisite": "상처 완치",
                     "description": "<p>자연의 힘을 끌어와 죽은 사람을 되살릴 수 있습니다. 언데드가 아니라 살아난 상태입니다. 그 대가로 의지 1점을 영구히 잃습니다(최대 의지력도 1 줄어듭니다). 표적이 죽은 뒤 시간이 지날수록 어려워집니다. 같은 시프트 안이라면 파워 레벨 1, 하루 안이라면 2, 일주일 안이라면 3이 필요합니다. 일주일이 넘게 지났다면 시신이 부패해 부활시킬 수 없습니다. 시도는 단 한 번만 할 수 있으며, 실패하면 희생자는 영원히 죽습니다. 되살아난 사람은 매력 기반 기술의 값을 d3 잃습니다(최소 3까지).</p>"
                 },
                 "Sleep": {
                     "name": "수면",
                     "requirement": "말",
-                    "prerequisite": "상처 처치",
+                    "prerequisite": "상처 치료",
                     "description": "<p>주문의 표적은 의지 굴림에 성공해야 하며, 그러지 못하면 한 스트레치 동안 잠에 빠집니다. NPC는 최대 의지력이 명시되어 있다면 그 값으로 굴리되, 영웅 능력 집중력 단계마다 2 낮춥니다. 의지력이 명시되어 있지 않다면 10으로 굴립니다. 굴림에 성공하더라도 희생자는 멍함 상태가 됩니다. 표적은 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 잠든 사람은 깨우기가 매우 어렵지만 피해를 입으면 깨어납니다. 이 주문은 살아 있는 생물에게만 쓸 수 있고 몬스터에게는 효과가 없습니다.</p>"
                 },
                 "Thunderbolt": {
                     "name": "천둥벼락",
-                    "requirement": "손짓",
-                    "prerequisite": "번개 화살",
+                    "requirement": "몸짓",
+                    "prerequisite": "번개 줄기",
                     "description": "<p>표적에게 강대한 천둥벼락을 불러 내려 2d10 피해를 입힙니다. 천둥벼락은 서로 2미터 이내에 있는 최대 세 개의 무작위 표적으로 이어집니다. 피해는 두 번째 표적에게 2d8, 세 번째에게 2d6, 네 번째에게 2d4입니다. 첫 단계를 넘는 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다. 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 그에 성공하면 다음 표적은 맞지 않습니다. 실내에서는 의지력 비용이 두 배가 됩니다.</p>"
                 },
                 "Treat Wound": {
                     "name": "상처 치료",
                     "requirement": "말",
-                    "prerequisite": "정령술",
+                    "prerequisite": "정령주의",
                     "description": "<p>살아 있는 생물의 HP를 2d6 회복합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d6 HP를 추가로 회복합니다.</p>"
                 },
                 "Fire Blast": {
                     "name": "화염 폭발",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "화염구",
                     "description": "<p>손이나 매개체에서 화염 광선을 쏩니다. 화염은 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d8 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d8씩 늘거나, 추가 표적을 맞히는 화염을 하나 더 만듭니다.</p>"
                 },
                 "Fireball": {
                     "name": "화염구",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>손이나 매개체에서 화염구를 표적에게 날립니다. 화염구는 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d6 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d6씩 늘거나, 추가 표적을 맞히는 화염구를 하나 더 만듭니다.</p>"
                 },
                 "Firebird": {
                     "name": "불새",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "화염 폭발",
                     "description": "<p>손이나 매개체에서 무시무시한 불새를 표적에게 날립니다. 이 공격은 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d10 피해를 입히고 불에 타는 물건에 불을 붙입니다. 첫 단계를 넘는 파워 레벨마다 피해가 d10씩 늘거나, 추가 표적을 맞히는 불새를 하나 더 만듭니다.</p>"
                 },
                 "Firestorm": {
                     "name": "화염 폭풍",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "화염 폭발, 회오리바람",
                     "description": "<p>주위에 소용돌이치는 불의 폭풍을 만듭니다. 사거리의 모든 표적이 2d6 피해를 입습니다. 파워 레벨이 오르면 사거리가 4미터 늘고 d6 피해가 더 붙습니다.</p>"
                 },
                 "Frost": {
                     "name": "서릿발",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>주위 온도를 떨어뜨립니다. 범위 안의 모든 자연스러운 불이 꺼지고, 살아 있는 모든 생물이 주문 시전 시 d6 생명력과 d6 의지력을 잃으며 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#cold]{추위}에 시달립니다. 몸이 따뜻해질 때까지 생명력과 의지력을 회복할 수 없습니다.</p><p>주문 시전 시 범위 안에 있던 인간형 생물(몬스터는 제외)은 자리에 얼어붙어 움직일 수도, 어떤 행동(대응조차)도 할 수 없습니다. 얼어붙은 희생자는 매 턴 근력 굴림(행동 아님)으로 빠져나올 수 있습니다. 파워 레벨이 오를 때마다 사거리가 4미터씩 늘어납니다.</p><p>효과 범위 안의 물은 즉시 업니다. 강에서는 그 위를 걷거나 뗏목처럼 쓸 수 있는 유빙이 생깁니다.</p>"
                 },
                 "Gnome": {
                     "name": "노움",
-                    "requirement": "말, 손짓, 재료(돌이나 흙)",
-                    "prerequisite": "돌벽",
+                    "requirement": "말, 몸짓, 재료(돌이나 흙)",
+                    "prerequisite": "바위의 벽",
                     "description": "<p>흙의 정령을 소환합니다. 노움은 갈색 모래나 점토로 이루어진 인간형 모습을 하며, 전투에서 몬스터로 취급됩니다. 창조자의 명령을 따르고(자유 행동) 자기 우선권으로 독자적으로 행동하지만, 시전자의 시야 안에 머물러야 합니다.</p><p>@UUID[Actor.uxwdYZxZewJNYSJj]{노움 (파워 레벨 1)}</p><p>@UUID[Actor.lMHpFrQjAWqx3dIT]{노움 (파워 레벨 2)}</p><p>@UUID[Actor.CcOA6lwVZuW64nCr]{노움 (파워 레벨 3)}</p>"
                 },
                 "Gust of Wind": {
                     "name": "돌풍",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                 },
                 "Heat/Chill": {
                     "name": "온기/냉기",
-                    "requirement": "손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>자신으로부터 10미터 이내가 기분 좋게 따뜻해지거나 시원해집니다. 이 효과는 한 시프트 동안 추위로부터 보호해줍니다.</p>"
                 },
                 "Ignite": {
                     "name": "점화",
-                    "requirement": "손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>10미터 이내의 양초나 횃불, 랜턴에 불을 붙이거나 끕니다.</p>"
                 },
                 "Pillar": {
                     "name": "기둥",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>땅이나 돌에서 높이 3미터, 너비 1미터의 기둥을 만듭니다. 그 자리에 누군가 서 있었다면, 희생자는 곡예 굴림(행동 아님)을 해서 기둥에서 떨어지지 않아야 합니다. 천장이 낮은 곳에 기둥을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다. 파워 레벨이 오를 때마다 높이가 3미터씩 높아지며, 떨어지면 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#falling]{낙하 피해}가 발생할 수 있습니다.</p>"
                 },
                 "Puff of Smoke": {
                     "name": "연막",
-                    "requirement": "손짓",
-                    "prerequisite": "원소술",
+                    "requirement": "몸짓",
+                    "prerequisite": "원소주의",
                     "description": "<p>눈앞에 인상적인 연기가 피어오릅니다. 극적인 등장에 매우 인기가 있으며, GM이 판단하는 특정 상황에서 은밀에 은총을 줄 수 있습니다.</p>"
                 },
                 "Salamander": {
                     "name": "샐러맨더",
-                    "requirement": "말, 손짓, 재료(타오르는 불)",
+                    "requirement": "말, 몸짓, 재료(타오르는 불)",
                     "prerequisite": "화염 폭발",
                     "description": "<p>불의 정령을 소환합니다. 샐러맨더는 불로 이루어진 도마뱀의 모습을 하며, 전투에서 몬스터로 취급됩니다. 창조자의 명령을 따르고(자유 행동) 자기 우선권으로 독자적으로 행동할 수 있지만, 시전자의 시야 안에 머물러야 합니다.</p><p>@UUID[Actor.RFi3Lu3dbG3HVYv9]{샐러맨더 (파워 레벨 1)}</p><p>@UUID[Actor.F7bt4H0zxA0aMCmt]{샐러맨더 (파워 레벨 2)}</p><p>@UUID[Actor.yAz7uAlI054wAHsS]{샐러맨더 (파워 레벨 3)}</p>"
                 },
                 "Shatter": {
                     "name": "분쇄",
                     "requirement": "말",
-                    "prerequisite": "원소술",
+                    "prerequisite": "원소주의",
                     "description": "<p>물질을 붙들고 있는 보이지 않는 결속을 끊어 물체를 부술 수 있습니다. 물체이면서 마법이 걸리지 않은 물품에 2d10 피해를 입힙니다. 방어도는 효과가 없습니다. 상승한 파워 레벨마다 피해가 d10씩 늘어납니다.</p>"
                 },
                 "Stone Shield": {
                     "name": "바위 방패",
-                    "requirement": "손짓, 재료(조약돌)",
-                    "prerequisite": "돌기둥",
+                    "requirement": "몸짓, 재료(조약돌)",
+                    "prerequisite": "기둥",
                     "description": "<p>돌로 된 방패를 불러내어 날아오는 공격의 피해를 2d6 줄입니다. 파워 레벨이 하나 오를 때마다 피해가 d6씩 더 줄어듭니다. 명중 굴림 뒤, 피해를 굴리기 전에 시전할 수 있습니다. 이 주문은 방어구와 함께 쓸 수 있습니다.</p>"
                 },
                 "Stone Skin": {
                     "name": "바위 피부",
-                    "requirement": "말, 손짓, 재료(돌)",
-                    "prerequisite": "정신술",
+                    "requirement": "말, 몸짓, 재료(돌)",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>표적의 피부가 잿빛으로 변하며 방어도 4를 얻습니다. 상승한 파워 레벨마다 방어도가 2씩 더 늘어납니다. 갑옷을 입고 있다면 더 높은 방어도만 계산합니다.</p>"
                 },
                 "Stonewall": {
                     "name": "바위의 벽",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "돌기둥",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "기둥",
                     "description": "<p>땅이나 돌바닥에서 두께 1미터, 높이 2미터, 너비 3미터의 벽을 솟아오르게 합니다. 파워 레벨이 오를 때마다 같은 크기의 벽이 하나씩 더 생깁니다. 그 자리에 누군가 서 있었다면, 표적은 곡예 굴림(행동 아님)을 해서 떨어지지 않아야 합니다. 천장이 낮은 곳에 벽을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다.</p>"
                 },
                 "Sylph": {
                     "name": "실프",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "회오리바람",
                     "description": "<p>바람의 정령을 소환합니다. 실프는 새 모양의 폭풍구름처럼 보입니다. 전투에서 몬스터로 취급됩니다. 창조자의 명령을 따르고(자유 행동) 자기 우선권으로 독자적으로 행동하지만, 시전자의 시야 안에 머물러야 합니다.</p><p>@UUID[Actor.WhNHgwFhU3OSQkja]{실프 (파워 레벨 1)}</p><p>@UUID[Actor.2DzCgkWh5nkFmx3d]{실프 (파워 레벨 2)}</p><p>@UUID[Actor.St34PziRUZzhZdVo]{실프 (파워 레벨 3)}</p>"
                 },
                 "Tidal Wave": {
                     "name": "해일",
-                    "requirement": "말, 손짓, 재료(물이 있는 곳)",
-                    "prerequisite": "서리",
+                    "requirement": "말, 몸짓, 재료(물이 있는 곳)",
+                    "prerequisite": "서릿발",
                     "description": "<p>사거리 안의 수원에서 거대한 물결을 불러옵니다. 효과 범위는 자신이 아니라 그 수원에서 시작됩니다. 범위 안의 고정되지 않은 모든 물건과 생물이 수원으로부터 2d6미터 밀려나며 같은 양의 타격 피해를 입습니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다.</p>"
                 },
                 "Undine": {
                     "name": "운디네",
-                    "requirement": "말, 손짓, 재료(물)",
+                    "requirement": "말, 몸짓, 재료(물)",
                     "prerequisite": "해일",
                     "description": "<p>물의 정령을 소환합니다. 운디네는 물마루가 온전히 물로 이루어진 여인의 모습을 한 해일처럼 보입니다. 전투에서 몬스터로 취급됩니다. 창조자의 명령을 따르고(자유 행동) 자기 우선권으로 독자적으로 행동하지만, 시전자의 시야 안에 머물러야 합니다.</p><p>@UUID[Actor.pQLu25P4QkWwYOPV]{운디네 (파워 레벨 1)}</p><p>@UUID[Actor.I49kyM6sJRIQm6Xd]{운디네 (파워 레벨 2)}</p><p>@UUID[Actor.O0CPjtA0Bal0sP8e]{운디네 (파워 레벨 3)}</p>"
                 },
                 "Whirlwind": {
                     "name": "회오리바람",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "돌풍",
                     "description": "<p>주위에 강한 회오리바람을 만듭니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 2d4미터 날아가 같은 양의 타격 피해를 입고 넘어진 상태로 떨어집니다. 파워 레벨이 하나 오를 때마다 사거리가 4미터 늘고 d4 피해가 더 붙습니다.</p><p>굴림에 파멸을 감수한다면, 사거리 안의 한 사람을 주문 사거리 안의 원하는 다른 지점으로 날려 보낼 수 있습니다. 그 사람이 피해를 입을지, 넘어진 상태가 될지는 여러분이 정합니다.</p>"
                 },
                 "Charge": {
                     "name": "충전",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "전이",
                     "description": "<p>물체에 의지력을 옮겨 그 물건을 축전지로 삼습니다. 파워 레벨마다 최대 10 의지력을 옮길 수 있습니다. 그 물건에 닿은 사람은 자신의 의지력 대신 그 의지력을 쓸 수 있습니다. 한 시프트가 지나면 충전된 의지력은 흩어집니다. 영속과 결합한 경우는 예외입니다. 충전은 마법 봉인과 결합할 수도 있습니다.</p>"
                 },
                 "Dispel": {
                     "name": "마법 해제",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>진행 중인 주문 중 파워 레벨이 자신보다 낮거나 같은 것을 취소합니다. 모험이나 GM이 허락한다면 마법 해제로 다른 마법 효과를 끝낼 수도 있습니다.</p>"
                 },
                 "Fetch": {
                     "name": "끌어오기",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>10미터 이내에 놓인 물건(무게 1 이하)을 자신에게로 떠오게 합니다.</p>"
                 },
                 "Flick": {
                     "name": "튕기기",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>10미터 이내의 물건이나 생물에게 마법의 스파크를 날립니다. 이 \"공격\"은 1점의 피해를 입히며, 예를 들어 유리를 깨뜨릴 수 있습니다.</p>"
                 },
                 "Light": {
                     "name": "빛",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>원하는 매개체에서 뿜어져 나오는 밝은 빛을 만듭니다. 매개체를 중심으로 반경 10미터를 밝히며 한 시프트 동안 지속됩니다. 자신의 HP가 0이 되면 빛이 꺼집니다.</p>"
                 },
                 "Magic Seal": {
                     "name": "마법 봉인",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "전이",
                     "description": "<p>물체에 주문 하나를 묶습니다. 마법 봉인의 파워 레벨이 묶인 주문의 파워 레벨을 결정합니다. 마법 트릭은 파워 레벨 1이 필요합니다. 마법 봉인을 시전할 때 묶인 주문이 어떻게 발동되는지도 정합니다. 발동될 때 그 주문은 사용자의 의지력을 사용합니다. 그 사람이 의지력을 쓸 수 없거나 쓰지 않으려 하면 주문은 발동되지 않습니다. 마법 봉인은 충전과 결합하여 물건에 자체 의지력을 줄 수 있습니다. 이때 두 의식은 연달아 수행해야 합니다. 묶인 주문을 발동하면 봉인이 풀립니다. 다만 영속과 결합한 경우는 예외입니다.</p>"
                 },
                 "Magic Shield": {
                     "name": "마법 방패",
-                    "requirement": "손짓",
-                    "prerequisite": "수호 또는 마법 해제",
+                    "requirement": "몸짓",
+                    "prerequisite": "보호막 또는 마법 해제",
                     "description": "<p>다른 마법사가 시전한 주문을 방해합니다. 이 주문은 대응이라 전투의 우선권 순서를 깨뜨리지만, 그 라운드의 행동을 대신하지는 않습니다. 상대의 성공 굴림 뒤, 피해나 다른 효과를 굴리기 전에 시전합니다. 성공하면 상대 주문의 파워 레벨이 자신의 마법 방패 파워 레벨만큼 낮아집니다. 결과가 0 이하면 상대의 주문은 아무 효과도 없습니다. 몬스터의 마법 공격을 막는 데도 쓸 수 있습니다. 그 경우 파워 레벨마다 피해 주사위 개수가 1씩 줄어듭니다.</p>"
                 },
                 "Open/Close": {
                     "name": "열기/닫기",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>10미터 이내에 보이는 잠기지 않은 문을 열거나 닫습니다.</p>"
                 },
                 "Permanence": {
                     "name": "영속",
-                    "requirement": "말, 손짓",
+                    "requirement": "말, 몸짓",
                     "prerequisite": "마법 봉인",
                     "description": "<p>이 의식은 다른 주문과 결합하여 주문을 영구적으로 만듭니다. 그 대가로 의지 1점을 영구히 잃습니다(최대 의지력도 1 줄어듭니다). 영속의 파워 레벨은 영구화하려는 주문의 파워 레벨과 같아야 합니다. 영속은 지속시간이 즉시인 주문에는 더할 수 없습니다. 영속을 마법 봉인과 결합하면 마법 봉인이 영구화되어 묶인 주문을 몇 번이든 발동할 수 있습니다.</p>"
                 },
                 "Protector": {
                     "name": "보호막",
-                    "requirement": "손짓, 재료(그릴 수 있는 것)",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓, 재료(그릴 수 있는 것)",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>사람이나 장소(사람보다 크지 않은)를 마법으로부터 보호합니다. 자신에게 시전할 수도 있습니다. 그 사람이나 장소를 겨눈 주문의 파워 레벨이 보호막의 파워 레벨만큼 낮아집니다. 몬스터의 마법 공격을 막는 데도 쓸 수 있습니다. 그 경우 파워 레벨마다 피해 주사위 개수가 1씩 줄어듭니다.</p>"
                 },
                 "Repair Clothes": {
                     "name": "옷 수선",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>자신이나 10미터 이내의 다른 사람이 입은 옷이 즉시 수선되고 깨끗해집니다.</p>"
                 },
                 "Sense Magic": {
                     "name": "마법 감지",
-                    "requirement": "손짓",
-                    "prerequisite": "마법 학파 아무거나",
+                    "requirement": "몸짓",
+                    "prerequisite": "아무 마법 유파",
                     "description": "<p>지금 있는 장소나 들고 있는 물건이 마법의 영향을 받고 있는지, 그렇다면 어떤 종류의 마법인지 감지할 수 있습니다.</p>"
                 },
                 "Transfer": {
                     "name": "전이",
-                    "requirement": "손짓",
+                    "requirement": "몸짓",
                     "prerequisite": "마법 방패",
                     "description": "<p>다른 인간형 생물에게 의지력을 빼앗거나 자신의 의지력을 넘길 수 있습니다. 주문 시전 비용의 두 배까지 주고받을 수 있습니다. 즉 파워 레벨 1에서는 4, 2에서는 8, 3에서는 12입니다. 주문 시전에 쓴 의지력은 전이 과정에서 사라집니다. 자신의 최대 의지력을 넘거나 0 아래로 내려갈 수 없으며, 상대도 마찬가지입니다. 상대가 전이를 거부하면 굴림에 파멸을 받습니다.</p>"
                 },
                 "Divination": {
                     "name": "예지",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원시",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "천리안",
                     "description": "<p>물품(\"무기\", \"검\"), 물질(\"금\", \"공기\", \"물\"), 생물이나 생물의 유형(\"마법사 조트\", \"언데드\", \"오크\"), 또는 현상(\"마법\")을 하나 지정합니다. 주문은 사거리 안에서 지정한 종류의 가장 가까운 대상이 어느 방향에 있는지 알려줍니다. 파워 레벨이 오를 때마다 사거리가 두 배가 됩니다. 각각 200미터와 400미터입니다.</p>"
                 },
                 "Dominate": {
                     "name": "지배",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "정신 감응",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "텔레파시",
                     "description": "<p>다른 사람의 행동을 완전히 통제할 수 있습니다. 이 주문을 시전하려면 표적의 의지와 대항 굴림을 합니다.</p><p>NPC는 최대 의지력이 명시되어 있다면 그 값으로 굴리되, 영웅 능력 집중력 단계마다 2씩 낮춥니다. 의지력이 명시되어 있지 않다면 NPC는 10으로 굴립니다.</p><p>파워 레벨 1에서는 파멸을 받고, 2에서는 평소대로, 3에서는 은총을 받고 굴립니다.</p><p>굴림에서 이기면 표적은 즉시 여러분이 정한 이동과 행동을 해야 합니다. 다만 의지력을 소모해야 하는 행동은 제외됩니다. 희생자는 다음 자기 턴도 잃습니다. 이 주문은 몬스터에게는 효과가 없습니다.</p>"
                 },
                 "Enchant Weapon": {
                     "name": "무기 마법화",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "힘의 주먹",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "철권",
                     "description": "<p>무기에 마법을 걸어, 그 무기로 공격하고 막을 때 결과 1–2가 드래곤 굴림으로 계산되게 합니다. 그 무기는 마법 무기로도 취급됩니다. 파워 레벨마다 드래곤이 나올 범위가 1씩 넓어집니다. 즉 파워 레벨 2에서는 1–3, 3에서는 1–4입니다.</p>"
                 },
                 "Farsight": {
                     "name": "천리안",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>최대 1킬로미터 떨어진 장소에서 벌어지는 일을 마치 그 자리에 있는 것처럼 보고 들을 수 있습니다. 그 장소가 시야에 들어와 있거나 전에 가본 적이 있어야 합니다. 파워 레벨이 하나 오를 때마다 사거리가 열 배가 됩니다. 파워 레벨 2에서는 10킬로미터, 3에서는 100킬로미터입니다. 이 주문으로 다른 차원을 들여다볼 수는 없습니다.</p>"
                 },
                 "Flight": {
                     "name": "비행",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "부양",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "부유",
                     "description": "<p>자신이나 사람 크기까지의 다른 생물에게 이동력 6으로 자유롭게 나는 능력을 줍니다. 파워 레벨 2에서는 이동력이 두 배인 12가 되고, 3에서는 다시 두 배인 24가 됩니다. 나는 사람은 모든 장애물을 무시하며 지형의 영향을 받지 않습니다.</p>"
                 },
                 "Levitate": {
                     "name": "부유",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>자신이나 사람 크기까지의 다른 사람 또는 물건을 띄워 원하는 방향으로 최대 6미터 떠가게 한 뒤, 부드럽게 내려놓거나 떨어뜨립니다(여러분이 정합니다). 파워 레벨이 오를 때마다 표적을 2미터 더 띄우거나 사람이나 물건을 하나 더 띄울 수 있습니다. 원하지 않는 생물을 부유시키려 하면 굴림에 파멸을 받습니다.</p>"
                 },
                 "Lock/Unlock": {
                     "name": "잠금/해제",
-                    "requirement": "손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>손을 대면 마법이 걸리지 않은 자물쇠가 잠기거나 열립니다.</p>"
                 },
                 "Longstrider": {
                     "name": "활보",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>효과가 지속되는 동안 표적의 이동력이 두 배가 됩니다. 자신에게 시전할 수도 있습니다. 파워 레벨이 오를 때마다 다른 사람에게 하나씩 더 시전할 수 있습니다.</p>"
                 },
                 "Magic Stool": {
                     "name": "마법 의자",
-                    "requirement": "손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>지름과 높이가 대략 0.5미터인 둥근 면을 만들어 그 위에 앉거나 물건을 올려둘 수 있습니다. 효과는 자리를 뜰 때까지 지속됩니다.</p>"
                 },
                 "Mental Strike": {
                     "name": "정신 충격",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "힘의 주먹",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "철권",
                     "description": "<p>정신의 힘을 강력한 물리적 타격으로 쏘아 보냅니다. 이 공격은 표적을 자신에게서 2d6미터 날려 보내고 같은 양의 피해를 입힙니다. 파워 레벨이 오를 때마다 굴림에 d6가 더해집니다. 이 주문은 원거리 공격처럼 회피하거나 막을 수 있습니다.</p>"
                 },
                 "Power Fist": {
                     "name": "철권",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>맨손 공격의 피해가 파워 레벨당 d6씩 늘어납니다.</p>"
                 },
                 "Scrying": {
                     "name": "투영",
-                    "requirement": "손짓",
-                    "prerequisite": "원시",
+                    "requirement": "몸짓",
+                    "prerequisite": "천리안",
                     "description": "<p>지금 있는 장소에서 과거에 벌어진 사건을 알게 됩니다. 무슨 일이 있었는지 기억하는 산 자가 아무도 없어도 마찬가지입니다. 파워 레벨 1에서는 하루 전까지, 2에서는 1년 전까지, 3에서는 수백 년 전까지 들여다봅니다. 환영은 대개 알쏭달쏭하고 파편적이며, 정확히 무엇을 보게 되는지는 GM이 정합니다.</p>"
                 },
                 "Slow Fall": {
                     "name": "느린 낙하",
-                    "requirement": "손짓",
-                    "prerequisite": "정신술",
+                    "requirement": "몸짓",
+                    "prerequisite": "멘탈리즘",
                     "description": "<p>높이와 관계없이 낙하 속도가 느려져 깃털처럼 가볍게 착지합니다.</p>"
                 },
                 "Telepathy": {
                     "name": "텔레파시",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원시",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "천리안",
                     "description": "<p>타인의 표면적인 생각을 읽을 수 있습니다. 더 깊은 기억에 닿으려면 파워 레벨 2 이상이 필요하며, 그 기억이 얼마나 최근의 것인지에 따라 달라집니다. 최종 판단은 GM에게 있습니다. 이 주문으로 자신의 생각을 다른 사람에게 보낼 수도 있습니다.</p>"
                 },
                 "Teleport": {
                     "name": "텔레포트",
-                    "requirement": "말, 손짓",
-                    "prerequisite": "원시",
+                    "requirement": "말, 몸짓",
+                    "prerequisite": "천리안",
                     "description": "<p>이 주문으로 자신을 최대 100미터까지 순간이동시킬 수 있습니다. 목적지가 보이거나 전에 가본 적이 있어야 합니다. 첫 단계를 넘는 파워 레벨마다 접촉한 사람 크기의 생물을 하나씩 더 데려가거나 사거리를 두 배로 만들 수 있습니다. 차원 사이를 이동할 수는 없습니다.</p>"
                 },
                 "Broadsword": {
@@ -15577,20 +15577,20 @@
                         },
                         "Ensnaring Roots": {
                             "name": "뿌리 묶기",
-                            "requirement": "손짓, 재료(주변의 가지나 뿌리)",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓, 재료(주변의 가지나 뿌리)",
+                            "prerequisite": "정령주의",
                             "description": "<p>대상이 뿌리에 얽매여 움직일 수 없게 됩니다. 빠져나오려면 회피 굴림이 필요합니다. 파워 레벨 1에서는 은총을 받고, 2에서는 평소대로, 3에서는 파멸을 받고 굴립니다. 시도할 때마다 행동 하나로 칩니다. 라운드당 한 번만 시도할 수 있지만 다른 사람이 도울 수 있습니다. 이 주문은 몬스터에게는 통하지 않습니다.</p>"
                         },
                         "Lightning Flash": {
                             "name": "번개 섬광",
-                            "requirement": "손짓",
-                            "prerequisite": "정령술",
+                            "requirement": "몸짓",
+                            "prerequisite": "정령주의",
                             "description": "<p>하늘에서 번개를 불러 내립니다. 표적이 2d6 피해를 입습니다. 번개는 표적으로부터 2미터 이내의 다른 무작위 표적에게 2d4 피해를 입힙니다. 상승한 파워 레벨마다 피해 주사위 개수가 하나씩 늘어납니다(예를 들어 파워 레벨 2에서는 각각 3d6과 3d4). 금속 갑옷은 효과가 없지만 이 주문은 원거리 공격처럼 회피하거나 막을 수 있으며, 성공하면 다음 표적은 맞지 않습니다. 실내에서는 의지력 비용이 두 배가 됩니다.</p>"
                         },
                         "Treat Wound": {
                             "name": "상처 치료",
                             "requirement": "말",
-                            "prerequisite": "정령술",
+                            "prerequisite": "정령주의",
                             "description": "<p>살아 있는 생물의 HP를 2d6 회복합니다. 자신에게 쓸 수도 있습니다. 상승한 파워 레벨마다 d6 HP를 추가로 회복합니다.</p>"
                         }
                     }
@@ -16415,8 +16415,8 @@
                     "items": {
                         "Pillar": {
                             "name": "기둥",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>땅이나 돌에서 높이 3미터, 너비 1미터의 기둥을 만듭니다. 그 자리에 누군가 서 있었다면, 희생자는 곡예 굴림(행동 아님)을 해서 기둥에서 떨어지지 않아야 합니다. 천장이 낮은 곳에 기둥을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다. 파워 레벨이 오를 때마다 높이가 3미터씩 높아지며, 떨어지면 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#falling]{낙하 피해}가 발생할 수 있습니다.</p>"
                         },
                         "Evade": {
@@ -16431,8 +16431,8 @@
                     "items": {
                         "Pillar": {
                             "name": "기둥",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>땅이나 돌에서 높이 3미터, 너비 1미터의 기둥을 만듭니다. 그 자리에 누군가 서 있었다면, 희생자는 곡예 굴림(행동 아님)을 해서 기둥에서 떨어지지 않아야 합니다. 천장이 낮은 곳에 기둥을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다. 파워 레벨이 오를 때마다 높이가 3미터씩 높아지며, 떨어지면 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#falling]{낙하 피해}가 발생할 수 있습니다.</p>"
                         },
                         "Evade": {
@@ -16447,8 +16447,8 @@
                     "items": {
                         "Pillar": {
                             "name": "기둥",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>땅이나 돌에서 높이 3미터, 너비 1미터의 기둥을 만듭니다. 그 자리에 누군가 서 있었다면, 희생자는 곡예 굴림(행동 아님)을 해서 기둥에서 떨어지지 않아야 합니다. 천장이 낮은 곳에 기둥을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다. 파워 레벨이 오를 때마다 높이가 3미터씩 높아지며, 떨어지면 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#falling]{낙하 피해}가 발생할 수 있습니다.</p>"
                         },
                         "Evade": {
@@ -16467,7 +16467,7 @@
                         },
                         "Fire Blast": {
                             "name": "화염 폭발",
-                            "requirement": "말, 손짓",
+                            "requirement": "말, 몸짓",
                             "prerequisite": "화염구",
                             "description": "<p>손이나 매개체에서 화염 광선을 쏩니다. 화염은 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d8 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d8씩 늘거나, 추가 표적을 맞히는 화염을 하나 더 만듭니다.</p>"
                         }
@@ -16483,7 +16483,7 @@
                         },
                         "Fire Blast": {
                             "name": "화염 폭발",
-                            "requirement": "말, 손짓",
+                            "requirement": "말, 몸짓",
                             "prerequisite": "화염구",
                             "description": "<p>손이나 매개체에서 화염 광선을 쏩니다. 화염은 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d8 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d8씩 늘거나, 추가 표적을 맞히는 화염을 하나 더 만듭니다.</p>"
                         }
@@ -16499,7 +16499,7 @@
                         },
                         "Fire Blast": {
                             "name": "화염 폭발",
-                            "requirement": "말, 손짓",
+                            "requirement": "말, 몸짓",
                             "prerequisite": "화염구",
                             "description": "<p>손이나 매개체에서 화염 광선을 쏩니다. 화염은 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d8 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d8씩 늘거나, 추가 표적을 맞히는 화염을 하나 더 만듭니다.</p>"
                         }
@@ -16511,8 +16511,8 @@
                     "items": {
                         "Gust of Wind": {
                             "name": "돌풍",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                         },
                         "Evade": {
@@ -16527,8 +16527,8 @@
                     "items": {
                         "Gust of Wind": {
                             "name": "돌풍",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                         },
                         "Evade": {
@@ -16543,8 +16543,8 @@
                     "items": {
                         "Gust of Wind": {
                             "name": "돌풍",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                         },
                         "Evade": {
@@ -16563,8 +16563,8 @@
                         },
                         "Tidal Wave": {
                             "name": "해일",
-                            "requirement": "말, 손짓, 재료(물이 있는 곳)",
-                            "prerequisite": "서리",
+                            "requirement": "말, 몸짓, 재료(물이 있는 곳)",
+                            "prerequisite": "서릿발",
                             "description": "<p>사거리 안의 수원에서 거대한 물결을 불러옵니다. 효과 범위는 자신이 아니라 그 수원에서 시작됩니다. 범위 안의 고정되지 않은 모든 물건과 생물이 수원으로부터 2d6미터 밀려나며 같은 양의 타격 피해를 입습니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다.</p>"
                         }
                     }
@@ -16579,8 +16579,8 @@
                         },
                         "Tidal Wave": {
                             "name": "해일",
-                            "requirement": "말, 손짓, 재료(물이 있는 곳)",
-                            "prerequisite": "서리",
+                            "requirement": "말, 몸짓, 재료(물이 있는 곳)",
+                            "prerequisite": "서릿발",
                             "description": "<p>사거리 안의 수원에서 거대한 물결을 불러옵니다. 효과 범위는 자신이 아니라 그 수원에서 시작됩니다. 범위 안의 고정되지 않은 모든 물건과 생물이 수원으로부터 2d6미터 밀려나며 같은 양의 타격 피해를 입습니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다.</p>"
                         }
                     }
@@ -16595,8 +16595,8 @@
                         },
                         "Tidal Wave": {
                             "name": "해일",
-                            "requirement": "말, 손짓, 재료(물이 있는 곳)",
-                            "prerequisite": "서리",
+                            "requirement": "말, 몸짓, 재료(물이 있는 곳)",
+                            "prerequisite": "서릿발",
                             "description": "<p>사거리 안의 수원에서 거대한 물결을 불러옵니다. 효과 범위는 자신이 아니라 그 수원에서 시작됩니다. 범위 안의 고정되지 않은 모든 물건과 생물이 수원으로부터 2d6미터 밀려나며 같은 양의 타격 피해를 입습니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다.</p>"
                         }
                     }
@@ -16751,38 +16751,38 @@
                         },
                         "Fireball": {
                             "name": "화염구",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>손이나 매개체에서 화염구를 표적에게 날립니다. 화염구는 원거리 공격처럼 회피하거나 막을 수 있습니다. 명중하면 2d6 피해를 입히고 불에 타는 물건에 불을 붙입니다. 상승한 파워 레벨마다 피해가 d6씩 늘거나, 추가 표적을 맞히는 화염구를 하나 더 만듭니다.</p>"
                         },
                         "Pillar": {
                             "name": "기둥",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>땅이나 돌에서 높이 3미터, 너비 1미터의 기둥을 만듭니다. 그 자리에 누군가 서 있었다면, 희생자는 곡예 굴림(행동 아님)을 해서 기둥에서 떨어지지 않아야 합니다. 천장이 낮은 곳에 기둥을 만들었고 굴림에 실패하면, 표적은 대신 [[/damage 2D6 bludgeoning]] 타격 피해를 입습니다. 파워 레벨이 오를 때마다 높이가 3미터씩 높아지며, 떨어지면 @UUID[JournalEntry.SbbSMsuvWeo3HaID.JournalEntryPage.6WPxPxUjh4W80RNy#falling]{낙하 피해}가 발생할 수 있습니다.</p>"
                         },
                         "Gust of Wind": {
                             "name": "돌풍",
-                            "requirement": "말, 손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "말, 몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>거센 돌풍을 불러옵니다. 효과 범위 안의 고정되지 않은 모든 물건과 사람 크기까지의 생물이 자신에게서 2d4미터 밀려나며 같은 양의 타격 피해를 입습니다. 무리를 상대로는 2d6 피해를 입힙니다. 파워 레벨이 오를 때마다 주사위 개수가 하나씩 늘어납니다. 이 주문은 대형이나 거대 몬스터에게는 효과가 없습니다.</p>"
                         },
                         "Heat/Chill": {
                             "name": "온기/냉기",
-                            "requirement": "손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>자신으로부터 10미터 이내가 기분 좋게 따뜻해지거나 시원해집니다. 이 효과는 한 시프트 동안 추위로부터 보호해줍니다.</p>"
                         },
                         "Puff of Smoke": {
                             "name": "연막",
-                            "requirement": "손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>눈앞에 인상적인 연기가 피어오릅니다. 극적인 등장에 매우 인기가 있으며, GM이 판단하는 특정 상황에서 은밀에 은총을 줄 수 있습니다.</p>"
                         },
                         "Ignite": {
                             "name": "점화",
-                            "requirement": "손짓",
-                            "prerequisite": "원소술",
+                            "requirement": "몸짓",
+                            "prerequisite": "원소주의",
                             "description": "<p>10미터 이내의 양초나 횃불, 랜턴에 불을 붙이거나 끕니다.</p>"
                         },
                         "Grimoire": {
@@ -16810,7 +16810,7 @@
                     "name": "바스톤 블러드조",
                     "appearance": "<p>흉터가 많고 깡마름. 벗에게는 충직한 눈길을, 적에게는 위협하는 눈길을 보냄. 옷을 잘 챙기고 향기로운 향수를 자주 씀.</p>",
                     "weakness": "<p>먹보. 당신은 맛있는 것을 먹을 기회라면 놓치지 않습니다.</p>",
-                    "notes": "<p>당신은 일과 즐거움, 그리고 삶의 좋은 것들을 찾아 북쪽 황야에서 왔습니다. 동족의 부족 다툼에 지친 당신은 더 큰 무언가를 꿈꾸며 남쪽으로 떠났습니다. 그곳에서 용병과 검투사, 대상 호위, 파수병으로 일했고, 그러다 모험가 일행과 뭉쳤습니다. 이제 당신은 데몬과 몬스터, 강력한 적수에 대한 소문에 끌려 안개 골짜기로 향하고 있습니다.</p>",
+                    "notes": "<p>당신은 일과 즐거움, 그리고 삶의 좋은 것들을 찾아 북쪽 황야에서 왔습니다. 동족의 부족 다툼에 지친 당신은 더 큰 무언가를 꿈꾸며 남쪽으로 떠났습니다. 그곳에서 용병과 검투사, 대상 호위, 파수병으로 일했고, 그러다 모험가 일행과 뭉쳤습니다. 이제 당신은 악마과 몬스터, 강력한 적수에 대한 소문에 끌려 안개 골짜기로 향하고 있습니다.</p>",
                     "items": {
                         "Wolfkin": {
                             "name": "울프킨",
@@ -17357,7 +17357,7 @@
                 "Orla Moonsilver": {
                     "name": "오를라 문실버",
                     "appearance": "<p>매끄럽고 자신 있는 걸음걸이. 모두를 의심스레 살피는 맑은 눈. 생각과 행동이 재빠르고 열의가 있음.</p>",
-                    "weakness": "<p>편협함. 오크와 고블린 같은 밤의 종족은 악하며 맞서 싸워야 합니다.</p>",
+                    "weakness": "<p>편협함. 오크와 고블린 같은 밤의 혈족은 악하며 맞서 싸워야 합니다.</p>",
                     "notes": "<p>당신은 남쪽의 열대림에서 자라며 늘 모험을 찾았지만, 절제와 성찰을 바라는 집안의 기대에 눌려 있기도 했습니다. 트롤이 마을을 습격해 동족을 여럿 죽인 뒤, 당신은 자기만의 새 앞날을 찾기로 마음먹었습니다. 아직 운명을 찾는 중이지만, 당신은 떠도는 것 자체가 자기 목표라는 결론에 이르렀습니다. 동료 모험가들과 함께 당신은 안개 골짜기가 무엇을 품고 있는지 보러 그곳으로 왔습니다.</p>",
                     "items": {
                         "Acrobatics": {
@@ -17493,7 +17493,7 @@
                         "Hunter": {
                             "name": "사냥꾼",
                             "skills": "곡예, 경계, 활, 부시크래프트, 사냥 & 낚시, 단검, 슬링, 은밀",
-                            "abilities": "쌍발 사격",
+                            "abilities": "연발 사격",
                             "description": "<p>@UUID[JournalEntry.17jatv6QqDKgsEU1.JournalEntryPage.hGGZwN4S5KJbvsNu#hunter]{사냥꾼}</p><p></p>"
                         },
                         "Twin Shot": {
