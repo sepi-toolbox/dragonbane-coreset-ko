@@ -10068,7 +10068,86 @@
             },
             "cards": {
                 "Adventures": {
-                    "name": "모험"
+                    "name": "모험",
+                    "cards": {
+                        "1Pvemz5kwCEcfU3y": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-1.webp"
+                                }
+                            ]
+                        },
+                        "tMXVih6sNDE82yVm": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-2.webp"
+                                }
+                            ]
+                        },
+                        "mHE1IefsKinDzd6b": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-3.webp"
+                                }
+                            ]
+                        },
+                        "JwuPU1UlLW2qdOib": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-4.webp"
+                                }
+                            ]
+                        },
+                        "R4v39mBCg9YyOINk": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-5.webp"
+                                }
+                            ]
+                        },
+                        "1Y2zcOM6tJeQUzkj": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-6.webp"
+                                }
+                            ]
+                        },
+                        "YjnPCWkKi6XT5HzK": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-7.webp"
+                                }
+                            ]
+                        },
+                        "ow8vPjv6bHU2xhiz": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-8.webp"
+                                }
+                            ]
+                        },
+                        "J9XVZUqYZViXLo4i": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-9.webp"
+                                }
+                            ]
+                        },
+                        "chEQtp9xjgeLe60W": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-10.webp"
+                                }
+                            ]
+                        },
+                        "XKwSlLhYXRcEh5yS": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/adventure-11.webp"
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -19476,19 +19555,568 @@
             },
             "cards": {
                 "Treasure": {
-                    "name": "보물"
+                    "name": "보물",
+                    "cards": {
+                        "mSqKx2doSdRqAmy1": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-1.webp"
+                                }
+                            ]
+                        },
+                        "qAGP7F5zz2Zx7EFm": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-2.webp"
+                                }
+                            ]
+                        },
+                        "1oYjUufuPfeUCyRX": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-3.webp"
+                                }
+                            ]
+                        },
+                        "ktfDVwUss1dpHxx0": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-4.webp"
+                                }
+                            ]
+                        },
+                        "bFBHL6HYvOfKpnBr": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-5.webp"
+                                }
+                            ]
+                        },
+                        "grzAZ74oBCvp8WYl": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-6.webp"
+                                }
+                            ]
+                        },
+                        "kjgsczAnbwOCWhZx": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-7.webp"
+                                }
+                            ]
+                        },
+                        "OL3wZB09t8YqUuCI": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-8.webp"
+                                }
+                            ]
+                        },
+                        "vLikdpksW8zOQR5O": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-9.webp"
+                                }
+                            ]
+                        },
+                        "hiP48nv8Y0olQ4Tg": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-10.webp"
+                                }
+                            ]
+                        },
+                        "KseBgPEgdXsdq2Tx": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-11.webp"
+                                }
+                            ]
+                        },
+                        "XdKDsXAtgW9BmZ6A": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-12.webp"
+                                }
+                            ]
+                        },
+                        "ecg9e7XIFVUWKeCU": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-13.webp"
+                                }
+                            ]
+                        },
+                        "P93Co49ZxBaOZUJ0": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-14.webp"
+                                }
+                            ]
+                        },
+                        "pCXUz4GwanJ8kpWi": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-15.webp"
+                                }
+                            ]
+                        },
+                        "wN82z0Qy6hDmS10z": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-16.webp"
+                                }
+                            ]
+                        },
+                        "3qTyfBV7Xuc3V5ON": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-17.webp"
+                                }
+                            ]
+                        },
+                        "mRQlifWC0qcrIdLw": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-18.webp"
+                                }
+                            ]
+                        },
+                        "lI4CfH6MZuEYv93u": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-19.webp"
+                                }
+                            ]
+                        },
+                        "5nbWp8azWvFOajHz": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-20.webp"
+                                }
+                            ]
+                        },
+                        "BGjU7S2alypDVe5J": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-21.webp"
+                                }
+                            ]
+                        },
+                        "wKIqfbXQ8bBMGVjp": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-22.webp"
+                                }
+                            ]
+                        },
+                        "bhcHAiOKrD6BMCTY": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-23.webp"
+                                }
+                            ]
+                        },
+                        "Tk0q0x78CaoLUF3b": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-24.webp"
+                                }
+                            ]
+                        },
+                        "gBjFvxxveGDmddeQ": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-25.webp"
+                                }
+                            ]
+                        },
+                        "jSvEDUtP1e8dIGpP": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-27.webp"
+                                }
+                            ]
+                        },
+                        "lniG8PswSBsu0FeL": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-28.webp"
+                                }
+                            ]
+                        },
+                        "BTu6Z8OJZaWbAmyJ": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-29.webp"
+                                }
+                            ]
+                        },
+                        "K1jErPewN3X8UCPy": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-30.webp"
+                                }
+                            ]
+                        },
+                        "UNCl85W6Pdc4O6u4": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-31.webp"
+                                }
+                            ]
+                        },
+                        "Cp3Ko8QSJWjf1zCq": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-32.webp"
+                                }
+                            ]
+                        },
+                        "Eoy64J28CTPvd0vA": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-33.webp"
+                                }
+                            ]
+                        },
+                        "o4rzrEGwsngpSYaB": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-34.webp"
+                                }
+                            ]
+                        },
+                        "GEegVCRcSy5qMt5B": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-35.webp"
+                                }
+                            ]
+                        },
+                        "KmViQXjK0xxhq7VO": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-36.webp"
+                                }
+                            ]
+                        },
+                        "aEUdpBTrvmNOnfFI": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-37.webp"
+                                }
+                            ]
+                        },
+                        "wzfQYxvTuUJQMyxf": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-38.webp"
+                                }
+                            ]
+                        },
+                        "hVCGJgSr2Hpp3Kcv": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-39.webp"
+                                }
+                            ]
+                        },
+                        "61kTwfFLvh5Nt2sL": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/treasure-40.webp"
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Initiative": {
-                    "name": "우선권"
+                    "name": "우선권",
+                    "cards": {
+                        "gUDqmLjYVKH18CrN": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-1.webp"
+                                }
+                            ]
+                        },
+                        "JA8wURCtd9ldcyew": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-2.webp"
+                                }
+                            ]
+                        },
+                        "pHhk50J5n5WFjdc0": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-3.webp"
+                                }
+                            ]
+                        },
+                        "oruz6D9NL4gtw5eK": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-4.webp"
+                                }
+                            ]
+                        },
+                        "HUiB8qmryEZLK7Ti": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-5.webp"
+                                }
+                            ]
+                        },
+                        "r8MK7lOCeGDxAY3d": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-6.webp"
+                                }
+                            ]
+                        },
+                        "IB7nHZkHMdPGpOx7": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-7.webp"
+                                }
+                            ]
+                        },
+                        "JNHhgLrPf5OxnA54": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-8.webp"
+                                }
+                            ]
+                        },
+                        "vEbkbRE0Bf4wgr5b": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-9.webp"
+                                }
+                            ]
+                        },
+                        "hAxoexcRudkJ0S6n": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-10.webp"
+                                }
+                            ]
+                        },
+                        "tKutVlNqPvwcTPzf": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-11.webp"
+                                }
+                            ]
+                        },
+                        "SEXcgsg9I0FUyJdY": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-12.webp"
+                                }
+                            ]
+                        },
+                        "lfkfBn7xTmCiMMJk": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-13.webp"
+                                }
+                            ]
+                        },
+                        "tHV1T36TKDhXmd2s": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-14.webp"
+                                }
+                            ]
+                        },
+                        "5NMFZV3jV1EKo10O": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-15.webp"
+                                }
+                            ]
+                        },
+                        "VYGDJEikxsW8AulC": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-16.webp"
+                                }
+                            ]
+                        },
+                        "niJq368J5Sr2Lbbo": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-17.webp"
+                                }
+                            ]
+                        },
+                        "NxVmN5tg21koTQTV": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-18.webp"
+                                }
+                            ]
+                        },
+                        "eEuE0i41utCxjx1b": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-19.webp"
+                                }
+                            ]
+                        },
+                        "GPq9NxWRws8AaS3K": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/initiative-20.webp"
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Improvised Weapon - Inn": {
-                    "name": "즉석 무기 - 여관"
+                    "name": "즉석 무기 - 여관",
+                    "cards": {
+                        "p25eP8ndyJ6ABWw9": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-1.webp"
+                                }
+                            ]
+                        },
+                        "ePnLIyWG2lyrEXGv": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-2.webp"
+                                }
+                            ]
+                        },
+                        "EE7OPcTUTuKg1yG9": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-3.webp"
+                                }
+                            ]
+                        },
+                        "umZUNdOysIHF88bV": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-4.webp"
+                                }
+                            ]
+                        },
+                        "CfzX6ZYwepm5ZSuB": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-5.webp"
+                                }
+                            ]
+                        },
+                        "qsMoOlmqn5LnFoyX": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-inn-6.webp"
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Improvised Weapon - Forest": {
-                    "name": "즉석 무기 - 숲"
+                    "name": "즉석 무기 - 숲",
+                    "cards": {
+                        "WX7GAIJsuhALz4n0": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-1.webp"
+                                }
+                            ]
+                        },
+                        "7GtYLlAMZBq27dnM": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-2.webp"
+                                }
+                            ]
+                        },
+                        "Hvaw8WEsKYaOu9Wp": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-3.webp"
+                                }
+                            ]
+                        },
+                        "thP4YC61cPJwYD9o": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-4.webp"
+                                }
+                            ]
+                        },
+                        "VdN4lyTVELQB5bsb": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-5.webp"
+                                }
+                            ]
+                        },
+                        "xBaTMY1SKYJQX9AU": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-forest-6.webp"
+                                }
+                            ]
+                        }
+                    }
                 },
                 "Improvised Weapon - Cave": {
-                    "name": "즉석 무기 - 동굴"
+                    "name": "즉석 무기 - 동굴",
+                    "cards": {
+                        "f33IBNLfjwEzgjHn": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-1.webp"
+                                }
+                            ]
+                        },
+                        "NBNwNqpfOMv9rrKy": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-2.webp"
+                                }
+                            ]
+                        },
+                        "xiWruPv1GuLUsFdS": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-3.webp"
+                                }
+                            ]
+                        },
+                        "d1UZda2NccggR7Fn": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-4.webp"
+                                }
+                            ]
+                        },
+                        "g5OnDx7sMiOgXnhU": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-5.webp"
+                                }
+                            ]
+                        },
+                        "RValD55jHmUAlTmR": {
+                            "faces": [
+                                {
+                                    "img": "modules/dragonbane-coreset-ko/assets/cards/improvised-weapon-cave-6.webp"
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         },

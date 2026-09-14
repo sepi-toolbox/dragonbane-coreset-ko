@@ -16,6 +16,7 @@ const SCENE = Object.assign({}, n3.scenes, na.scenes);
 const MACRO = Object.assign({}, n3.macros);
 const CARD = Object.assign({}, n3.cards, na.cards);
 const JOURNAL = { "Dragonbane - Rules": n4.journals, ...naj };
+const CARDIMG = fs.existsSync("cards_img.json") ? rd("cards_img.json") : {};
 
 // 저널 페이지 본문
 const JTEXT = {};
@@ -116,6 +117,17 @@ for (const advName of Object.keys(ADV)) {
   }
   const scenes = simple(r.scenes, SCENE, "scenes"),
         macros = simple(r.macros, MACRO, "macros"), cards = simple(r.cards, CARD, "cards");
+  // 카드 앞면 이미지: cards_img.json { "<원본 앞면 파일명>": "<한국어 이미지 경로>" } — 카드 _id 키로 faces[].img 교체
+  for (const d of r.cards || []) {
+    if (!cards[d.name]) continue;
+    const cs = {};
+    for (const c of d.cards || []) {
+      // "@<카드 _id>" 키가 있으면 우선(원본 데이터가 다른 카드 이미지를 가리키는 경우 교정용)
+      const faces = (c.faces || []).map(fc => { const ko = CARDIMG["@" + c._id] ?? CARDIMG[String(fc.img || "").split("/").pop()]; return ko ? { img: ko } : {}; });
+      if (faces.some(fc => fc.img)) cs[c._id] = { faces };
+    }
+    if (Object.keys(cs).length) cards[d.name].cards = cs;
+  }
 
   const journals = {}; const JD = JOURNAL[advName] || {};
   for (const j of r.journal || []) {
