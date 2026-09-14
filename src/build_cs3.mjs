@@ -133,7 +133,9 @@ for (const advName of Object.keys(ADV)) {
     journals[j.name] = { name: jt.name, pages };
   }
 
-  const advDesc = GAP.advDescription?.[String(r.description||"").trim()];
+  // 팩 원문은 `<img ...>`, 사전 키는 런타임 직렬화 `<img ... />` — 자기닫힘 표기를 정규화해 비교
+  const selfClose = s => String(s || "").trim().replace(/\s*\/>/g, ">");
+  const advDesc = Object.entries(GAP.advDescription || {}).find(([k]) => selfClose(k) === selfClose(r.description))?.[1];
   entries[advName] = { name: ADVNAME[advName], ...(advDesc ? { description: advDesc } : {}), folders, journals, scenes, macros, tables, items, actors, cards };
   const c = o => Object.keys(o).length;
   report.push([advName, c(folders) + "/" + new Set((r.folders||[]).map(x=>x.name)).size,

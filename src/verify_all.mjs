@@ -87,7 +87,9 @@ for (const [an, r] of Object.entries(ADV)) {
   for (const j of r.journal || []) {
     run("JournalEntry", { name: j.name }, E.journals[j.name], [], `${an}/J:${j.name}`);
     const tj = E.journals[j.name];
-    for (const p of j.pages || []) run("JournalEntryPage", p, tj?.pages?.[p._id] ?? tj?.pages?.[p.name], ["text.content"], `${an}/J:${j.name}>${p.name}`);
+    // 제작진(Credits) 본문은 인명이 영문 그대로인 게 정상 — 본문 영문 검사에서 제외(이름만 검사)
+    const bodyFields = j.name === "Credits" ? [] : ["text.content"];
+    for (const p of j.pages || []) run("JournalEntryPage", p, tj?.pages?.[p._id] ?? tj?.pages?.[p.name], bodyFields, `${an}/J:${j.name}>${p.name}`);
   }
   for (const t of r.tables || []) {
     const tt = E.tables[t.name];

@@ -12,7 +12,9 @@ for (const r of Object.values(ADV)) for (const j of r.journal || []) {
   EN[j.name] = EN[j.name] || {};
   for (const p of j.pages || []) { if (EN[j.name][p.name] === undefined) EN[j.name][p.name] = String(p.text?.content || ""); EN[j.name][p._id] = String(p.text?.content || ""); }   // 중복 페이지명은 첫 번째 기준(두 번째는 _id 키)
 }
-const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\\[[^\\]]*\\]|\\[\\[[^\\]]*\\]\\]/g)].map(m => m[0]).sort().join("|");
+// 인리처 토큰(@UUID[...]·@Table[...]·[[/roll ...]]) 집합 — 라벨 {…}은 번역 대상이라 제외
+// 원문 인리처 안의 소프트 하이픈(U+00AD, 예: "bludgeon­ing")은 번역에서 제거해도 동일 취급
+const TOK = s => [...String(s).matchAll(/@[A-Za-z]+\[[^\]]*\]|\[\[[^\]]*\]\]/g)].map(m => m[0].replace(/\u00AD/g, "")).sort().join("|");
 const TAGS = s => { const o = {}; for (const m of String(s).matchAll(/<\/?([a-z][a-z0-9]*)[^>]*>/gi)) { const t = m[1].toLowerCase(); if (["br","img","hr"].includes(t)) continue; o[t] = (o[t]||0) + (m[0][1]==="/"?-1:1); } return o; };
 const ATTRS = s => [...String(s).matchAll(/(class|id|src|href|style|data-[a-z-]+)="[^"]*"/g)].map(m => m[0]).sort().join("|");
 let ok=0, bad=0;
