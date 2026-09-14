@@ -7,6 +7,6 @@
  "Strange Ornate Dagger": "<section id=\"secret-CkkpUhVrcSYXHiG9\" class=\"secret\"><p>@UUID[Actor.B09NjI2lS60bVVfe]{응시자}에게는 2D8의 피해, 그 밖의 상대에게는 평범한 피해.</p></section>",
  "Curved Goblin Dagger": "<p>굽은 고블린 대거.</p><section id=\"secret-xxU1DYq57H7vuLvS\" class=\"secret\"><p>칼날에 효력 9의 치명적인 독사 독이 발려 있습니다.</p></section>",
  "Gilded Crown": "<p><span style=\"font-family: QTFrizQuad\">룬이 새겨진 도금 왕관.</span></p><section id=\"secret-0RbcHJ0SX8QLQOXd\" class=\"secret\"><p><span style=\"font-family: QTFrizQuad\">이 왕관에는 데몬의 공격에서 받는 모든 피해를 절반으로 줄이는(올림) 주문이 깃들어 있습니다. 이 효과는 왕관에 새겨진 룬에 설명되어 있으며, 언어 굴림에 성공하면 읽을 수 있습니다.</span></p></section>",
- "Army of One": "<p>홀로 싸울 때 우선권 카드를 두 장 뽑아 둘 다 지닙니다. 매 라운드 차례를 두 번 갖습니다.</p>",
- "Sole Survivor": "<p>홀로 모험할 때 상태를 받지 않고 굴림을 밀어붙일 수 있습니다.</p>"
+ "Army of One": "<p>홀로 싸울 때 우선권 카드를 두 장 뽑아 둘 다 가집니다. 매 라운드 턴을 두 번 갖습니다.</p>",
+ "Sole Survivor": "<p>홀로 모험할 때 상태이상을 얻지 않고 굴림을 밀어붙일 수 있습니다.</p>"
 }

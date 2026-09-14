@@ -56,12 +56,12 @@
    "6iHaP9l0UyazPRRM": "@UUID[JournalEntry.nIfNkZU6DCtG9Qfz.JournalEntryPage.rFi65szeM4puAHUY]{샹들리에}"
   },
   "Hunting": {
-   "oC7l4Ph84p9jj2Mp": "<b>동물:</b> 다람쥐<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> 1",
-   "LuDuJ9Ge86zUKlZ5": "<b>동물:</b> 까마귀<br /><b>필요:</b> 무기<br /><b>식량: </b> 1",
-   "bWpqRimfeDgtQbMU": "<b>동물:</b> 토끼<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> [[/roll D3]]",
-   "VzuQrKUg235syHfs": "<b>동물:</b> 여우<br /><b>필요:</b> 무기나 덫<br /><b>식량: </b> [[/roll D4]]",
-   "SvhUIyfdeGVdZSnx": "<b>동물:</b> 멧돼지<br /><b>필요:</b> 무기<br /><b>식량: </b> [[/roll 2D6]]<br />사냥 굴림에 실패하면 멧돼지가 덤빕니다.",
-   "Feh6anqpjG19Yw0f": "<b>동물:</b> 사슴<br /><b>필요:</b> 무기<br /><b>식량: </b> [[/roll 2D8]]"
+   "oC7l4Ph84p9jj2Mp": "<b>동물:</b> 다람쥐<br><b>요구 조건:</b> 무기 또는 덫<br><b>식량: </b> 1",
+   "LuDuJ9Ge86zUKlZ5": "<b>동물:</b> 까마귀<br><b>요구 조건:</b> 무기<br><b>식량: </b> 1",
+   "bWpqRimfeDgtQbMU": "<b>동물:</b> 토끼<br><b>요구 조건:</b> 무기 또는 덫<br><b>식량: </b> [[/roll D3]]",
+   "VzuQrKUg235syHfs": "<b>동물:</b> 여우<br><b>요구 조건:</b> 무기 또는 덫<br><b>식량: </b> [[/roll D4]]",
+   "SvhUIyfdeGVdZSnx": "<b>동물:</b> 멧돼지<br><b>요구 조건:</b> 무기<br><b>식량: </b> [[/roll 2D6]]<br>사냥 굴림에 실패하면 멧돼지가 공격합니다.",
+   "Feh6anqpjG19Yw0f": "<b>동물:</b> 사슴<br><b>요구 조건:</b> 무기<br><b>식량: </b> [[/roll 2D8]]"
   },
   "Random Events - The Castle of the Robber Knight": {
    "lJMszuCH0arhfOy9": "<b>고블린.</b> @UUID[Actor.2KCyP8JCLYVAcMig]{고블린} 둘이 불쑥 나타납니다. 잠시 어리둥절하던 그들은 숏소드를 뽑아 들고 비명을 지르며 덤빕니다.",
