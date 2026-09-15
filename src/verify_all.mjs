@@ -31,10 +31,20 @@ const ir = new IdentityExtractorRegistry();
 
 // 배포된 main.js에서 registerMapping 인자를 그대로 추출해 사용
 const MAIN = fs.readFileSync(process.env.HOME + "/Library/Mobile Documents/com~apple~CloudDocs/AIwork/01_TTRPG-Translation/dragonbane-coreset-ko/scripts/main.js", "utf8");
-let CAPTURED = null;
-new Function("Hooks", MAIN)({ once: (_h, fn) => fn({ registerMapping: m => { CAPTURED = m; }, register: () => {} }) });
+let CAPTURED = null, CAPTURED_CONVERTERS = {};
+// babele.init 콜백만 실행(ready 등 다른 훅은 무시)
+new Function("Hooks", MAIN)({ once: (h, fn) => { if (h === "babele.init") fn({ registerMapping: m => { CAPTURED = m; }, registerConverters: c => Object.assign(CAPTURED_CONVERTERS, c), register: () => {} }); } });
 if (!CAPTURED) throw new Error("main.js에서 registerMapping을 잡지 못함");
 console.log("main.js 매핑 적용:", JSON.stringify(CAPTURED));
+// 실제 Babele과 같게: 내장 document/structured + main.js가 등록한 함수형 변환기
+{
+  const { DocumentConverter } = await import(B + "converter/document-converter.js");
+  const { StructuredDataConverter } = await import(B + "converter/structured-data-converter.js");
+  const { FunctionalConverter } = await import(B + "converter/functional-converter.js");
+  cr.registerAll({ document: new DocumentConverter(), structured: new StructuredDataConverter() });
+  for (const [k, fn] of Object.entries(CAPTURED_CONVERTERS)) cr.register(k, new FunctionalConverter(fn));
+  console.log("main.js 변환기 등록:", Object.keys(CAPTURED_CONVERTERS).join(", ") || "(없음)");
+}
 
 const dm = new DocumentMappings(undefined, { registeredMappings: [CAPTURED], loadedMappings: [], identityExtractors: ir, converterRegistry: cr });
 
