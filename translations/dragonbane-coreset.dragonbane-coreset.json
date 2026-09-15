@@ -1053,6 +1053,9 @@
                         "QPD4P11l4shnhtN3": {
                             "description": "<b>불타는 손아귀!</b> 익스가 미소 지으며 플레이어 캐릭터를 붙잡아 악마의 열기로 태웁니다. 이 공격은 [[/damage 2D10]] 화염 피해를 입힙니다. 이 공격은 막을 수 있습니다."
                         },
+                        "1AEXKYrTBzFkTBBp": {
+                            "name": "몬스터 공격 - 악마 익스 - 저주"
+                        },
                         "IugqysFmBC2J1k5e": {
                             "description": "<b>보이지 않는 힘!</b> 익스가 10미터 이내의 희생자를 향해 손을 뻗습니다. 희생자는 [[/damage 2D8 bludgeoning]] 타격 피해를 입고 엄청난 힘으로 같은 수치의 미터만큼 뒤로 날아가 넘어진 상태로 떨어집니다."
                         },
@@ -10793,6 +10796,9 @@
                         "RkPHoJq3EpVhcSzX": {
                             "description": "<b>할퀴기!</b> 악마가 미소 지으며 날카로운 발톱으로 플레이어 캐릭터를 베어냅니다. 이 공격은 [[/damage 2D10 slashing]] 참격 피해를 입힙니다. 막을 수 있습니다."
                         },
+                        "wMAIcpPdxaZfrOn4": {
+                            "name": "몬스터 공격 - 악마 - 저주"
+                        },
                         "e2H7qSWGJLEPGU3L": {
                             "description": "<b>보이지 않는 맹위!</b> 악마가 10미터 이내의 희생자에게 손을 겨눕니다. 희생자는 [[/damage 2D8 bludgeoning]] 타격 피해를 입고, 엄청난 힘으로 같은 양의 미터만큼 뒤로 날아가 넘어진 상태로 떨어집니다."
                         },
@@ -11234,7 +11240,69 @@
                     }
                 },
                 "Memento": {
-                    "name": "기념품"
+                    "name": "기념품",
+                    "results": {
+                        "D0FrJcwqjSwrZvyp": {
+                            "name": "믿음직한 낡은 신발"
+                        },
+                        "xrDbUhad8tZnkRiG": {
+                            "name": "소박한 은메달"
+                        },
+                        "s1HVqUDpTiVD6GcC": {
+                            "name": "편지"
+                        },
+                        "61JG133YyFwUIDl3": {
+                            "name": "너덜너덜한 낡은 일지"
+                        },
+                        "y5zsOo3z2m5Wjsm9": {
+                            "name": "팔찌"
+                        },
+                        "bsAHRWy0zMviVcGM": {
+                            "name": "나무 조각상"
+                        },
+                        "4dbQMRCyFLYYx1BB": {
+                            "name": "동전 한 닢"
+                        },
+                        "32zaoz4dcHyEOtvO": {
+                            "name": "낡은 백랍 잔"
+                        },
+                        "rwKUe0cmREuYeM1b": {
+                            "name": "뿔"
+                        },
+                        "vyp8ZMPtFyci8IDf": {
+                            "name": "송곳니"
+                        },
+                        "wFSV8hSyHHiUUFba": {
+                            "name": "뼈 주사위 몇 개"
+                        },
+                        "OKKjxD16CktiLQ3m": {
+                            "name": "로켓"
+                        },
+                        "C4RwlcKapftzzF3o": {
+                            "name": "화려한 열쇠"
+                        },
+                        "qe3sV8jhxIIPGyI7": {
+                            "name": "지도"
+                        },
+                        "n1AV8ng1CWUHm1zH": {
+                            "name": "글귀가 새겨진 반지"
+                        },
+                        "XwIXQXIaZR8dahTX": {
+                            "name": "뼈 호루라기"
+                        },
+                        "XSvp6jyKafbFEtA2": {
+                            "name": "너덜너덜한 낡은 모자"
+                        },
+                        "JdCGtp7CmmgOXNGC": {
+                            "name": "그리핀 깃털"
+                        },
+                        "yGW0tVLfdxp3z0JP": {
+                            "name": "아름답게 조각된 담뱃대"
+                        },
+                        "e9gUKaBEccBZsWky": {
+                            "name": "기묘한 모양의 돌"
+                        }
+                    }
                 },
                 "Name - Elf": {
                     "name": "이름 - 엘프",
@@ -11375,7 +11443,27 @@
                     }
                 },
                 "Kin": {
-                    "name": "혈족"
+                    "name": "혈족",
+                    "results": {
+                        "A3dM9JjovjvbcDvR": {
+                            "name": "인간"
+                        },
+                        "Epl3ZqNWQK06KizZ": {
+                            "name": "하플링"
+                        },
+                        "6aykW6pf1rWawAzF": {
+                            "name": "드워프"
+                        },
+                        "nCOkn6nFZK4rwRMt": {
+                            "name": "엘프"
+                        },
+                        "ij7qnEjByBoFRM4A": {
+                            "name": "말라드"
+                        },
+                        "fIyJW3vRoq3hrJmv": {
+                            "name": "울프킨"
+                        }
+                    }
                 },
                 "Weakness": {
                     "name": "약점",
@@ -11740,13 +11828,51 @@
                 "Profession": {
                     "name": "직업",
                     "results": {
+                        "hjdf7qiMRBBNgmNi": {
+                            "name": "장인"
+                        },
+                        "h89QuBkPFpE3mwLx": {
+                            "name": "음유시인"
+                        },
+                        "f0QsECSe2XhsLvy9": {
+                            "name": "전사"
+                        },
+                        "A19bEu4VuHaCLWgQ": {
+                            "name": "사냥꾼"
+                        },
+                        "SiNLYciSKIEEDhuA": {
+                            "name": "기사"
+                        },
                         "9RhPzpRU7ZVUhW4u": {
                             "description": "마법사. @UUID[Item.xsMWmMEDLOtF4pDg]{정령술사}, @UUID[Item.5qFrwNTam2KA98jh]{원소술사}, @UUID[Item.fLYDNkiglRRrOcdx]{정신술사} 중에서 고릅니다."
+                        },
+                        "yJbgRpRl5e7cFhQJ": {
+                            "name": "선원"
+                        },
+                        "0lBUnqSdAGs4kUg6": {
+                            "name": "상인"
+                        },
+                        "z1Hx5NQpfUwTrvee": {
+                            "name": "학자"
+                        },
+                        "XXYhMVUlv0lmblL4": {
+                            "name": "도둑"
                         }
                     }
                 },
                 "Profession - Mage": {
-                    "name": "직업 - 마법사"
+                    "name": "직업 - 마법사",
+                    "results": {
+                        "T85xVz34Ybijrger": {
+                            "name": "정령술사"
+                        },
+                        "111DbKeCuyAwjbtI": {
+                            "name": "원소술사"
+                        },
+                        "LW84xSuhQFBZxkfq": {
+                            "name": "정신술사"
+                        }
+                    }
                 },
                 "Age": {
                     "name": "연령",
@@ -11978,7 +12104,51 @@
                     }
                 },
                 "Severe Injury": {
-                    "name": "중상"
+                    "name": "중상",
+                    "results": {
+                        "04Rop2YwepfsUYVh": {
+                            "name": "코뼈 골절"
+                        },
+                        "21oNito6UEkPtGbr": {
+                            "name": "얼굴 흉터"
+                        },
+                        "FfIVPYItYGuFlt3A": {
+                            "name": "이빨 부러짐"
+                        },
+                        "ql4hGlA3CBSERPYM": {
+                            "name": "갈비뼈 골절"
+                        },
+                        "0yrSsXceGaJu4Yz0": {
+                            "name": "뇌진탕"
+                        },
+                        "KFJJaHZA1f21dlGc": {
+                            "name": "깊은 상처"
+                        },
+                        "KxHSou9jaXQ4NAaC": {
+                            "name": "다리 골절"
+                        },
+                        "e4rF3b4fHFan6QFx": {
+                            "name": "팔 골절"
+                        },
+                        "g96CxLGfho6JdLEB": {
+                            "name": "발가락 절단"
+                        },
+                        "FUQH0NWiOEy8kT1t": {
+                            "name": "손가락 절단"
+                        },
+                        "I6BTLkxelQavFWWi": {
+                            "name": "눈알 적출"
+                        },
+                        "f5VgKWZkwojulV4y": {
+                            "name": "악몽"
+                        },
+                        "yWJqP3J7192HJnOZ": {
+                            "name": "성격 변화"
+                        },
+                        "8vfPX82bTUdaJe5B": {
+                            "name": "기억 상실"
+                        }
+                    }
                 },
                 "Leaving the Adventure Site": {
                     "name": "모험지를 떠나기",
@@ -12951,6 +13121,51 @@
                         "CCOOaWwb0gdi0J8E": {
                             "description": "[[2d6*10]] 금화"
                         },
+                        "CjN9vlrpvnBrlbWU": {
+                            "name": "성배"
+                        },
+                        "I7T9maY9gDCouOIy": {
+                            "name": "은 팔찌"
+                        },
+                        "DqgL1TOlkCS91jJl": {
+                            "name": "금 팔찌"
+                        },
+                        "kl522c2x2rtU0xHB": {
+                            "name": "은 목걸이"
+                        },
+                        "plOH5HH1O1gwFlu5": {
+                            "name": "금 목걸이"
+                        },
+                        "FYY0sGx1H85IedDr": {
+                            "name": "은반지"
+                        },
+                        "clbzO9MiQiG3ygXi": {
+                            "name": "금반지"
+                        },
+                        "6JsT6Y4AQmDGXZjK": {
+                            "name": "보석"
+                        },
+                        "kIBJotY78WClHKr9": {
+                            "name": "은 브로치"
+                        },
+                        "f1vA0Plm3FrfdeyN": {
+                            "name": "보물 - 의복"
+                        },
+                        "o6UW09u59m33z1Le": {
+                            "name": "보물 - 근접 1"
+                        },
+                        "ksAgHWJWfGvzjBPY": {
+                            "name": "보물 - 근접 2"
+                        },
+                        "1uzvUSPhY6lmsA4I": {
+                            "name": "보물 - 원거리"
+                        },
+                        "E4EZtEadpt1ef3da": {
+                            "name": "보물 - 걸작 무기"
+                        },
+                        "Hkr1EStTyUbGtUh7": {
+                            "name": "보물 - 갑옷"
+                        },
                         "JrfXbWpvG8FUHnLQ": {
                             "description": "@UUID[Item.2PlS8RZ11HbJxOhf]{독 바른 대거}. 회피를 굴리세요. 실패하면 몸을 베어 효력 12의 독에 중독됩니다. [[/roll D3]]을 굴려 종류를 정합니다. 1: 치명적인 독, 2: 마비독, 3: 수면독."
                         },
@@ -12963,13 +13178,45 @@
                         "I22o7HFZT2stwGEx": {
                             "description": "@UUID[Item.4euiW6ItX0zTca9i]{병} 치료를 굴리면 내용물을 알아냅니다. 실패하면 GM이 몰래 굴립니다. [[/roll D6]]을 굴리세요. 1: 치명적인 독(효력 12), 2: 수면독(효력 14), 3: 술, 4: 약초 조합액, 5: 치유 물약(2D6 HP), 6: 치유 물약(3D6 HP)."
                         },
+                        "k0ph3ok0TJi9qWh9": {
+                            "name": "보물 - 책"
+                        },
+                        "gZQE7289P0qt2PLu": {
+                            "name": "보물 - 악기"
+                        },
+                        "Vm5ypfOPOzwTzO0p": {
+                            "name": "보물 - 교역품"
+                        },
                         "55biLFnYzMYpnJed": {
                             "description": "<b>쥐.</b> 회피를 굴리세요. 실패하면 [[/damage D4]]를 받습니다. 갑옷은 효과가 없습니다."
+                        },
+                        "eJKfvbs2fNY2vTNN": {
+                            "name": "금 아뮬렛"
                         }
                     }
                 },
                 "Treasure - Armor": {
-                    "name": "보물 - 갑옷"
+                    "name": "보물 - 갑옷",
+                    "results": {
+                        "vHHqtVMzlaCvvANU": {
+                            "name": "소형 방패"
+                        },
+                        "DBeLq6DZReU0aO8W": {
+                            "name": "대형 방패"
+                        },
+                        "yA140cDoAE8zmMh7": {
+                            "name": "개방형 투구"
+                        },
+                        "16ysF4K2NSMczdOu": {
+                            "name": "대형 투구"
+                        },
+                        "HtNOhvGoFGF5rvAH": {
+                            "name": "스터디드 레더"
+                        },
+                        "tTgGvSokBiILgjp4": {
+                            "name": "체인메일"
+                        }
+                    }
                 },
                 "Treasure - Book": {
                     "name": "보물 - 책",
@@ -12995,25 +13242,156 @@
                     }
                 },
                 "Treasure - Clothing": {
-                    "name": "보물 - 의복"
+                    "name": "보물 - 의복",
+                    "results": {
+                        "ZLXQVQbhoJO1O7vf": {
+                            "name": "장화"
+                        },
+                        "XQuEiE2MUssTX6yL": {
+                            "name": "망토"
+                        },
+                        "jntHCopUzAzeY1V8": {
+                            "name": "모피"
+                        }
+                    }
                 },
                 "Treasure - Instrument": {
-                    "name": "보물 - 악기"
+                    "name": "보물 - 악기",
+                    "results": {
+                        "9M2mWQdYNknNQVTu": {
+                            "name": "뿔나팔"
+                        },
+                        "ztRfdC9P5cehTnUL": {
+                            "name": "플루트"
+                        },
+                        "VgSeRST74hbN8Fbt": {
+                            "name": "하프"
+                        },
+                        "bkDCtPydvji9Uxz1": {
+                            "name": "리라"
+                        },
+                        "wPwvdSYdQuOtfFG6": {
+                            "name": "드럼"
+                        },
+                        "Kq6XV6p4dHHX8Gag": {
+                            "name": "백파이프"
+                        }
+                    }
                 },
                 "Treasure - Mastercrafted Weapon": {
-                    "name": "보물 - 걸작 무기"
+                    "name": "보물 - 걸작 무기",
+                    "results": {
+                        "cSrhUeGx2yWGzb9Q": {
+                            "name": "걸작 대거"
+                        },
+                        "WZw0aPQ99R3NcWc3": {
+                            "name": "걸작 숏소드"
+                        },
+                        "kIq1glBCrPIFkogE": {
+                            "name": "걸작 배틀액스"
+                        },
+                        "NhHihlYffgdm07PM": {
+                            "name": "걸작 브로드소드"
+                        },
+                        "OdwSetp7fLREanus": {
+                            "name": "걸작 중량 워해머"
+                        },
+                        "wTjYd3umCsInx8ML": {
+                            "name": "걸작 롱소드"
+                        }
+                    }
                 },
                 "Treasure - Melee 1": {
-                    "name": "보물 - 근접 1"
+                    "name": "보물 - 근접 1",
+                    "results": {
+                        "QxKuzK9CxaehqUSw": {
+                            "name": "대거"
+                        },
+                        "kVeeV79qt8gYc0ae": {
+                            "name": "숏소드"
+                        },
+                        "iOd7Pse06IhOFSw8": {
+                            "name": "숏스피어"
+                        },
+                        "WOcNiuVdREtFvxOC": {
+                            "name": "브로드소드"
+                        },
+                        "9Kr5TiZ6aCXg8vPC": {
+                            "name": "롱스피어"
+                        },
+                        "odKibFtkARBHHjhH": {
+                            "name": "롱소드"
+                        }
+                    }
                 },
                 "Treasure - Melee 2": {
-                    "name": "보물 - 근접 2"
+                    "name": "보물 - 근접 2",
+                    "results": {
+                        "13TPGbgESy23wWfh": {
+                            "name": "손도끼"
+                        },
+                        "GxIs7ogdE85SjZT8": {
+                            "name": "시미터"
+                        },
+                        "bjAXKwfkKcwqXLeL": {
+                            "name": "모닝스타"
+                        },
+                        "uSHNzXYUL6peN0fW": {
+                            "name": "패링 대거"
+                        },
+                        "ftkAwYKkiQNaEhFY": {
+                            "name": "경량 워해머"
+                        },
+                        "CxSQapLRhkgd16q0": {
+                            "name": "플레일"
+                        }
+                    }
                 },
                 "Treasure - Ranged": {
-                    "name": "보물 - 원거리"
+                    "name": "보물 - 원거리",
+                    "results": {
+                        "7Qe7srZdxFl6EK4B": {
+                            "name": "슬링"
+                        },
+                        "MJHTQmDSZvoshBUh": {
+                            "name": "숏보우"
+                        },
+                        "VYZYT7gQG243O3Ol": {
+                            "name": "롱보우"
+                        },
+                        "ZH4WN03XgDM7JNKW": {
+                            "name": "경량 크로스보우"
+                        },
+                        "aaizXpcCjk9nbAqf": {
+                            "name": "중량 크로스보우"
+                        },
+                        "FEyaL9JQ6a3e4WVe": {
+                            "name": "손 크로스보우"
+                        }
+                    }
                 },
                 "Treasure - Trade Goods": {
-                    "name": "보물 - 교역품"
+                    "name": "보물 - 교역품",
+                    "results": {
+                        "g3X7nITgB19l96tU": {
+                            "name": "돋보기"
+                        },
+                        "y31wfufZJnADnwpN": {
+                            "name": "망원경"
+                        },
+                        "PIDevFzqcObFWW0Z": {
+                            "name": "향수 (10회분)"
+                        },
+                        "EFqanXckSsCz9rrF": {
+                            "name": "체스 세트"
+                        },
+                        "MM9LpMThDWjmlyVG": {
+                            "name": "플레잉 카드"
+                        },
+                        "GjolxJim1moUqVCk": {
+                            "name": "쇠구슬"
+                        }
+                    }
                 },
                 "Improvised Weapons - Cave": {
                     "name": "즉석 무기 - 동굴",
@@ -20602,7 +20980,21 @@
                     }
                 },
                 "Location Details": {
-                    "name": "장소 세부"
+                    "name": "장소 세부",
+                    "results": {
+                        "2ULUgZFEsX2qlWUN": {
+                            "name": "장소 세부 - 내용물"
+                        },
+                        "dGzE9nEkUIirKseX": {
+                            "name": "장소 세부 - 환경"
+                        },
+                        "igYjqxguXk04J4eR": {
+                            "name": "장소 세부 - 기이함"
+                        },
+                        "AQYue7GyevtxcK3P": {
+                            "name": "장소 세부 - 위험"
+                        }
+                    }
                 },
                 "Location Details - Oddity": {
                     "name": "장소 세부 - 기이함",
@@ -20867,8 +21259,17 @@
                 "Scavenge": {
                     "name": "뒤지기",
                     "results": {
+                        "kUM6wzDWJqGZMX2j": {
+                            "name": "뒤지기 - 뜻밖의 위험"
+                        },
                         "76InCmJ2lQa1tGvn": {
                             "description": "눈여겨볼 것이 없음."
+                        },
+                        "AGyAQ2cHKvUY9lby": {
+                            "name": "뒤지기 - 보급품"
+                        },
+                        "dvlIYgeo8kRSSAKc": {
+                            "name": "뒤지기 - 흥미로운 물건"
                         },
                         "nEgnYJKOAoDBmhsk": {
                             "description": "<b>보물 카드 한 장.</b>"

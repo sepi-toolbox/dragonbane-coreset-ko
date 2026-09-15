@@ -108,7 +108,14 @@ for (const advName of Object.keys(ADV)) {
     if (TDESC[t.name]) e.description = TDESC[t.name];
     const rs = {};
     for (const x of t.results || []) {
-      if (x.type === 1 || x.documentUuid) continue;   // 참조 문서 결과는 참조 팩 번역이 자동 해석
+      if (x.type === 1 || x.type === "document" || x.documentUuid) {
+        // 참조 문서 결과: Babele의 referencedDocumentField는 컴펜디움 uuid만 해석하고
+        // 어드벤처로 들여온 월드 uuid(RollTable.x / Item.x)는 못 풀어 이름이 영문으로 남는다.
+        // 시스템이 결과 이름으로 하위 표를 찾으므로(findTable(result.name)) 이름을 직접 번역한다.
+        const nm = TABLE[x.name] ?? ITEM[x.name] ?? ACTOR[x.name];
+        if (nm && nm !== x.name) rs[x._id] = { name: nm };
+        continue;
+      }
       const ko = TRES[t.name]?.[x._id];
       if (ko) rs[x._id] = { description: ko };
     }
